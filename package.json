@@ -1,0 +1,24 @@
+{
+  "name": "bruno-website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tabler/icons": "^1.100.0",
+    "next": "12.0.6",
+    "postcss": "^8.4.16",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-use": "^17.4.0",
+    "styled-components": "^5.3.3",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7"
+  }
+}
