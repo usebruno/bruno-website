@@ -7,7 +7,7 @@ import GlobalStyle from '../globalStyles';
 
 export default function Home() {
   return (
-    <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter'}} style={{maxWidth: '1024px'}}>
+    <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
       <Head>
         <title>bruno</title>
         <link rel="icon" href="/favicon.ico" />
@@ -23,7 +23,7 @@ export default function Home() {
               An Opensouce API Client
             </h1>
             <p className="leading-normal text-lg mb-8 w-full">
-              woof.. lets play with some api's
+              woof.. lets play with some api&apos;s
             </p>
             <button className="mx-auto  bg-transparent text-blue-dark font-semibold py-2 px-4 border border-gray-900 rounded">
               Download

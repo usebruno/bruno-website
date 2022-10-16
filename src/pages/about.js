@@ -5,7 +5,7 @@ import GlobalStyle from '../globalStyles';
 
 export default function Home() {
   return (
-    <div className="container flex flex-col root about-page" style={{fontFamily: 'Inter'}} style={{maxWidth: '1024px'}}>
+    <div className="container flex flex-col root about-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
       <Head>
         <title>bruno</title>
         <link rel="icon" href="/favicon.ico" />
@@ -27,7 +27,7 @@ export default function Home() {
           </p>
 
           <p>
-            Postman has a great collaboration platform for teams (it's gotten bloated these days though), but many companies stick to sharing collections via slack/email instead of opting for the paid plan.
+            Postman has a great collaboration platform for teams (it&apos;s gotten bloated these days though), but many companies stick to sharing collections via slack/email instead of opting for the paid plan.
           </p>
 
           <p>
