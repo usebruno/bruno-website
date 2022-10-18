@@ -69,6 +69,9 @@ const Navbar = () => {
             <Link href="/about">
               <a className="font-medium">About</a>
             </Link>
+            <Link href="/downloads">
+              <a className="font-medium">Download</a>
+            </Link>
             <Link href="https://www.github.com/usebruno/bruno">
                 <a className="font-medium flex">
                   Github <img src='github.svg' className="ml-2 hidden md:block" style={{width: '26px'}}/>
