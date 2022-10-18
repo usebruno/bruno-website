@@ -8,10 +8,6 @@ const Wrapper = styled.div`
 
   footer {
     border-top: solid 1px rgba(0, 0, 0, 0.1);
-
-    ul.links {
-      color: ${props => props.theme.colors.black2};
-    }
   }
 `;
 
