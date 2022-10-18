@@ -49,7 +49,7 @@ export default function Downloads() {
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://play.usebruno.com" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.1.0/bruno_0.1.0_x64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -60,7 +60,7 @@ export default function Downloads() {
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac arm64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://play.usebruno.com" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.1.0/bruno_0.1.0_arm64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -71,7 +71,7 @@ export default function Downloads() {
                   <IconBrandUbuntu className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Ubuntu Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://play.usebruno.com" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.1.0/bruno_0.1.0_amd64_linux.deb" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -82,7 +82,7 @@ export default function Downloads() {
                   <IconDeviceDesktop className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://play.usebruno.com" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.1.0/bruno_0.1.0_x86_64_linux.AppImage" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -93,7 +93,18 @@ export default function Downloads() {
                   <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://play.usebruno.com" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.1.0/bruno_0.1.0_x64_win.exe" target="_blank" rel="noreferrer" className='link'>
+                  Download
+                </a>
+                </td>
+              </tr>
+
+              <tr className="bg-white border-b">
+                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64 (zip with dll)</span>
+                </td>
+                <td className="py-3 pl-6 pr-10">
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.1.0/bruno_0.1.0_x64_win.zip" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -121,7 +132,7 @@ export default function Downloads() {
         </div>
 
         <div className='mt-6'>
-          All release and source artifacts can be found under in the <a href="https://play.usebruno.com" target="_blank" rel="noreferrer" className='link'>github release</a>
+          All release and source artifacts can be found under in the <a href="https://github.com/usebruno/bruno/releases/tag/v0.1.0" target="_blank" rel="noreferrer" className='link'>github release</a>
         </div>
       </main>
       <Footer/>

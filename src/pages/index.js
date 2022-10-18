@@ -3,6 +3,7 @@ import ComparisionTable from 'components/ComparisionTable';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import Link from 'next/link';
+import { IconBrandYoutube } from '@tabler/icons';
 import GlobalStyle from '../globalStyles';
 
 export default function Home() {
@@ -38,6 +39,12 @@ export default function Home() {
               </Link>
             </div>
           </div>
+        </div>
+
+        <div className='text-center w-full mt-6 justify-center flex items-center'>
+          <a className='link justify-center flex items-center' href="https://www.youtube.com/watch?v=wwXJW7_qyLA" target="_blank" rel="noreferrer">
+            <IconBrandYoutube /> <span className='ml-2'>Watch 4 min Demo Video</span>
+          </a>
         </div>
 
         <div className="flex justify-center mt-10 mb-10 px-4">
