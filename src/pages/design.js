@@ -22,7 +22,7 @@ export default function Downloads() {
 
         <div className='mt-6'>
           When building bruno, we reasoned from first principles on the UX as well as concepts around workspaces, collections and environments.
-          Below are some of differences in the way bruno sees things, compared to other similar tools out there. Bruno has been developer for the ground up with this in mind.
+          Below are some of differences in the way bruno sees things, compared to other similar tools out there.
         </div>
 
         <h1 className="mt-8 text-xl font-bold leading-tight w-full">
