@@ -36,6 +36,7 @@ const Wrapper = styled.div`
     align-items: flex-start;
     padding-top: 0.8rem;
     border-bottom: solid 1px white;
+    z-index: 100;
     box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
 
     &.hidden {

@@ -66,16 +66,26 @@ const Navbar = () => {
             </Link>
           </div>
           <nav className={`${menuOpen ? 'flex' : 'hidden'}`}>
-            <Link href="/about">
-              <a className="font-medium">About</a>
+            <Link href="/why">
+              <a className="font-medium">why</a>
+            </Link>
+            <Link href="/design">
+              <a className="font-medium">design</a>
             </Link>
             <Link href="/downloads">
-              <a className="font-medium">Download</a>
+              <a className="font-medium">download</a>
             </Link>
-            <Link href="https://www.github.com/usebruno/bruno">
-                <a className="font-medium flex">
-                  Github <img src='github.svg' className="ml-2 hidden md:block" style={{width: '26px'}}/>
-                </a>
+            <Link href="">
+              <div className="pl-3 mb-3 sm:mb-0">
+                <iframe
+                  src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true"
+                  frameBorder="0"
+                  scrolling="0"
+                  width="100"
+                  height="20"
+                  title="GitHub"
+                ></iframe>
+              </div>
             </Link>
           </nav>
           <button className="toggle inline-block sm:hidden w-8 h-8 text-gray-600 p-1" onClick={menuToggle}>

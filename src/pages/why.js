@@ -3,11 +3,11 @@ import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import GlobalStyle from '../globalStyles';
 
-export default function Home() {
+export default function Why() {
   return (
     <div className="container flex flex-col root about-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
       <Head>
-        <title>bruno</title>
+        <title>why</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyle />
