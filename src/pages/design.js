@@ -82,7 +82,7 @@ export default function Downloads() {
 
           <div className='mt-2'>
             In Bruno, you just share a collection. <br />
-            That's it. Just like a git repo.
+            That&apos;s it. Just like a git repo.
           </div>
         </div>
       </main>

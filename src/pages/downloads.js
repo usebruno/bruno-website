@@ -64,7 +64,7 @@ export default function Downloads() {
                   Download
                 </a> <br />
                 <span style={{fontSize: 12}}>
-                  M1/M2 users will have to run "sudo xattr -rd com.apple.quarantine /Applications/Bruno.app" <br />
+                  M1/M2 users will have to run &quot;sudo xattr -rd com.apple.quarantine /Applications/Bruno.app&quot; <br />
                   Please see this <a href="https://github.com/usebruno/bruno/issues/32" target="_blank" rel="noreferrer" className='link'>issue</a> for more details
                 </span>
                 </td>
