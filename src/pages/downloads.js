@@ -62,7 +62,11 @@ export default function Downloads() {
                 <td className="py-3 pl-6 pr-10">
                 <a href="https://github.com/usebruno/bruno/releases/download/v0.1.0/bruno_0.1.0_arm64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
                   Download
-                </a>
+                </a> <br />
+                <span style={{fontSize: 12}}>
+                  M1/M2 users will have to run "sudo xattr -rd com.apple.quarantine /Applications/Bruno.app" <br />
+                  Please see this <a href="https://github.com/usebruno/bruno/issues/32" target="_blank" rel="noreferrer" className='link'>issue</a> for more details
+                </span>
                 </td>
               </tr>
 
