@@ -60,6 +60,16 @@ export default function Home() {
 
         <ComparisionTable />
 
+        <h1 className="mt-10 pt-4 mb-4 text-2xl font-bold leading-tight w-full text-center">
+          BYOVC - Bring Your Own Version Control
+        </h1>
+        <div className='text-center m-auto' style={{maxWidth: 800}}>
+          Bruno is built from the ground up with the Local-first paradigm in mind. This allows developers to directly store there collections on top of their local filesystem. The collections are mirrored as folders and files on the filesystem.
+        </div>
+        <div className="flex justify-center mt-10 mb-10 px-4">
+          <img className="w-full" src="images/local-collections.png" />
+        </div>
+
       </main>
       <Footer/>
     </div>
