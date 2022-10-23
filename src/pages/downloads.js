@@ -103,6 +103,8 @@ export default function Downloads() {
                 </td>
               </tr>
 
+              {/*
+              Need to make this automated
               <tr className="bg-white border-b">
                 <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
                   <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64 (zip with dll)</span>
@@ -112,7 +114,7 @@ export default function Downloads() {
                   Download
                 </a>
                 </td>
-              </tr>
+              </tr>*/}
 
               <tr className="bg-white border-b">
                 <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
