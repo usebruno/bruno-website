@@ -70,7 +70,7 @@ export default function Downloads() {
           </div>
 
           <div className='mt-2'>
-            In Bruno, environments are local to the collection anf get saved within the collections.
+            In Bruno, environments are local to the collection and get saved within the collections.
           </div>
         </div>
 
