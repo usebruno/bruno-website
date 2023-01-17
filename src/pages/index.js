@@ -27,13 +27,8 @@ export default function Home() {
               woof.. lets play with some api&apos;s
             </p>
             <div className='w-full flex items-center justify-center'>
-              <a href="https://play.usebruno.com" target="_blank" rel="noreferrer">
-                <button className="bg-transparent text-blue-dark font-semibold py-2 px-4 border border-gray-900 rounded">
-                  Live Demo
-                </button>
-              </a>
               <Link href="/downloads">
-                <button className="ml-2 bg-transparent text-blue-dark font-semibold py-2 px-4 border border-gray-900 rounded">
+                <button className="bg-transparent text-blue-dark font-semibold py-2 px-4 border border-gray-900 rounded">
                   Download
                 </button>
               </Link>
