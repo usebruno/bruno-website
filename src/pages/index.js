@@ -21,7 +21,7 @@ export default function Home() {
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center mt-10">
           <div className="flex flex-col w-full justify-center items-start text-center">
             <h1 className="my-4 text-4xl font-bold leading-tight w-full">
-              A Local-first, Opensouce API Client
+              Opensource IDE for exploring and testing api's.
             </h1>
             <p className="leading-normal text-lg mb-8 w-full">
               woof.. lets play with some api&apos;s
