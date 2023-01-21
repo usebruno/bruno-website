@@ -66,9 +66,9 @@ const Navbar = () => {
             </Link>
           </div>
           <nav className={`${menuOpen ? 'flex' : 'hidden'}`}>
-            <Link href="/why">
+            {/* <Link href="/why">
               <a className="font-medium">why</a>
-            </Link>
+            </Link> */}
             <Link href="/design">
               <a className="font-medium">design</a>
             </Link>

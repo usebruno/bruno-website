@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import ComparisionTable from 'components/ComparisionTable';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import Link from 'next/link';
@@ -21,7 +20,7 @@ export default function Home() {
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center mt-10">
           <div className="flex flex-col w-full justify-center items-start text-center">
             <h1 className="my-4 text-4xl font-bold leading-tight w-full">
-              Opensource IDE for exploring and testing api's.
+              Opensource IDE for exploring and testing api&apos;s.
             </h1>
             <p className="leading-normal text-lg mb-8 w-full">
               woof.. lets play with some api&apos;s
@@ -52,8 +51,6 @@ export default function Home() {
         <p className="leading-normal text-lg mb-10 w-full text-center">
           Bruno is at early stages of development, and does not yet have all the bells and whistles. Here is a rundown of key areas where bruno is different from similar tools out there.
         </p>
-
-        <ComparisionTable />
 
         <h1 className="mt-10 pt-4 mb-4 text-2xl font-bold leading-tight w-full text-center">
           BYOVC - Bring Your Own Version Control
