@@ -22,7 +22,7 @@ export default function Home() {
             <div className="mr-auto place-self-center">
               <h1 className="max-w-3xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Stop searching for lost api collections.</h1>
               <p className="max-w-3xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-                Developers will no longer ask "Can you share a postman/x collection for this service <br/><br/>
+                Developers will no longer ask &quot;Can you share a postman/x collection for this service&quot; <br/><br/>
                 It will reside where it was destined to reside.<br/>
                 Alongside your source code.
               </p>
@@ -45,7 +45,7 @@ export default function Home() {
                 Introducing Bruno
               </h1>
               <p className="max-w-3xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-                An Opensource IDE for exploring and testing Api's <br/><br/>
+                An Opensource IDE for exploring and testing Api&apos;s <br/><br/>
                 
                 Previous attempts at integrating API collections into source code have fallen short, hindered by clunky user interfaces and inadequate file designs. <br /><br />
                 Bruno breaks through these barriers with sleek and intuitive user interface, and a well-designed, extensible file format
