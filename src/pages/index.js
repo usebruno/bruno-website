@@ -48,7 +48,7 @@ export default function Home() {
                 An Opensource IDE for exploring and testing Api&apos;s <br/><br/>
                 
                 Previous attempts at integrating API collections into source code have fallen short, hindered by clunky user interfaces and inadequate file designs. <br /><br />
-                Bruno breaks through these barriers with sleek and intuitive user interface, and a well-designed, extensible file format
+                Bruno breaks through these barriers with a sleek and intuitive user interface, and a well-designed, extensible file format
               </p>
             </div>
           </div>
