@@ -26,11 +26,10 @@ export default function Downloads() {
         </div>
 
         <h1 className="mt-8 text-xl font-bold leading-tight w-full">
-          Local-First Collections
+          Markdown for Collections
         </h1>
         <div className='mt-2'>
-          Bruno <i>(on the desktop app)</i> allows you to directly load and save collections on top of your local filesystem.
-          This gives developers the freedom to use the versioning system of their choice(ex: git) to share and collaborate over collections.
+        With Bruno, developers can easily load and save their API collections directly onto their local file system, giving them the freedom to utilize their preferred versioning system, such as Git, for seamless collaboration and sharing of collections
         </div>
 
         <h1 className="mt-8 text-xl font-bold leading-tight w-full">

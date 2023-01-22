@@ -66,26 +66,16 @@ const Navbar = () => {
             </Link>
           </div>
           <nav className={`${menuOpen ? 'flex' : 'hidden'}`}>
-            {/* <Link href="/why">
-              <a className="font-medium">why</a>
-            </Link> */}
             <Link href="/design">
-              <a className="font-medium">design</a>
+              <a className="font-medium mr-6">Design</a>
             </Link>
+            <div className="hidden mt-2 sm:inline-block">
+              <a href="https://github.com/usebruno/bruno" className="github-button" data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star bruno on GitHub">Star</a>
+            </div>
             <Link href="/downloads">
-              <a className="font-medium">download</a>
-            </Link>
-            <Link href="">
-              <div className="pl-3 mb-3 sm:mb-0">
-                <iframe
-                  src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true"
-                  frameBorder="0"
-                  scrolling="0"
-                  width="100"
-                  height="20"
-                  title="GitHub"
-                ></iframe>
-              </div>
+              <a className="text-white bg-yellow-600 hover:bg-yellow-700 focus:ring-4 focus:ring-yellow-200 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-yellow-500 dark:hover:bg-yellow-600 focus:outline-none dark:focus:ring-yellow-700">
+                Download
+              </a>
             </Link>
           </nav>
           <button className="toggle inline-block sm:hidden w-8 h-8 text-gray-600 p-1" onClick={menuToggle}>
