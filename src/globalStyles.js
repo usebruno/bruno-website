@@ -26,6 +26,10 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  body {
+    font-size: 1.125rem;
+  }
+
   .font-inter {
     font-family: Inter;
   }

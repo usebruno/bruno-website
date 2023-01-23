@@ -25,14 +25,14 @@ export default function Downloads() {
           Below are some of differences in the way bruno sees things, compared to other similar tools out there.
         </div>
 
-        <h1 className="mt-8 text-xl font-bold leading-tight w-full">
+        <h1 className="mt-10 text-xl font-bold leading-tight w-full">
           Markdown for Collections
         </h1>
         <div className='mt-2'>
         With Bruno, developers can easily load and save their API collections directly onto their local file system, giving them the freedom to utilize their preferred versioning system, such as Git, for seamless collaboration and sharing of collections
         </div>
 
-        <h1 className="mt-8 text-xl font-bold leading-tight w-full">
+        <h1 className="mt-10 text-xl font-bold leading-tight w-full">
           Lean Workspaces
         </h1>
         <div className='mt-2'>
@@ -45,7 +45,7 @@ export default function Downloads() {
           </div>
         </div>
 
-        <h1 className="mt-8 text-xl font-bold leading-tight w-full">
+        <h1 className="mt-10 text-xl font-bold leading-tight w-full">
           Collections as first class Citizens
         </h1>
         <div className='mt-2'>
@@ -57,7 +57,7 @@ export default function Downloads() {
           </div>
         </div>
 
-        <h1 className="mt-8 text-xl font-bold leading-tight w-full">
+        <h1 className="mt-10 text-xl font-bold leading-tight w-full">
           Environments are localized within Collections
         </h1>
         <div className='mt-2'>
@@ -73,7 +73,7 @@ export default function Downloads() {
           </div>
         </div>
 
-        <h1 className="mt-8 text-xl font-bold leading-tight w-full">
+        <h1 className="mt-10 text-xl font-bold leading-tight w-full">
           Workspaces, Collections and Environments
         </h1>
         <div className='mt-2'>

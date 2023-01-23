@@ -63,7 +63,10 @@ const Navbar = () => {
           </div>
           <nav className={`${menuOpen ? 'flex' : 'hidden'}`}>
             <Link href="/design">
-              <a className="font-medium mr-4">Design</a>
+              <a className="font-medium mr-3">Design</a>
+            </Link>
+            <Link href="/bru">
+              <a className="font-medium mr-3">Bru</a>
             </Link>
             <Link href="">
               <a href="" className="sm:inline-block">
