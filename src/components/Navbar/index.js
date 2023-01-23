@@ -1,26 +1,22 @@
 import React, { useState, useEffect } from "react";
-import {useMedia} from 'react-use';
 import StyledWrapper from './StyledWrapper';
 import Link from 'next/link';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const isSmallAndUp = useMedia('(min-width: 640px)');
 
   const handleResize = () => {
     setMenuOpen(window.innerWidth >= 640 ? true : false);
   };
 
   useEffect(() => {
-    // show menu for small and up, hide for below 640px screens
-    setMenuOpen(isSmallAndUp);
-
+    handleResize();
     window.addEventListener('resize', handleResize);
 
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, [])
+  }, []);
 
   const menuToggle = () => {
     setMenuOpen(!menuOpen);
@@ -67,11 +63,13 @@ const Navbar = () => {
           </div>
           <nav className={`${menuOpen ? 'flex' : 'hidden'}`}>
             <Link href="/design">
-              <a className="font-medium mr-6">Design</a>
+              <a className="font-medium mr-4">Design</a>
             </Link>
-            <div className="hidden mt-2 sm:inline-block">
-              <a href="https://github.com/usebruno/bruno" className="github-button" data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star bruno on GitHub">Star</a>
-            </div>
+            <Link href="">
+              <a href="" className="sm:inline-block">
+                <iframe src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true" frameBorder="0" scrolling="0" width="90" height="20" title="Bruno on Github"></iframe>
+              </a>
+            </Link>
             <Link href="/downloads">
               <a className="text-white bg-yellow-600 hover:bg-yellow-700 focus:ring-4 focus:ring-yellow-200 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-yellow-500 dark:hover:bg-yellow-600 focus:outline-none dark:focus:ring-yellow-700">
                 Download
