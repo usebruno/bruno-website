@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { IconWorld, IconBrandApple, IconBrandWindows, IconBrandUbuntu, IconBrandChrome, IconBrandDocker, IconDeviceDesktop } from "@tabler/icons";
+import { IconBrandApple, IconBrandWindows, IconBrandUbuntu, IconBrandChrome, IconBrandDocker, IconDeviceDesktop } from "@tabler/icons";
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import GlobalStyle from '../globalStyles';
@@ -33,17 +33,6 @@ export default function Downloads() {
               </tr>
             </thead>
             <tbody>
-              <tr className="bg-white border-b">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                  <IconWorld className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Live Website</span>
-                </td>
-                <td className="py-3 pl-6 pr-10">
-                <a href="https://play.usebruno.com" target="_blank" rel="noreferrer" className='link'>
-                  Try now
-                </a>
-                </td>
-              </tr>
-
               <tr className="bg-white border-b">
                 <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac x64</span>

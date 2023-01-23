@@ -25,7 +25,7 @@ export default function Downloads() {
         </div>
 
         <div className='mt-6'>
-          The api requests in your collections are stored as plain text files using the Bru markup language.
+          The api requests in your collections are stored as plain text files using this language.
         </div>
         
         <div className='mt-6'>
