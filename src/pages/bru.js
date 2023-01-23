@@ -44,7 +44,7 @@ export default function Downloads() {
         </div>
 
         <h1 className="mt-10 text-xl font-bold leading-tight w-full">
-          Editor Extensions
+          Syntax Highlighting Support
         </h1>
 
         <div className='mt-6'>
