@@ -40,7 +40,7 @@ export default function Downloads() {
         </div>
 
         <div className='mt-6'>
-          You can checkout the sample repository which contains github rest api collection <a className="link" href="https://github.com/usebruno/github-rest-api-collection" target="_blank">here</a>
+          You can checkout the sample repository which contains github rest api collection <a className="link" rel="noreferrer" href="https://github.com/usebruno/github-rest-api-collection" target="_blank">here</a>
         </div>
 
         <h1 className="mt-10 text-xl font-bold leading-tight w-full">
@@ -49,7 +49,7 @@ export default function Downloads() {
 
         <div className='mt-6'>
           Bruno has editor extension released for VSCode. <br />
-          You can download it from <a className="link" href="https://marketplace.visualstudio.com/items?itemName=bruno-api-client.bruno" target="_blank">here</a> <br /><br />
+          You can download it from <a className="link" rel="noreferrer" href="https://marketplace.visualstudio.com/items?itemName=bruno-api-client.bruno" target="_blank">here</a> <br /><br />
 
           Extensions for IntelliJ and the JetBrains family of IDEs are under development.
         </div>
