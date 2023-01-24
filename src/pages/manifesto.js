@@ -25,7 +25,7 @@ export default function Manifesto() {
         </div>
 
         <div className='mt-6'>
-          We are the rebels, rising up against the monolith of bloated and closed systems. We believe that API collections should be colocated within your source code repository, serving as a living set of examples on how to use the API.
+          We are an opensource project, rising up against the monolith of bloated and closed systems. We believe that API collections should be co-located within your source code repository, serving as a living set of examples on how to use the API.
         </div>
 
         <div className='mt-6'>
@@ -33,7 +33,7 @@ export default function Manifesto() {
         </div>
 
         <div className='mt-6'>
-          With Bruno, collections become first-class citizens, co-located with related information and easily version controlled. We say goodbye to bloated workspaces and global environments, and embrace the benefits of colocation.
+          With Bruno, collections become first-class citizens, co-located with related information and easily version controlled. We say goodbye to bloated workspaces and global environments, and embrace the benefits of co-location.
         </div>
 
         <div className='mt-6'>
