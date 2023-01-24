@@ -25,7 +25,7 @@ export default function Manifesto() {
         </div>
 
         <div className='mt-6'>
-          We are an opensource project, rising up against the monolith of bloated and closed systems. We believe that API collections should be co-located within your source code repository, serving as a living set of examples on how to use the API.
+          We are an opensource project, rising up against the monopoly of bloated and closed systems. We believe that API collections should be co-located within your source code repository, serving as a living set of examples on how to use the API.
         </div>
 
         <div className='mt-6'>
