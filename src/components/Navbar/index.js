@@ -68,6 +68,9 @@ const Navbar = () => {
             <Link href="/bru">
               <a className="font-medium mr-3">Bru</a>
             </Link>
+            <Link href="https://docs.usebruno.com">
+              <a className="font-medium mr-3">Docs</a>
+            </Link>
             <Link href="">
               <a href="" className="sm:inline-block">
                 <iframe src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true" frameBorder="0" scrolling="0" width="90" height="20" title="Bruno on Github"></iframe>
