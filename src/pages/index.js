@@ -53,8 +53,9 @@ export default function Home() {
               <p className="max-w-3xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
                 An Opensource IDE for exploring and testing Api&apos;s <br/><br/>
                 
-                Previous attempts at integrating API collections into source code have fallen short, hindered by clunky user interfaces and inadequate file designs. <br /><br />
-                Bruno breaks through these barriers with a sleek and intuitive user interface, and a well-designed, extensible file format
+                Bruno is a new and innovative API client, aimed at revolutionizing the status quo represented by Postman and similar tools out there. <br /><br />
+                Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, Bru, to save information about API requests. <br /><br />
+                You can use git or any version control of your choice to collaborate over your api collections.
               </p>
             </div>
           </div>
