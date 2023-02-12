@@ -86,7 +86,7 @@ export default function Downloads() {
                   <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.9.2/bruno_0.9.2_x64_win.exe" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.9.2/bruno_0.9.3_x64_win.exe" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
