@@ -17,7 +17,7 @@ export default function Manifesto() {
         <Navbar />
 
         <h1 className="mt-4 text-2xl font-bold leading-tight w-full">
-          Mainfesto
+        Manifesto
         </h1>
 
         <div className='mt-10'>
