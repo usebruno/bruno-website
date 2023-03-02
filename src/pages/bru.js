@@ -36,7 +36,7 @@ export default function Downloads() {
           Below is a sample of a Bru file for a get request with some query params
         </div>
         <div className="flex">
-          <img src="images/github-collection.png" />
+          <img src="images/github-collection-2.png" />
         </div>
 
         <div className='mt-6'>
