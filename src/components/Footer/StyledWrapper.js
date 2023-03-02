@@ -9,6 +9,16 @@ const Wrapper = styled.div`
   footer {
     border-top: solid 1px rgba(0, 0, 0, 0.1);
   }
+
+  a {
+    font-size: 1rem;
+    color: #6b7280;
+
+    &:hover {
+      color: #4b5563;
+      text-decoration: underline;
+    }
+  }
 `;
 
 export default Wrapper;
