@@ -59,7 +59,7 @@ const Footer = () => {
             <ul className="mt-4">
               <li className="mb-2">
                 <a
-                  href="https://twitter.com/use_bruno"
+                  href="https://discord.com/invite/KgcZUncpjq"
                   target="_blank"
                   rel="noreferrer"
                   className="text-gray-500"
@@ -69,7 +69,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="https://github.com/usebruno/bruno"
+                  href="https://twitter.com/use_bruno"
                   target="_blank"
                   rel="noreferrer"
                   className="text-gray-500"
