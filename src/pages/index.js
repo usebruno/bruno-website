@@ -75,15 +75,35 @@ export default function Home() {
           </div>
         </section>
 
-        {/* <section className="bg-white">
-          <div className="max-w-screen-xl pt-10 pb-8 mx-auto lg:py-16 lg:pt-10">
+        <section className="bg-white">
+          <div className="max-w-screen-xl pt-10 pb-2 mx-auto lg:pt-10">
             <div className="mr-auto place-self-center">
-              <h1 className="max-w-3xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
+              <h1 className="max-w-3xl text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
                 Testimonials
               </h1>
             </div>
           </div>
-        </section> */}
+          <div className="grid grid-cols-1 gap-4 mx-auto max-w-7xl sm:grid-cols-2">
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/rosh.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/power-tester.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/barath.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/vysakh.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/vijay.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/david.png" />
+            </div>
+          </div>
+        </section>
       </main>
       <Footer/>
     </div>
