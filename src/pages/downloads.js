@@ -100,24 +100,6 @@ export default function Downloads() {
                 </a>
                 </td>
               </tr>*/}
-
-              <tr className="bg-white border-b">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                  <IconBrandDocker className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Docker</span>
-                </td>
-                <td className="py-3 pl-6 pr-10">
-                  Coming Soon in the next couple of days!
-                </td>
-              </tr>
-
-              <tr className="bg-white ">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                  <IconBrandChrome className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Chrome Extension</span>
-                </td>
-                <td className="py-3 pl-6 pr-10">
-                  Pending Review in Chrome Web Store
-                </td>
-              </tr>
             </tbody>
           </table>
         </div>
