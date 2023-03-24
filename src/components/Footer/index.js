@@ -49,7 +49,7 @@ const Footer = () => {
                   rel="noreferrer"
                   className="text-gray-500"
                 >
-                  Github
+                  GitHub
                 </a>
               </li>
             </ul>

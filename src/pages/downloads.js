@@ -105,7 +105,7 @@ export default function Downloads() {
         </div>
 
         <div className='mt-6'>
-          All release and source artifacts can be found under in the <a href="https://github.com/usebruno/bruno/releases/tag/v0.3.0" target="_blank" rel="noreferrer" className='link'>github release</a>
+          All release and source artifacts can be found under in the <a href="https://github.com/usebruno/bruno/releases" target="_blank" rel="noreferrer" className='link'>GitHub release</a>
         </div>
       </main>
       <Footer/>

@@ -29,7 +29,7 @@ export default function CompareBrunoVsPostman() {
           That is postman is for you. It saves your collection as a single JSON file. People who don't want to pay postman for version control end up sharing the giant json files with their team via slack/drive/email
 
           <div className='mt-4'>
-            Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, <a className='link' href="https://docs.usebruno.com/bru-lang-overview.html" target="_blank" rel="noreferrer">Bru</a> to save information about API requests. You can use git or any version control of your choice to collaborate over your api collections.
+            Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, <a className='link' href="https://docs.usebruno.com/bru-lang-overview.html" target="_blank" rel="noreferrer">Bru</a> to save information about API requests. You can use git or any version control of your choice to collaborate over your API collections.
           </div>
         </div>
 
@@ -75,7 +75,7 @@ export default function CompareBrunoVsPostman() {
           It starts at $15 per month per user (after the free tier of 3 users).
 
           <div className='mt-4'>
-            Bruno is free and open source. You can use git or any version control of your choice to collaborate over your api collections.
+            Bruno is free and open source. You can use git or any version control of your choice to collaborate over your API collections.
           </div>
         </div>
 
