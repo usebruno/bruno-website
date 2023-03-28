@@ -16,7 +16,7 @@ The 3 core benefits that I saw in the offline file based model were
 
 I was excited to challenge the status quo and revolutionize the decade long norm set forth by postman on how developers collaborated on API collections. I chose the offline, file-based model and refactored our codebase to read and write directly to the filesystem.
 
-Since our launch six months ago, Bruno has attracted over 500 users, and the feedback has been exhilarating. 
+Since our launch six months ago, Bruno has attracted over 1000 users, and over 300 stars on our github repo. The feedback and support has been exhilarating. 
 
 I am reminded of a quote from the movie The Big Short by Micheal Burry. The subtlety here is the Micheal Burry uses the word **when** and not **if**
 
