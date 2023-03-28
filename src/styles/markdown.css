@@ -1,0 +1,76 @@
+/* Headers */
+.markdown h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.markdown h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Paragraph */
+.markdown p {
+  @apply mb-6;
+}
+
+/* Lists */
+.markdown ul,
+.markdown ol {
+  @apply mb-4 ml-8;
+}
+.markdown li > p,
+.markdown li > ul,
+.markdown li > ol {
+  @apply mb-0;
+}
+.markdown ol {
+  @apply list-decimal;
+}
+.markdown ul {
+  @apply list-disc;
+}
+.markdown ul li {
+  @apply mb-2;
+}
+
+/* Tables */
+.markdown td,
+.markdown th {
+  @apply px-2 py-1 border border-gray-400;
+}
+.markdown tr:nth-child(odd) {
+  @apply bg-gray-100;
+}
+.markdown table {
+  @apply mb-6;
+}
+
+/* Links */
+.markdown a {
+  color: #0046b1;
+}
+.markdown a:hover {
+  @apply underline;
+}
+
+/* Blockquotes */
+.markdown blockquote {
+  @apply p-2;
+  margin-bottom: 0.75rem;
+  border-left: 4px solid #DDD;
+  color: #777;
+}
+.markdown blockquote > p {
+  @apply mb-0 !important;
+}
+
+/* Code */
+.markdown :not(pre) > code.language-text {
+  white-space: pre-line;
+}

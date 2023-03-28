@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'styled-components';
 import '../styles/globals.css';
+import '../styles/markdown.css';
 
 import theme from '../themes/default';
 

@@ -43,6 +43,16 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-2">
+              <Link href="/blog">
+                  <a
+                    href=""
+                    className="text-gray-500"
+                  >
+                    Blog
+                  </a>
+                </Link>
+              </li>
+              <li className="mb-2">
                 <a
                   href="https://github.com/usebruno/bruno"
                   target="_blank"
