@@ -7,6 +7,8 @@ When I first set out to build Bruno, my goal was to create a lightweight alterna
 
 But as I continued building, I had an epiphany that changed the trajectory of the project forever. What if the folders and requests within the API collection could be mapped to folders and files on the filesystem? I spent months debating whether to create an offline client that works with plain text files or stick with the self-hosted model that involved saving API collections in a database.
 
+Moving away from a server hosted model also meant that any future upside of offering a hosted saas platform no longer exists.
+
 Ultimately, I realized that file-based API collections were the future. Unlike other tools, such as Postman or Insomnia, Bruno would allow users to maintain their collections in a source code repository using Git for collaboration.
 
 The 3 core benefits that I saw in the offline file based model were
