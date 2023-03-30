@@ -22,7 +22,7 @@ export default function Downloads() {
 
         <div className="overflow-x-auto relative mt-8">
           <table className="text-left text-gray-500">
-            <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700">
+            <thead className="text-xs text-gray-700 uppercase bg-gray-50">
               <tr>
                 <th scope="col" className="py-3 pl-6 pr-10">
                   Platform
@@ -34,7 +34,7 @@ export default function Downloads() {
             </thead>
             <tbody>
               <tr className="bg-white border-b">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
@@ -45,7 +45,7 @@ export default function Downloads() {
               </tr>
 
               <tr className="bg-white border-b">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac arm64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
@@ -56,7 +56,7 @@ export default function Downloads() {
               </tr>
 
               <tr className="bg-white border-b">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                   <IconBrandUbuntu className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Ubuntu Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
@@ -67,7 +67,7 @@ export default function Downloads() {
               </tr>
 
               <tr className="bg-white border-b">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                   <IconDeviceDesktop className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
@@ -78,7 +78,7 @@ export default function Downloads() {
               </tr>
 
               <tr className="bg-white border-b">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                   <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
@@ -91,7 +91,7 @@ export default function Downloads() {
               {/*
               Need to make this automated
               <tr className="bg-white border-b">
-                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                   <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64 (zip with dll)</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
