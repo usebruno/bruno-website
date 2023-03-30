@@ -56,9 +56,38 @@ export default function Home() {
         </section>
 
         <section className="bg-white">
+          <div className="max-w-screen-xl pt-8 pb-4 mx-auto lg:pt-14">
+            <div className="mr-auto place-self-center">
+              <h1 className="max-w-3xl text-4xl font-bold leading-none tracking-tight md:text-5xl">
+                Run across multiple platforms
+              </h1>
+            </div>
+          </div>
+          <div className="flex mt-6">
+            <img src="images/run-anywhere.png" />
+          </div>
+        </section>
+
+        <section className="bg-white">
+          <div className="max-w-screen-xl pt-8 pb-4 mx-auto lg:pt-14">
+            <div className="mr-auto place-self-center">
+              <h1 className="max-w-3xl text-4xl font-bold leading-none tracking-tight md:text-5xl">
+                Collaborate via Git
+              </h1>
+              <h3 className="mt-4 max-w-3xl text-xl leading-none tracking-tight md:text-2xl">
+                &nbsp;Or any version control system of your choice
+              </h3>
+            </div>
+          </div>
+          <div className="flex mt-2">
+            <img src="images/version-control.png" />
+          </div>
+        </section>
+
+        <section className="bg-white mt-4">
           <div className="max-w-screen-xl pt-10 pb-2 mx-auto lg:pt-10">
             <div className="mr-auto place-self-center">
-              <h1 className="max-w-3xl text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
+              <h1 className="max-w-3xl text-4xl mb-2 font-bold leading-none tracking-tight md:text-5xl">
                 Testimonials
               </h1>
             </div>

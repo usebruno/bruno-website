@@ -46,7 +46,7 @@ export default function Downloads() {
 
               <tr className="bg-white border-b">
                 <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
-                  <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac arm64</span>
+                  <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac Apple Silicon</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
                 <a href="https://github.com/usebruno/bruno/releases/download/v0.11.0/bruno_0.11.0_arm64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
