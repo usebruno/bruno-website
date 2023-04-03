@@ -74,3 +74,16 @@
 .markdown :not(pre) > code.language-text {
   white-space: pre-line;
 }
+
+.markdown pre {
+  @apply mb-6;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 10px;
+  white-space: pre-wrap;
+}

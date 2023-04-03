@@ -8,7 +8,7 @@ export default function Blog() {
   const BlogLink = ({title, date, path}) => {
     let link = `/blog${path}`;
     return (
-      <li>
+      <li className='mb-8'>
         <div className='text-sm'>{date} </div>
         <div className='font-medium text-2xl text-yellow-600'>
           <Link href={link}>{title}</Link>
@@ -33,6 +33,7 @@ export default function Blog() {
         </h1>
 
         <ul className='blog-list'>
+          <BlogLink title="launching bruno cli" path="/launching-bruno-cli" date="03 April 2023"/>
           <BlogLink title="the saas dilemma" path="/the-saas-dilemma" date="28 March 2023"/>
         </ul>
       </main>
