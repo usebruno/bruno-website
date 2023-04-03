@@ -25,7 +25,7 @@ export default function Downloads() {
         </div>
 
         <div className='mt-6'>
-          The api requests in your collections are stored as plain text files using this language.
+          The API requests in your collections are stored as plain text files using this language.
         </div>
         
         <div className='mt-6'>
@@ -40,7 +40,7 @@ export default function Downloads() {
         </div>
 
         <div className='mt-6'>
-          You can checkout the sample repository which contains github rest api collection <a className="link" rel="noreferrer" href="https://github.com/usebruno/github-rest-api-collection" target="_blank">here</a>
+          You can checkout the sample repository which contains GitHub REST API collection <a className="link" rel="noreferrer" href="https://github.com/usebruno/github-rest-api-collection" target="_blank">here</a>
         </div>
 
         <h1 className="mt-10 text-xl font-bold leading-tight w-full">
@@ -48,7 +48,7 @@ export default function Downloads() {
         </h1>
 
         <div className='mt-6'>
-          Bruno has editor extension released for VSCode. <br />
+          Bruno has editor extension released for VS Code. <br />
           You can download it from <a className="link" rel="noreferrer" href="https://marketplace.visualstudio.com/items?itemName=bruno-api-client.bruno" target="_blank">here</a> <br /><br />
 
           Extensions for IntelliJ and the JetBrains family of IDEs are under development.

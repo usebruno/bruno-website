@@ -25,7 +25,7 @@ export default function Manifesto() {
         </div>
 
         <div className='mt-6'>
-          We are an opensource project, rising up against the monopoly of bloated and closed systems. We believe that API collections should be co-located within your source code repository, serving as a living set of examples on how to use the API.
+          We are an open source project, rising up against the monopoly of bloated and closed systems. We believe that API collections should be co-located within your source code repository, serving as a living set of examples on how to use the API.
         </div>
 
         <div className='mt-6'>
@@ -37,7 +37,7 @@ export default function Manifesto() {
         </div>
 
         <div className='mt-6'>
-          We dream of a world where developers can clone a code repo, get it up and running, use bruno to browse the examples on how to use the api and start playing with it. No more horror stories of <i>"Tim had the collections for the payment-api service, but he left the company last month."</i>
+          We dream of a world where developers can clone a code repo, get it up and running, use Bruno to browse the examples on how to use the API and start playing with it. No more horror stories of <i>"Tim had the collections for the payment-api service, but he left the company last month."</i>
         </div>
 
         <div className='mt-6'>
