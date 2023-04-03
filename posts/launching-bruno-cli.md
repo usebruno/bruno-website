@@ -5,7 +5,7 @@ description: 'launching bruno cli'
 ---
 Hello everyone!
 
-I am excited to announce the release of the Bruno CLI, a new addition to the Bruno open-source project. Bruno CLI allows you to run API collections from the command line interface, making it easier to test and automate your APIs.
+I am excited to announce the release of Bruno CLI, a new addition to Bruno. The CLI allows you to run API collections from the command line interface, making it easier to test and automate your APIs.
 
 ![bruno cli](/images/bruno-cli.png)
 
