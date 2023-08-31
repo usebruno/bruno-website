@@ -95,8 +95,8 @@ export default function Downloads() {
           The release notes along with the release and source artifacts can be found under in the <a href="https://github.com/usebruno/bruno/releases" target="_blank" rel="noreferrer" className='link'>GitHub release</a>
         </div>
 
-        <div class="bg-yellow-100 border-yellow-400 border p-2 mt-6 rounded text-sm">
-          <p class="text-yellow-800">
+        <div className="bg-yellow-100 border-yellow-400 border p-2 mt-6 rounded text-sm">
+          <p className="text-yellow-800">
             The latest update, version 0.13.0, is now accessible for Windows and Linux users. <br/><br/>
             Unfortunately, Mac builds are facing a delay due to notarization issues. <br/>
             As of now, the most recent Mac build available is version 0.12.2. The notarization challenges are expected to be resolved by September 15th, 2023.
