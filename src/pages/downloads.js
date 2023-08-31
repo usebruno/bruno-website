@@ -60,7 +60,7 @@ export default function Downloads() {
                   <IconBrandUbuntu className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Ubuntu Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.13.0/bruno_0.13.0_amd64_linux.deb" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.13.1/bruno_0.13.1_amd64_linux.deb" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -71,7 +71,7 @@ export default function Downloads() {
                   <IconDeviceDesktop className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.13.0/bruno_0.13.0_x86_64_linux.AppImage" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.13.1/bruno_0.13.1_x86_64_linux.AppImage" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -82,7 +82,7 @@ export default function Downloads() {
                   <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.13.0/bruno_0.13.0_x64_win.exe" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.13.1/bruno_0.13.1_x64_win.exe" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -97,7 +97,7 @@ export default function Downloads() {
 
         <div className="bg-yellow-100 border-yellow-400 border p-2 mt-6 rounded text-sm">
           <p className="text-yellow-800">
-            The latest update, version 0.13.0, is now accessible for Windows and Linux users. <br/><br/>
+            The latest update, version 0.13.1, is now accessible for Windows and Linux users. <br/><br/>
             Unfortunately, Mac builds are facing a delay due to notarization issues. <br/>
             As of now, the most recent Mac build available is version 0.12.2. The notarization challenges are expected to be resolved by September 15th, 2023.
           </p>
