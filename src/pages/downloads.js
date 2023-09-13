@@ -38,7 +38,7 @@ export default function Downloads() {
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.12.2/bruno_0.12.2_x64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.13.2/bruno_0.13.2_x64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -49,7 +49,7 @@ export default function Downloads() {
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac Apple Silicon</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.12.2/bruno_0.12.2_arm64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.13.2/bruno_0.13.2_arm64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -95,13 +95,13 @@ export default function Downloads() {
           The release notes along with the release and source artifacts can be found under in the <a href="https://github.com/usebruno/bruno/releases" target="_blank" rel="noreferrer" className='link'>GitHub release</a>
         </div>
 
-        <div className="bg-yellow-100 border-yellow-400 border p-2 mt-6 rounded text-sm">
+        {/* <div className="bg-yellow-100 border-yellow-400 border p-2 mt-6 rounded text-sm">
           <p className="text-yellow-800">
             The latest update, version 0.13.2, is now accessible for Windows and Linux users. <br/><br/>
             Unfortunately, Mac builds are facing a delay due to notarization issues. <br/>
             As of now, the most recent Mac build available is version 0.12.2. The notarization challenges are expected to be resolved by September 15th, 2023.
           </p>
-        </div>
+        </div> */}
       </main>
       <Footer/>
     </div>
