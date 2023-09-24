@@ -16,7 +16,7 @@ The 3 core benefits that I saw in the offline file based model were
 * **Git**: All the alternatives out there shoehorn users to use a custom centralized proprietary version control for collaboration. On the other hand, File based api collections allow you to chose git for collaboration and store api collections in the source code repo itself.
 * **Privacy**: The freedom of using git meant that you no longer needed to have your api collections stored on postman's (or any other saas provider) servers. File based api collections enables developers to move from centralised systems to decentralised systems.
 
-I was excited to challenge the status quo and revolutionize the decade long norm on how developers collaborated on API collections. I chose the offline, file-based model and refactored our codebase to read and write directly to the filesystem.
+I was excited to challenge the status quo and revolutionize the decade long norm on how developers collaborated on API collections. I chose the offline, file-based model and [refactored](https://github.com/usebruno/bruno/commit/76b0729af317b5bda68aacd500b51519f19f8c22) our codebase to read and write directly to the filesystem.
 
 Since our launch six months ago, Bruno has attracted over 1000 users, and over 300 stars on our github repo. The feedback and support has been exhilarating. 
 
