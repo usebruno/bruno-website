@@ -38,7 +38,7 @@ export default function Downloads() {
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.1/bruno_0.15.1_x64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.2/bruno_0.15.2_x64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -49,7 +49,7 @@ export default function Downloads() {
                   <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac Apple Silicon</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.1/bruno_0.15.1_arm64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.2/bruno_0.15.2_arm64_mac.dmg" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -60,7 +60,7 @@ export default function Downloads() {
                   <IconBrandUbuntu className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Ubuntu Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.1/bruno_0.15.1_amd64_linux.deb" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.2/bruno_0.15.2_amd64_linux.deb" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -71,7 +71,7 @@ export default function Downloads() {
                   <IconDeviceDesktop className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.1/bruno_0.15.1_x86_64_linux.AppImage" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.2/bruno_0.15.2_x86_64_linux.AppImage" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
@@ -82,7 +82,7 @@ export default function Downloads() {
                   <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
-                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.1/bruno_0.15.1_x64_win.exe" target="_blank" rel="noreferrer" className='link'>
+                <a href="https://github.com/usebruno/bruno/releases/download/v0.15.2/bruno_0.15.2_x64_win.exe" target="_blank" rel="noreferrer" className='link'>
                   Download
                 </a>
                 </td>
