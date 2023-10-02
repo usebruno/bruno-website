@@ -8,7 +8,7 @@ export default function Downloads() {
   return (
     <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
       <Head>
-        <title>downloads</title>
+        <title>Downloads</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyle />
