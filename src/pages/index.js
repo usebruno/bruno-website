@@ -26,7 +26,9 @@ export default function Home() {
               <p className="max-w-3xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
                 Bruno is a new and innovative open source API client, aimed at revolutionizing the status quo represented by Postman, Insomnia and similar tools out there. <br /><br />
                 Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, Bru, to save information about API requests. <br /><br />
-                You can use git or any version control of your choice to collaborate over your API collections.
+                You can use git or any version control of your choice to collaborate over your API collections. <br /><br />
+
+                Bruno is offline-only. There are no plans to add cloud-sync to Bruno, ever. We value your data privacy and believe it should stay on your device. Read our long-term vision  <a href="https://github.com/usebruno/bruno/discussions/269" target="_blank" rel="noreferrer" className='link'>here</a>.
               </p>
               <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                 <a href="https://github.com/usebruno/bruno" className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
