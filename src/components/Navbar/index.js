@@ -76,7 +76,7 @@ const Navbar = () => {
             </Link>
             <Link href="">
               <a href="" className="sm:inline-block">
-                <iframe src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true" frameBorder="0" scrolling="0" width="90" height="20" title="Bruno on Github"></iframe>
+                <iframe src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true" frameBorder="0" scrolling="0" width="120" height="20" title="Bruno on Github"></iframe>
               </a>
             </Link>
             <Link href="/downloads">
