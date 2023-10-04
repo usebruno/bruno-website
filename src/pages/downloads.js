@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { IconBrandApple, IconBrandWindows, IconBrandUbuntu, IconBrandChrome, IconBrandDocker, IconDeviceDesktop } from "@tabler/icons";
+import { IconBrandApple, IconBrandWindows, IconBrandDebian, IconDeviceDesktop } from "@tabler/icons";
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import GlobalStyle from '../globalStyles';
@@ -57,7 +57,7 @@ export default function Downloads() {
 
               <tr className="bg-white border-b">
                 <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
-                  <IconBrandUbuntu className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Ubuntu Linux</span>
+                  <IconBrandDebian className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Debian-based Linux</span>
                 </td>
                 <td className="py-3 pl-6 pr-10">
                 <a href="https://github.com/usebruno/bruno/releases/download/v0.18.0/bruno_0.18.0_amd64_linux.deb" target="_blank" rel="noreferrer" className='link'>
