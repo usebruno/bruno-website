@@ -54,12 +54,14 @@ const Footer = () => {
               </li>
               <li className="mb-2">
               <Link href="/blog">
-                  <a
-                    href=""
-                    className="text-gray-500"
-                  >
-                    Blog
-                  </a>
+                <a
+                  href="https://github.com/usebruno/bruno/discussions/384"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gray-500"
+                >
+                  Roadmap
+                </a>
                 </Link>
               </li>
               <li className="mb-2">
