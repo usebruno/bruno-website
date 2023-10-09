@@ -25,8 +25,8 @@ export default function CompareBrunoVsPostman() {
           How collections are saved
         </h2>
         <div className='mt-6'>
-          Imagine if your entire code is one single file, and you are forced to use a <a className='link' href="https://learning.postman.com/docs/collaborating-in-postman/using-version-control/version-control-overview/" target="_blank" rel="noreferrer">propietary centralised</a> version control system to collaborate with your team.
-          That is postman is for you. It saves your collection as a single JSON file. People who don't want to pay postman for version control end up sharing the giant json files with their team via slack/drive/email
+          Imagine if your entire code is one single file, and you are forced to use a <a className='link' href="https://learning.postman.com/docs/collaborating-in-postman/using-version-control/version-control-overview/" target="_blank" rel="noreferrer">proprietary centralised</a> version control system to collaborate with your team.
+          That is postman for you. It saves your collection as a single JSON file. People who don't want to pay postman for version control end up sharing the giant json files with their team via slack/drive/email.
 
           <div className='mt-4'>
             Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, <a className='link' href="https://docs.usebruno.com/bru-lang-overview.html" target="_blank" rel="noreferrer">Bru</a> to save information about API requests. You can use git or any version control of your choice to collaborate over your API collections.
