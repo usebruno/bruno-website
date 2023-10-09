@@ -53,7 +53,6 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-2">
-              <Link href="/blog">
                 <a
                   href="https://github.com/usebruno/bruno/discussions/384"
                   target="_blank"
@@ -62,7 +61,6 @@ const Footer = () => {
                 >
                   Roadmap
                 </a>
-                </Link>
               </li>
               <li className="mb-2">
                 <a

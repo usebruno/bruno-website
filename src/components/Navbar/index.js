@@ -71,8 +71,15 @@ const Navbar = () => {
             <Link href="https://docs.usebruno.com">
               <a className="font-medium mr-3">Docs</a>
             </Link>
-            <Link href="/blog">
-              <a className="font-medium mr-3">Blog</a>
+            <Link href="">
+              <a
+                href="https://github.com/usebruno/bruno/discussions/384"
+                target="_blank"
+                rel="noreferrer"
+                className="font-medium mr-3"
+              >
+                Roadmap
+              </a>
             </Link>
             <Link href="">
               <a href="" className="sm:inline-block">
