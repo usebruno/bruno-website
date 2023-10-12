@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import { IconBrandApple, IconBrandWindows, IconBrandUbuntu, IconBrandChrome, IconBrandDocker, IconDeviceDesktop } from "@tabler/icons";
+import Link from 'next/link';
+import { IconBrandApple, IconBrandWindows, IconBrandUbuntu, IconDeviceDesktop } from "@tabler/icons";
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
@@ -7,6 +8,9 @@ import 'react-tabs/style/react-tabs.css';
 import GlobalStyle from '../globalStyles';
 
 export default function Downloads() {
+  const latestVersion = '0.23.0';
+  const releaseDate = 'October 13, 2023';
+
   return (
     <div className="container flex flex-col root downloads-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
       <Head>
@@ -22,8 +26,15 @@ export default function Downloads() {
           Downloads
         </h1>
 
+        <div className="mt-4">
+          <p className="text-gray-500 text-sm">
+            Latest Version: <Link href={`https://github.com/usebruno/bruno/releases/tag/v${latestVersion}`} className='link' target="_blank">{latestVersion}</Link>
+          </p>
+          <p className="text-gray-500 text-sm">Release Date: {releaseDate}</p>
+        </div>
+
         <Tabs className="mt-2">
-          <TabList className="flex mt-8 space-x-4">
+          <TabList className="flex mt-4 space-x-4">
             <Tab className="px-4 py-2 bg-gray-200 flex items-center rounded-md cursor-pointer hover:bg-gray-300">
               <IconBrandApple className="text-gray-500 mr-2 icon" size={24} strokeWidth={2}/>Mac
             </Tab>
@@ -137,6 +148,28 @@ export default function Downloads() {
                   </tr>
                 </tbody>
               </table>
+            </div>
+
+            <div className="mt-6">
+              <h1 className="text-xl font-bold leading-tight w-full">Snap</h1>
+              <p className="text-gray-500 mt-2">
+                To install via Snap, run the following command:
+              </p>
+              <code className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">snap install bruno</code>
+            </div>
+
+            <div className="mt-6">
+              <h1 className="text-xl font-bold leading-tight w-full">Apt</h1>
+              <p className="text-gray-500 mt-2">
+                To install via Apt, follow these steps:
+              </p>
+              <pre className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4">
+                gpg --keyserver keyserver.ubuntu.com --recv-keys 9FA6017ECABE0266 <br />
+                gpg --export 9FA6017ECABE0266 | sudo tee /etc/apt/trusted.gpg.d/bruno.gpg {'>'} /dev/null <br /> <br />
+
+                apt update <br />
+                apt install bruno
+              </pre>
             </div>
           </TabPanel>
 

@@ -63,15 +63,21 @@ const GlobalStyle = createGlobalStyle`
       background-color: rgb(217, 119, 6);
       color: white;
       border-radius: 0.375rem;
+      user-select: none;
 
       .icon {
         stroke: white;
+      }
+
+      &:focus {
+        outline: none;
       }
     }
 
     .react-tabs__tab-panel {
       border: none;
       padding-left: 0;
+      padding-top: 1.5rem;
     }
   }
 `;
