@@ -18,7 +18,7 @@ const Footer = () => {
             <h1 className="font-medium">Compare</h1>
             <ul className="mt-4">
               <li className="mb-2">
-                <Link href="/compare/bruno-vs-postman">
+                <Link href="/compare/bruno-vs-postman" legacyBehavior>
                   <a
                     href=""
                     className="text-gray-500"

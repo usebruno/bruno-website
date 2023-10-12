@@ -128,7 +128,7 @@ export default function CompareBrunoVsPostman() {
           Its time
         </h1>
         <div className='mt-6'>
-          <Link href="/downloads">
+          <Link href="/downloads" legacyBehavior>
             <a href="" className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
               <Bruno width={30} />
               <span className='ml-3'>Download Bruno Desktop App</span>

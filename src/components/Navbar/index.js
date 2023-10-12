@@ -27,7 +27,7 @@ const Navbar = () => {
       <div>
         <header className="flex items-center justify-between py-4">
           <div>
-            <Link href="/">
+            <Link href="/" legacyBehavior>
               <div className="flex items-center py-2 cursor-pointer">
                 <div className="flex flex-col justify-center text-left">
                   <div className="flex items-center">
@@ -62,16 +62,16 @@ const Navbar = () => {
             </Link>
           </div>
           <nav className={`${menuOpen ? 'flex' : 'hidden'}`}>
-            <Link href="/manifesto">
+            <Link href="/manifesto" legacyBehavior>
               <a className="font-medium mr-3">Manifesto</a>
             </Link>
-            <Link href="/bru">
+            <Link href="/bru" legacyBehavior>
               <a className="font-medium mr-3">Bru</a>
             </Link>
-            <Link href="https://docs.usebruno.com">
+            <Link href="https://docs.usebruno.com" legacyBehavior>
               <a className="font-medium mr-3">Docs</a>
             </Link>
-            <Link href="">
+            <Link href="" legacyBehavior>
               <a
                 href="https://github.com/usebruno/bruno/discussions/384"
                 target="_blank"
@@ -81,12 +81,12 @@ const Navbar = () => {
                 Roadmap
               </a>
             </Link>
-            <Link href="">
+            <Link href="" legacyBehavior>
               <a href="" className="sm:inline-block">
                 <iframe src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true" frameBorder="0" scrolling="0" width="120" height="20" title="Bruno on Github"></iframe>
               </a>
             </Link>
-            <Link href="/downloads">
+            <Link href="/downloads" legacyBehavior>
               <a className="text-white bg-yellow-600 hover:bg-yellow-700 focus:ring-4 focus:ring-yellow-200 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 focus:outline-none">
                 Download
               </a>

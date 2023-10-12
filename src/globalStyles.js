@@ -57,6 +57,23 @@ const GlobalStyle = createGlobalStyle`
       margin-bottom: 1rem
     }
   }
+
+  div.downloads-page {
+    .react-tabs__tab--selected {
+      background-color: rgb(217, 119, 6);
+      color: white;
+      border-radius: 0.375rem;
+
+      .icon {
+        stroke: white;
+      }
+    }
+
+    .react-tabs__tab-panel {
+      border: none;
+      padding-left: 0;
+    }
+  }
 `;
  
 export default GlobalStyle;
