@@ -155,7 +155,7 @@ export default function Downloads() {
               <p className="text-gray-500 mt-2">
                 To install via Snap, run the following command:
               </p>
-              <code className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">snap install bruno</code>
+              <code  style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">snap install bruno</code>
             </div>
 
             <div className="mt-6">
@@ -163,7 +163,7 @@ export default function Downloads() {
               <p className="text-gray-500 mt-2">
                 To install via Apt, follow these steps:
               </p>
-              <pre className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4">
+              <pre className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4" style={{fontSize: 14}}>
                 gpg --keyserver keyserver.ubuntu.com --recv-keys 9FA6017ECABE0266 <br />
                 gpg --export 9FA6017ECABE0266 | sudo tee /etc/apt/trusted.gpg.d/bruno.gpg {'>'} /dev/null <br /> <br />
 
