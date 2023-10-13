@@ -167,7 +167,7 @@ export default function Downloads() {
                 gpg --keyserver keyserver.ubuntu.com --recv-keys 9FA6017ECABE0266 <br />
                 gpg --export 9FA6017ECABE0266 | sudo tee /etc/apt/trusted.gpg.d/bruno.gpg {'>'} /dev/null <br /> <br />
 
-                echo "deb http://debian.usebruno.com/ bruno stable" | sudo tee /etc/apt/sources.list.d/bruno.list
+                echo "deb http://debian.usebruno.com/ bruno stable" | sudo tee /etc/apt/sources.list.d/bruno.list <br /> <br />
 
                 apt update <br />
                 apt install bruno
