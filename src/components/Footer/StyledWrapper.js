@@ -19,6 +19,16 @@ const Wrapper = styled.div`
       text-decoration: underline;
     }
   }
+
+  .openemoji-attribution {
+    font-size: .75rem !important;
+    color: #7e7e7e;
+
+    a {
+      font-size: .75rem !important;
+      color: #7e7e7e;
+    }
+  }
 `;
 
 export default Wrapper;

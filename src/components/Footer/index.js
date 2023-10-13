@@ -9,9 +9,13 @@ const Footer = () => {
       <footer className="py-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between">
           <div className="w-full md:w-auto md:flex-grow-0 md:flex-shrink-0 mb-8 md:mb-0">
-            <div className="flex items-center justify-center">
+            <div className="flex items-center">
               <Bruno width={30}/>
               <div className=" flex items-center font-medium" style={{fontSize: 20, paddingLeft: 6, position: 'relative', top: -1}}>bruno</div>
+            </div>
+            <div className="openemoji-attribution mt-10">
+              Logo sourced from <Link href="https://openmoji.org/library/emoji-1F436/" target="_blank">OpenMoji</Link>. <br />
+              License: <Link href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</Link>
             </div>
           </div>
           <div className="w-full md:w-auto md:flex-grow-0 md:flex-shrink-0  text-center md:text-left">
