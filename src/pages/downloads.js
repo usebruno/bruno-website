@@ -8,7 +8,7 @@ import 'react-tabs/style/react-tabs.css';
 import GlobalStyle from '../globalStyles';
 
 export default function Downloads() {
-  const latestVersion = '0.24.0';
+  const latestVersion = '0.25.0';
   const releaseDate = 'Oct 13, 2023';
 
   return (
