@@ -23,10 +23,7 @@ const Footer = () => {
             <ul className="mt-4">
               <li className="mb-2">
                 <Link href="/compare/bruno-vs-postman" legacyBehavior>
-                  <a
-                    href=""
-                    className="text-gray-500"
-                  >
+                  <a className="text-gray-500">
                     Vs Postman
                   </a>
                 </Link>
