@@ -2,7 +2,7 @@
 Website for usebruno.com built using NextJS
 
 ### Requirements
-* Node v14
+* Node v18
 * Npm v8
 
 ### Workflow
