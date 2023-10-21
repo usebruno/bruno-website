@@ -81,6 +81,9 @@ const Navbar = () => {
                 Roadmap
               </a>
             </Link>
+            <Link href="/pricing" legacyBehavior>
+              <a className="font-medium mr-3 hover:text-yellow-600 transition">Pricing</a>
+            </Link>
             <Link href="" legacyBehavior>
               <a href="" className="sm:inline-block">
                 <iframe src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true" frameBorder="0" scrolling="0" width="120" height="20" title="Bruno on Github"></iframe>
