@@ -20,6 +20,7 @@ export default function Pricing() {
     'REST and GQL Apis',
     'Scripting',
     'Authentication',
+    'Variable Viewer',
     'Environments',
     'Secret Management',
     'Asserts and Tests',
@@ -29,9 +30,11 @@ export default function Pricing() {
     'Proxies',
     'Code Generation',
     'Documentation',
-    'Custom Themes',
+    'Response History',
+    'GraphQL Explorer',
     'Bru CLI',
-    'OpenAPI Import'
+    'OpenAPI Import',
+    'Collection Network'
   ];
 
   const goldenEditon = [
@@ -41,6 +44,7 @@ export default function Pricing() {
     'GRPC, Websocket, SocketIO, MQTT',
     'Load Data from File for Collection Run',
     'Performance/Load Testing',
+    'Custom Themes',
   ];
 
   return (
