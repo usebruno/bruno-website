@@ -54,7 +54,7 @@ export default function Pricing() {
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Pricing</h2>
               <p className="mb-5 font-light text-gray-500 sm:text-xl">
                 Majority of our features are free and open source. <br/>
-                We strive to strike a harmonious balance between open-source principles and sustainability.
+                We strive to strike a harmonious balance between <a href="https://github.com/usebruno/bruno/discussions/269" target="_blank" rel="noreferrer" className='link'>open-source principles and sustainability.</a>
               </p>
             </div>
             <div className="mx-auto text-center lg:flex lg:space-x-12">
