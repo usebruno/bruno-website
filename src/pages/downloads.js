@@ -16,7 +16,7 @@ export async function getStaticProps() {
       latestVersion: data.tag_name.replace('v', ''),
       releaseDate: new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(data.created_at)),
     },
-    revalidate: 60*60, // refresh every hour
+    revalidate: 60*15, // refresh every 15 minutes
   }
 }
 
