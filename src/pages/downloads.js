@@ -118,6 +118,14 @@ export default function Downloads({ latestVersion, releaseDate }) {
                 </tbody>
               </table>
             </div>
+
+            <div className="mt-6">
+              <h1 className="text-xl font-bold leading-tight w-full">Homebrew</h1>
+              <p className="text-gray-500 mt-2">
+                To install via Homebrew, run the following command:
+              </p>
+              <code  style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">brew install bruno</code>
+            </div>
           </TabPanel>
 
           <TabPanel>
@@ -165,7 +173,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
               <p className="text-gray-500 mt-2">
                 To install via Snap, run the following command:
               </p>
-              <code  style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">snap install bruno</code>
+              <code style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">snap install bruno</code>
             </div>
 
             <div className="mt-6">
