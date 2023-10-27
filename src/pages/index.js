@@ -99,10 +99,34 @@ export default function Home() {
               <img className="mb-4" src="images/testimonials/rosh.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <img className="mb-4" src="images/testimonials/processor286.png" />
+              <img className="mb-4" src="images/testimonials/ramiawar2.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
               <img className="mb-4" src="images/testimonials/lonewalk.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/ptrdlbrg.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/daputzy.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/NooclearWessel.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/matthewtrow5698.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/sumit.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/retrocoder.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/lasko.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/ramiawar.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
               <img className="mb-4" src="images/testimonials/barath.png" />
