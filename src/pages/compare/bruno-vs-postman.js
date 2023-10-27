@@ -48,7 +48,7 @@ export default function CompareBrunoVsPostman() {
           How API Requests are made
         </h2>
         <div className='mt-6'>
-          Postman Web App makes API requests using a <span className='font-medium'>propietary</span> proxy server. This means that you are not in control of your data. You are forced to use their proxy server to make API requests. This is a huge security risk. <br />
+          Postman Web App makes API requests using a <span className='font-medium'>proprietary</span> proxy server. This means that you are not in control of your data. You are forced to use their proxy server to make API requests. This is a huge security risk. <br />
           There have also been <a className='link' href="https://community.postman.com/t/working-in-offline-mode/20174/51" target="_blank" rel="noreferrer">reports</a> of postman desktop app using the proxy server to make API requests.
 
           <div className='mt-4'>

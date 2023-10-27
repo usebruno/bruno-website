@@ -184,13 +184,13 @@ export default function Downloads({ latestVersion, releaseDate }) {
                 To install via Apt, follow these steps:
               </p>
               <pre className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4" style={{fontSize: 14}}>
-                gpg --keyserver keyserver.ubuntu.com --recv-keys 9FA6017ECABE0266 <br />
-                gpg --export 9FA6017ECABE0266 | sudo tee /etc/apt/trusted.gpg.d/bruno.gpg {'>'} /dev/null <br /> <br />
+                sudo mkdir -p /etc/apt/keyrings <br />
+                sudo gpg --no-default-keyring --keyring /etc/apt/keyrings/bruno.gpg --keyserver keyserver.ubuntu.com --recv-keys 9FA6017ECABE0266 <br /><br />
 
-                echo "deb http://debian.usebruno.com/ bruno stable" | sudo tee /etc/apt/sources.list.d/bruno.list <br /> <br />
+                echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg] http://debian.usebruno.com/ bruno stable" | sudo tee /etc/apt/sources.list.d/bruno.list <br /> <br />
 
-                apt update <br />
-                apt install bruno
+                sudo apt update <br />
+                sudo apt install bruno
               </pre>
             </div>
           </TabPanel>
