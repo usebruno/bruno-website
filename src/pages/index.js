@@ -108,6 +108,12 @@ export default function Home() {
               <img className="mb-4" src="images/testimonials/ptrdlbrg.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/arnaud.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
+              <img className="mb-4" src="images/testimonials/tobias.png" />
+            </div>
+            <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
               <img className="mb-4" src="images/testimonials/daputzy.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
