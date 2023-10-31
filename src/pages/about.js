@@ -1,10 +1,9 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import GlobalStyle from '../globalStyles';
 
-export default function Team() {
+export default function About() {
   return (
     <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
       <Head>
