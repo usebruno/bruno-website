@@ -28,7 +28,7 @@ export default function About() {
               {/* Anoop M D */}
               <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <div className="p-6 pb-0">
-                  <h2 className="text-2xl font-semibold">Anoop M D</h2>
+                  <h2 className="text-2xl font-semibold">Anoop</h2>
                   <p className="text-gray-600">Creator and Lead Maintainer of Bruno</p>
                 </div>
                 <img
