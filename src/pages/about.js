@@ -1,10 +1,9 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import GlobalStyle from '../globalStyles';
 
-export default function Team() {
+export default function About() {
   return (
     <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
       <Head>
@@ -29,7 +28,7 @@ export default function Team() {
               {/* Anoop M D */}
               <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <div className="p-6 pb-0">
-                  <h2 className="text-2xl font-semibold">Anoop M D</h2>
+                  <h2 className="text-2xl font-semibold">Anoop</h2>
                   <p className="text-gray-600">Creator and Lead Maintainer of Bruno</p>
                 </div>
                 <img

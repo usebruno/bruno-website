@@ -81,8 +81,8 @@ const Navbar = () => {
                 Roadmap
               </a>
             </Link>
-            <Link href="/team" legacyBehavior>
-              <a className="font-medium mr-3 hover:text-yellow-600 transition">Team</a>
+            <Link href="/about" legacyBehavior>
+              <a className="font-medium mr-3 hover:text-yellow-600 transition">About</a>
             </Link>
             <Link href="/pricing" legacyBehavior>
               <a className="font-medium mr-3 hover:text-yellow-600 transition">Pricing</a>
