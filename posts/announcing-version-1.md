@@ -57,7 +57,7 @@ It has been exhilarating to see the reaction of the community. We are not an alt
 
 You can check out the testimonials on our landing page. If you'd like to share your experience with Bruno, please [write here](https://github.com/usebruno/bruno/discussions/343)
 
-People love the opensource, git-friendly, fully-online approach of Bruno.
+People love the opensource, git-friendly, fully-offline approach of Bruno.
 
 ## FOSS 3.0 Conference
 
