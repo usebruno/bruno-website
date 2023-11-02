@@ -33,6 +33,7 @@ export default function Blog() {
         </h1>
 
         <ul className='blog-list'>
+          <BlogLink title="announcing v1" path="/announcing-version-1" date="02 November 2023"/>
           <BlogLink title="launching bruno cli" path="/launching-bruno-cli" date="03 April 2023"/>
           <BlogLink title="the saas dilemma" path="/the-saas-dilemma" date="28 March 2023"/>
         </ul>
