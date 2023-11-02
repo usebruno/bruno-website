@@ -47,7 +47,11 @@ Its not just stars, we also massive growth of people who use bruno. For 23 month
 
 ## Contributors
 
-Bruno's community sprung out of nowhere. In October the number of contributors went from **15** to **86**. We merged over **100 pull requests** in October alone. And there are still over **50 pull requests** waiting to be [merged](https://github.com/usebruno/bruno/pulls).
+Bruno's community has experienced remarkable growth, seemingly out of nowhere. In the span of a single month, from October, the number of contributors surged from **15** to a remarkable **86**. What's even more impressive is that during October alone, we successfully merged over **200 pull requests**.
+
+And there are still over **50 pull requests** waiting to be [merged](https://github.com/usebruno/bruno/pulls).
+
+This rapid pace of growth is also a testament to the quality and robustness of our codebase, which allowed us to readily accept these contributions and scale up with confidence. 
 
 We can't thank enough 💛 to all the people who contributed to Bruno and helped us get here.
 
