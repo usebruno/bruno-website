@@ -11,7 +11,6 @@ import {
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
 import GlobalStyle from "../globalStyles";
-import Image from "next/image";
 
 export default function Bru() {
   return (
@@ -56,7 +55,7 @@ export default function Bru() {
           params
         </div>
         <div className="flex">
-          <Image src="images/github-collection-2.png" alt="" />
+          <img src="images/github-collection-2.png" />
         </div>
 
         <div className="mt-6">

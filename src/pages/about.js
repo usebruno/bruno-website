@@ -2,7 +2,6 @@ import Head from "next/head";
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
 import GlobalStyle from "../globalStyles";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -39,7 +38,7 @@ export default function About() {
                     Creator and Lead Maintainer of Bruno
                   </p>
                 </div>
-                <Image
+                <img
                   src="images/team/anoop.png"
                   alt="Anoop M D"
                   className="w-full"
@@ -52,7 +51,7 @@ export default function About() {
                   <h2 className="text-2xl font-semibold">Bruno</h2>
                   <p className="text-gray-600">Chief Joy Officer</p>
                 </div>
-                <Image
+                <img
                   src="images/team/bruno.png"
                   alt="Bruno"
                   className="w-full"
@@ -64,7 +63,7 @@ export default function About() {
               <h2 className="mb-14 mt-20 text-4xl text-center tracking-tight font-extrabold text-gray-900">
                 Opensource Contributors
               </h2>
-              <Image
+              <img
                 src="https://contrib.rocks/image?repo=usebruno/bruno"
                 alt="Contributors"
                 className="cursor-pointer"

@@ -4,7 +4,6 @@ import Navbar from "components/Navbar";
 import Footer from "components/Footer";
 import Link from "next/link";
 import GlobalStyle from "../globalStyles";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -111,7 +110,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="flex justify-center mt-6">
-                <Image className="w-full" src="images/landing-2.png" alt="" />
+                <img className="w-full" src="images/landing-2.png" />
               </div>
             </div>
           </div>
@@ -126,7 +125,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex mt-6">
-            <Image src="images/run-anywhere.png" alt="" />
+            <img src="images/run-anywhere.png" />
           </div>
         </section>
 
@@ -142,7 +141,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex mt-2">
-            <Image src="images/version-control.png" alt="" />
+            <img src="images/version-control.png" />
           </div>
         </section>
 
@@ -156,158 +155,79 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 gap-4 mx-auto max-w-7xl sm:grid-cols-2">
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/rosh.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/rosh.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/ramiawar2.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/ramiawar2.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/lonewalk.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/lonewalk.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/ptrdlbrg.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/ptrdlbrg.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/arnaud.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/arnaud.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/tobias.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/tobias.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/daputzy.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/daputzy.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
+              <img
                 className="mb-4"
                 src="images/testimonials/NooclearWessel.png"
-                alt=""
               />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
+              <img
                 className="mb-4"
                 src="images/testimonials/matthewtrow5698.png"
-                alt=""
               />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/sumit.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/sumit.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/retrocoder.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/retrocoder.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/lasko.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/lasko.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/ramiawar.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/ramiawar.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/barath.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/barath.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
+              <img
                 className="mb-4"
                 src="images/testimonials/power-tester.png"
-                alt=""
               />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/vysakh.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/vysakh.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/vijay.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/vijay.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/david.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/david.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/nesbert.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/nesbert.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/DivyMohan.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/DivyMohan.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/sudeep.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/sudeep.png" />
             </div>
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg">
-              <Image
-                className="mb-4"
-                src="images/testimonials/bramhoven.png"
-                alt=""
-              />
+              <img className="mb-4" src="images/testimonials/bramhoven.png" />
             </div>
           </div>
         </section>
