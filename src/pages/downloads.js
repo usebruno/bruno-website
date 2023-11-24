@@ -45,6 +45,18 @@ export default function Downloads({ latestVersion, releaseDate }) {
           <p className="text-gray-500 text-sm">Release Date: {releaseDate}</p>
         </div>
 
+        <div className='mt-4 text-sm'>
+          If you like Bruno and want to support our opensource work, consider sponsoring us via 
+          <a
+            href="https://github.com/sponsors/helloanoop"
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium mr-3 link hover:text-yellow-600 transition"
+          >
+            &nbsp;Github Sponsors.
+          </a>
+        </div>
+
         <Tabs className="mt-2">
           <TabList className="flex mt-4 space-x-4">
             <Tab className="px-4 py-2 bg-gray-200 flex items-center rounded-md cursor-pointer hover:bg-gray-300">

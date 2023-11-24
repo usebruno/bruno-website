@@ -68,8 +68,8 @@ const Navbar = () => {
             <Link href="/bru" legacyBehavior>
               <a className="font-medium mr-3 hover:text-yellow-600 transition">Bru</a>
             </Link>
-            <Link href="https://docs.usebruno.com" legacyBehavior>
-              <a className="font-medium mr-3 hover:text-yellow-600 transition">Docs</a>
+            <Link href="/sponsors" legacyBehavior>
+              <a className="font-medium mr-3 hover:text-yellow-600 transition">Sponsors</a>
             </Link>
             <Link href="" legacyBehavior>
               <a
