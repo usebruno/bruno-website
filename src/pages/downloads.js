@@ -246,11 +246,27 @@ export default function Downloads({ latestVersion, releaseDate }) {
                 </tbody>
               </table>
             </div>
+
+        <div className="mt-6">
+              <h1 className="text-xl font-bold leading-tight w-full">Chocolatey</h1>
+              <p className="text-gray-500 mt-2">
+                To install via Chocolatey, run the following command:
+              </p>
+              <code  style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">choco install bruno</code>
+            </div>
+
+            <div className="mt-6">
+              <h1 className="text-xl font-bold leading-tight w-full">Scoop</h1>
+              <p className="text-gray-500 mt-2">
+                To install via Scoop, run the following commands:
+              </p>
+              <code  style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">scoop bucket add extras<br />scoop install bruno</code>
+            </div>
           </TabPanel>
         </Tabs>
 
         <div className='mt-6'>
-          The release notes along with the release and source artifacts can be found under in the <a href="https://github.com/usebruno/bruno/releases" target="_blank" rel="noreferrer" className='link'>GitHub release</a>
+          The release notes along with the release and source artifacts can be found under in the <a href="https://github.com/usebruno/bruno/releases" target="_blank" rel="noreferrer" className='link'>GitHub release</a>.
         </div>
       </main>
       <Footer/>
