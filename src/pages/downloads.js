@@ -6,6 +6,7 @@ import Footer from 'components/Footer';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import GlobalStyle from '../globalStyles';
+import {useEffect, useState} from "react";
 
 export async function getStaticProps() {
   const res = await fetch('https://api.github.com/repos/usebruno/bruno/releases/latest')
@@ -23,6 +24,13 @@ export async function getStaticProps() {
 }
 
 export default function Downloads({ latestVersion, releaseDate }) {
+  let [tabIndex, setTabIndex] = useState(0);
+
+  useEffect(() => {
+    if (navigator.userAgent.toLowerCase().includes("linux")) setTabIndex(1);
+    if (navigator.userAgent.toLowerCase().includes("windows")) setTabIndex(2);
+  }, [])
+
   return (
     <div className="container flex flex-col root downloads-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
       <Head>
@@ -57,7 +65,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
           </a>
         </div>
 
-        <Tabs className="mt-2">
+        <Tabs selectedIndex={tabIndex} onSelect={index => setTabIndex(index)} className="mt-2">
           <TabList className="flex mt-4 space-x-4">
             <Tab className="px-4 py-2 bg-gray-200 flex items-center rounded-md cursor-pointer hover:bg-gray-300">
               <IconBrandApple className="text-gray-500 mr-2 icon" size={24} strokeWidth={2}/>Mac
