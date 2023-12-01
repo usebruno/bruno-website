@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-size: 1rem;
     color: var(--color-text-primary);
+    background-color: var(--color-body-bg);
 
     font-kerning: none;
     text-rendering: optimizeSpeed;
