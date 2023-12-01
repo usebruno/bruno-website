@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 /**
  * Reponsive Breakpoints
@@ -6,14 +6,14 @@ import { createGlobalStyle } from "styled-components";
  * - Small devices (landscape phones, 640px and up)
  * - Medium devices (tablets, 768px and up)
  */
-
+ 
 const GlobalStyle = createGlobalStyle`
   html, body {
     margin: 0;
     padding: 0;
     font-size: 1rem;
     color: var(--color-text-primary);
-    background-color: var(--color-bg-primary);
+    background-color: var(--color-body-bg);
 
     font-kerning: none;
     text-rendering: optimizeSpeed;
@@ -82,5 +82,5 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 `;
-
+ 
 export default GlobalStyle;
