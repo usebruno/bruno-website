@@ -13,7 +13,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      latestVersion: '1.3.1',
+      latestVersion: '1.3.2',
       // disabling this for now
       // latestVersion: data.tag_name.replace('v', ''),
       releaseDate: new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(data.created_at)),
