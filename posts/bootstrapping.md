@@ -56,9 +56,10 @@ Most people who deny and say that they start a company to change the world are l
 The business model for Bruno is simple. Its just aligning the incentives.
   * Build and maintain most of the features as opensource (most things a developer needs)
   * Offer select features under the paid plans (features that a business needs)
+  * Foster a thriving community of contributors and users
   * Be transparent and do right by the community always
   * Maintain full autonomy over the company and product direction
-  * Build cool stuff, provide value and have fun along the way
+  * Continue to build and ship cool stuff, provide value and have fun along the way
 
 ### Rebellion
 Bruno, at its core is a [rebellion](/manifesto) against the the status quo of the API client ecosystem.
