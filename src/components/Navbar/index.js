@@ -71,15 +71,8 @@ const Navbar = () => {
             <Link href="/sponsors" legacyBehavior>
               <a className="font-medium mr-3 hover:text-yellow-600 transition">Sponsors</a>
             </Link>
-            <Link href="" legacyBehavior>
-              <a
-                href="https://github.com/usebruno/bruno/discussions/384"
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium mr-3 hover:text-yellow-600 transition"
-              >
-                Roadmap
-              </a>
+            <Link href="/blog" legacyBehavior>
+              <a className="font-medium mr-3 hover:text-yellow-600 transition">Blog</a>
             </Link>
             <Link href="/about" legacyBehavior>
               <a className="font-medium mr-3 hover:text-yellow-600 transition">About</a>

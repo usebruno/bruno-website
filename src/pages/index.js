@@ -52,12 +52,6 @@ export default function Home() {
                     <span className='ml-3'>vs Postman</span>
                   </a>
                 </Link>
-                <Link href="/blog" legacyBehavior>
-                  <a className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 transition">
-                    📢
-                    <span className='ml-3'>Blog</span>
-                  </a>
-                </Link>
               </div>
               <div className="flex justify-center mt-6">
                 <img className="w-full" src="images/landing-2.png" />
