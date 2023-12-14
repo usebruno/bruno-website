@@ -1,7 +1,7 @@
 ---
-title: 'bootsrapping'
+title: 'bootstrapping'
 date: '13 Dec 2023'
-description: 'bootsrapping bruno'
+description: 'bootstrapping bruno'
 ---
 Hey everyone, This is Anoop, creator and lead maintainer of Bruno.
 
@@ -17,7 +17,7 @@ This is in some way a personal post and covers some of my worldviews and my thou
 ### Business ?
 In the past, my vision for Bruno didn't involve establishing a company or hiring individuals. The plan was to earn income from the project by offering select features under the Golden Edition (closed source) while working on Bruno part-time.
 
-Bruno's exponential growth has surpassed those initial plans. Currently, there are over 400 pending issues and 80 pull requests awaiting review, despite merging 250 PRs in the last two months alone (averaging 4 merges per day). Balancing this part-time alongside my dayjob as a tech lead is no longer feasible.
+Bruno's exponential growth has surpassed those initial plans. Currently, there are over 400 pending issues and 80 pull requests awaiting review, despite merging 250 PRs in the last two months alone (averaging 4 merges per day). Balancing this part-time alongside my day job as a tech lead is no longer feasible.
 
 Here are some of the highlights that happened in the last 2 months compared to the previous two years:
 * Grew from 500 to ➡️ 25,000 monthly active users 
@@ -42,7 +42,7 @@ Its not the case anymore today. We have a growing community and contributors who
 We have feedback where people literally say - "I love Bruno". What more do I need as a creator (as long as I figure out a way to make a living out of it)?
 
 ### Perils of VC funding
-Many opensource projects thar raise funding may end up struggling to make enough revenue to justify the valuation. Then they start to paywall features which were previously free, and the users start looking for alternatives. That is what has happened in the API client ecosystem (many times over).
+Many opensource projects that raise funding may end up struggling to make enough revenue to justify the valuation. Then they start to paywall features which were previously free, and the users start looking for alternatives. That is what has happened in the API client ecosystem (many times over).
 
 Most founders eventually lose control over the product direction and may be forced to make decisions that are not in the best interest of the community.
 
@@ -62,7 +62,7 @@ The business model for Bruno is simple. Its just aligning the incentives.
   * Continue to build and ship cool stuff, provide value and have fun along the way
 
 ### Rebellion
-Bruno, at its core is a [rebellion](/manifesto) against the the status quo of the API client ecosystem.
+Bruno, at its core is a [rebellion](/manifesto) against the status quo of the API client ecosystem.
 
 Its quite common these days to raise money and go big when your opensource project gains traction and a certain number of github stars. Many api clients have done that.
 
