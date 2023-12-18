@@ -41,7 +41,7 @@ As of this writing, we have over **7k stars**.
 
 ## Monthly active users
 
-Its not just stars, we also massive growth of people who use bruno. For 23 months, we had around 100-200 people who used Bruno every month. But in the Oct 2023, we had **over 20,000 people** use Bruno.
+It's not just stars, we also massive growth of people who use bruno. For 23 months, we had around 100-200 people who used Bruno every month. But in the Oct 2023, we had **over 20,000 people** use Bruno.
 
 ![monthly users oct 2023](/images/monthly-users-oct-2023.png)
 
@@ -51,13 +51,13 @@ Bruno's community has experienced remarkable growth, seemingly out of nowhere. I
 
 And there are still over **50 pull requests** waiting to be [merged](https://github.com/usebruno/bruno/pulls).
 
-This rapid pace of growth is also a testament to the quality and robustness of our codebase, which allowed us to readily accept these contributions and scale up with confidence. 
+This rapid pace of growth is also a testament to the quality and robustness of our codebase, which allowed us to readily accept these contributions and scale up with confidence.
 
 We can't thank enough 💛 to all the people who contributed to Bruno and helped us get here.
 
 ## Reaction
 
-It has been exhilarating to see the reaction of the community. We are not an alternative, but a new way of working with API Collections. We are re-inventing the Api Client. 
+It has been exhilarating to see the reaction of the community. We are not an alternative, but a new way of working with API Collections. We are re-inventing the Api Client.
 
 You can check out the testimonials on our landing page. If you'd like to share your experience with Bruno, please [write here](https://github.com/usebruno/bruno/discussions/343)
 
@@ -86,7 +86,7 @@ Here is Bruno. The prince who will be fetching your Api's.
 
 I have been documenting the journey of Bruno [publicly here](https://github.com/usebruno/bruno/discussions/269). You can checkout our [roadmap](https://github.com/usebruno/bruno/discussions/384)
 
-Our mission is to 
+Our mission is to
 
 * Build the most simple, beautiful, and powerful API client that developers love.
 * And uphold these principles
@@ -102,5 +102,3 @@ As far as how we build a sustainable business, we are still in the process of fi
 We are here for the long run. We want to give developers what they have always wanted. A beautiful curl UI.
 
 Godspeed 🖖 🐶 💛
-
-

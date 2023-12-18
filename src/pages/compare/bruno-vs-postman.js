@@ -60,7 +60,7 @@ export default function CompareBrunoVsPostman() {
           Online vs Offline
         </h2>
         <div className='mt-6'>
-          Postman requires you to be <a className='link' href="https://community.postman.com/t/working-in-offline-mode/20174/37" target="_blank" rel="noreferrer">online</a> to use it. 
+          Postman requires you to be <a className='link' href="https://community.postman.com/t/working-in-offline-mode/20174/37" target="_blank" rel="noreferrer">online</a> to use it.
 
           <div className='mt-4'>
             Bruno is a desktop app, and is made for offline use.
@@ -125,7 +125,7 @@ export default function CompareBrunoVsPostman() {
         </div>
 
         <h1 className="mt-8 text-2xl font-semibold leading-tight w-full">
-          Its time
+          It's time
         </h1>
         <div className='mt-6'>
           <Link href="/downloads" legacyBehavior>
