@@ -19,12 +19,29 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full md:w-auto md:flex-grow-0 md:flex-shrink-0  text-center md:text-left">
-            <h1 className="font-medium">Compare</h1>
+            <h1 className="font-medium">Company</h1>
             <ul className="mt-4">
               <li className="mb-2">
-                <Link href="/compare/bruno-vs-postman" legacyBehavior>
+                <a
+                  href="https://www.notebase.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gray-500"
+                >
+                  Website
+                </a>
+              </li>
+              <li className="mb-2">
+                <Link href="/privacy-policy" legacyBehavior>
                   <a className="text-gray-500">
-                    Vs Postman
+                    Privacy Policy
+                  </a>
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link href="/terms" legacyBehavior>
+                  <a className="text-gray-500">
+                    Terms
                   </a>
                 </Link>
               </li>
@@ -33,6 +50,13 @@ const Footer = () => {
           <div className="w-full md:w-auto md:flex-grow-0 md:flex-shrink-0 text-center md:text-left mt-6 md:mt-0">
             <h1 className="font-medium">Links</h1>
             <ul className="mt-4">
+              <li className="mb-2">
+                <Link href="/compare/bruno-vs-postman" legacyBehavior>
+                  <a className="text-gray-500">
+                    Vs Postman
+                  </a>
+                </Link>
+              </li>
               <li className="mb-2">
                 <a
                   href="https://docs.usebruno.com"

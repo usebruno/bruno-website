@@ -81,6 +81,51 @@ const GlobalStyle = createGlobalStyle`
       padding-top: 1.5rem;
     }
   }
+
+  main.privacy-page, main.terms-page {
+    h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+      margin-bottom: .5rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+
+      &:first-of-type {
+        margin-top: 0rem;
+      }
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 1.2rem;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 1rem;
+
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+
+      li {
+        display: list-item;
+        list-style-type: disc;
+      }
+    }
+  }
 `;
  
 export default GlobalStyle;
