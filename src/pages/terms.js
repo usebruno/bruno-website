@@ -46,7 +46,7 @@ export default function Terms() {
               <li><strong>Feedback</strong> means feedback, innovations or suggestions sent by You regarding the attributes, performance or features of our Service.</li> <li><strong>Service</strong> refers to the Website.</li>
               <li><strong>Subscriptions</strong> refer to the services or access to the Service offered on a subscription basis by the Company to You.</li> <li><strong>Free Trial</strong> refers to a limited period of time that may be free when purchasing a Subscription.</li> <li><strong>Terms and Conditions</strong> (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.</li>
               <li><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</li>
-              <li><strong>Website</strong> refers to Notebase, accessible from https://notebase.com</li> <li><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
+              <li><strong>Website</strong> refers to Bruno, accessible from https://usebruno.com</li> <li><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
               </ul>
               <h1>Acknowledgement</h1>
               <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.</p>
@@ -104,7 +104,7 @@ export default function Terms() {
               <h1>Copyright Policy</h1>
               <h2>Intellectual Property Infringement</h2>
               <p>We respect the intellectual property rights of others. It is Our policy to respond to any claim that Content posted on the Service infringes a copyright or other intellectual property infringement of any person.</p>
-              <p>If You are a copyright owner, or authorized on behalf of one, and You believe that the copyrighted work has been copied in a way that constitutes copyright infringement that is taking place through the Service, You must submit Your notice in writing to the attention of our copyright agent via email at info@notebase.com and include in Your notice a detailed description of the alleged infringement.</p>
+              <p>If You are a copyright owner, or authorized on behalf of one, and You believe that the copyrighted work has been copied in a way that constitutes copyright infringement that is taking place through the Service, You must submit Your notice in writing to the attention of our copyright agent via email at support@usebruno.com and include in Your notice a detailed description of the alleged infringement.</p>
               <p>You may be held accountable for damages (including costs and attorneys' fees) for misrepresenting that any Content is infringing Your copyright.</p>
               <h1>Intellectual Property</h1>
               <p>The Service and its original content (excluding Content provided by You or other users), features and functionality are and will remain the exclusive property of the Company and its licensors.</p>
@@ -147,7 +147,7 @@ export default function Terms() {
               <p>We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.</p>
               <p>By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.</p>
               <h1>Contact Us</h1>
-              <p>If you have any questions about these Terms and Conditions, You can reach out to us at - info@notebase.com</p>
+              <p>If you have any questions about these Terms and Conditions, You can reach out to us at - support@usebruno.com</p>
               </div>
               </div>
               </div>
