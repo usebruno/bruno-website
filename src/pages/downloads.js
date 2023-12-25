@@ -195,15 +195,23 @@ export default function Downloads({ latestVersion, releaseDate }) {
               <p className="text-gray-500 mt-2">
                 To install via Apt, follow these steps:
               </p>
-              <pre className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4" style={{fontSize: 14}}>
-                sudo mkdir -p /etc/apt/keyrings <br />
-                sudo gpg --no-default-keyring --keyring /etc/apt/keyrings/bruno.gpg --keyserver keyserver.ubuntu.com --recv-keys 9FA6017ECABE0266 <br /><br />
-
-                echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg] http://debian.usebruno.com/ bruno stable" | sudo tee /etc/apt/sources.list.d/bruno.list <br /> <br />
-
-                sudo apt update <br />
-                sudo apt install bruno
-              </pre>
+              <div style={{width: "fit-content"}}>
+                <pre
+                  className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4"
+                  style={{ fontSize: 14, width: "fit-content",whiteSpace:"pre-wrap",wordWrap:"break-word",textAlign:"justify" }}
+                >
+                  sudo mkdir -p /etc/apt/keyrings <br />
+                  sudo gpg --no-default-keyring --keyring
+                  /etc/apt/keyrings/bruno.gpg --keyserver keyserver.ubuntu.com
+                  --recv-keys 9FA6017ECABE0266 <br />
+                  <br />
+                  echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg]
+                  http://debian.usebruno.com/ bruno stable" | sudo tee
+                  /etc/apt/sources.list.d/bruno.list <br /> <br />
+                  sudo apt update <br />
+                  sudo apt install bruno
+                </pre>
+              </div>
             </div>
           </TabPanel>
 
