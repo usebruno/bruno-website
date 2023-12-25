@@ -5,7 +5,7 @@ import GlobalStyle from '../globalStyles';
 
 export default function Terms() {
   return (
-    <div className="container flex flex-col root" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
+    <div className="container flex flex-col root" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
       <Head>
         <title>About</title>
         <link rel="icon" href="/favicon.ico" />

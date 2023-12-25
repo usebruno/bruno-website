@@ -45,6 +45,13 @@ const Footer = () => {
                   </a>
                 </Link>
               </li>
+              <li className="mb-2">
+                <Link href="/support" legacyBehavior>
+                  <a className="text-gray-500">
+                    Support
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="w-full md:w-auto md:flex-grow-0 md:flex-shrink-0 text-center md:text-left mt-6 md:mt-0">

@@ -6,7 +6,7 @@ import StyledWrapper from './StyledWrapper';
 
 export default function Layout({ title, keywords, description, children }) {
   return (
-    <StyledWrapper className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
+    <StyledWrapper className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,7 +15,7 @@ export default function Layout({ title, keywords, description, children }) {
       </Head>
       <GlobalStyle />
 
-      <main className="flex flex-grow flex-col notebase-app px-4">
+      <main className="flex flex-grow flex-col px-4">
         <Navbar />
         <div className="page page-blog">{children}</div>
       </main>
