@@ -20,8 +20,9 @@ export default function CompareBrunoVsPostman() {
         <h1 className="mt-4 text-2xl font-bold leading-tight w-full">
           Bruno Vs Postman
         </h1>
+        <small className="mt-4">This comparision applies to Insomnia, Httpie Desktop, Hoppscotch and other similar tools too.</small>
 
-        <h2 className="mt-8 text-xl font-semibold leading-tight w-full">
+        <h2 className="mt-6 text-xl font-semibold leading-tight w-full">
           How collections are saved
         </h2>
         <div className='mt-6'>
