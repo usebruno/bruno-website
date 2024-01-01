@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { IconWorld, IconBrandApple, IconBrandWindows, IconBrandUbuntu, IconBrandChrome, IconBrandDocker, IconDeviceDesktop } from "@tabler/icons";
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import GlobalStyle from '../globalStyles';

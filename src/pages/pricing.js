@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
+import { IconUser, IconUsers } from "@tabler/icons";
 import GlobalStyle from '../globalStyles';
 
 const CheckIcon = () => {
@@ -15,6 +17,11 @@ const HeartIcon = () => {
 };
 
 export default function Pricing() {
+  const [pricingOption, setPricingOption] = useState('individuals');
+
+  const handlePricingOptionChange = (option) => {
+    setPricingOption(option);
+  };
 
   const opensourceEdition = [
     'REST and GQL Apis',
@@ -40,11 +47,14 @@ export default function Pricing() {
   const goldenEditon = [
     'Inbuilt Bru File Explorer',
     'Visual Git (Like Gitlens for Vscode)',
-    'Inbuilt Terminal',
     'GRPC, Websocket, SocketIO, MQTT',
+    'Intergration with Secret Managers',
     'Load Data from File for Collection Run',
+    'Developer Tools',
+    'OpenAPI Designer',
     'Performance/Load Testing',
-    'Custom Themes',
+    'Inbuilt Terminal',
+    'Custom Themes'
   ];
 
   return (
@@ -68,7 +78,7 @@ export default function Pricing() {
               </p>
             </div>
             <div className="mx-auto text-center lg:flex lg:space-x-12">
-              <div className="flex flex-col p-6 mx-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
+              <div className="flex flex-col items-center p-6 mx-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
                 <h3 className="text-2xl font-semibold">Opensource Edition</h3>
                 <div className="flex justify-center items-baseline my-8">
                   <span className="mr-2 text-5xl font-extrabold">Free</span>
@@ -85,11 +95,41 @@ export default function Pricing() {
                     <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get Started</a>
                   </Link>
               </div>
-              <div className="flex flex-col mt-10 lg:mt-0 p-6 mx-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
+              <div className="flex flex-col items-center mt-10 lg:mt-0 p-6 mx-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
                 <h3 className="text-2xl font-semibold">Golden Edition</h3>
-                <div className="flex justify-center items-baseline my-8">
-                  <span className="mr-2 text-5xl font-extrabold">$12</span>
-                  <span className="text-gray-500">/year</span>
+                {pricingOption === 'individuals' ? (
+                  <div>
+                    <div className="my-4">
+                      <span className="text-5xl font-extrabold">$19</span>
+                    </div>
+                    <p className="bg-yellow-200 rounded-md px-2 py-1 mb-2 inline-flex text-sm">One Time Payment</p>
+                    <p className="text-sm">perpetual license for 2 devices, with 2 years of updates</p>
+                  </div>
+                ) : (
+                  <div>
+                    <div className="my-4">
+                      <span className="text-5xl font-extrabold">$2</span>
+                    </div>
+                    <p>/user/month</p>
+                  </div>
+                )}
+                <div className="flex items-center justify-between my-8 w-40 bg-gray-200 rounded-full p-1" style={{width: '24rem'}}>
+                  <div
+                    className={`cursor-pointer w-1/2 h-8 flex items-center justify-center rounded-full ${
+                      pricingOption === 'individuals' ? 'bg-white text-gray-900 font-medium' : 'text-gray-500'
+                    }`}
+                    onClick={() => handlePricingOptionChange('individuals')}
+                  >
+                    <IconUser className="text-gray-500 mr-2 icon" size={16} strokeWidth={1.5}/> Individuals
+                  </div>
+                  <div
+                    className={`cursor-pointer w-1/2 h-8 flex items-center justify-center rounded-full ${
+                      pricingOption === 'organizations' ? 'bg-white text-gray-900 font-medium' : 'text-gray-500'
+                    }`}
+                    onClick={() => handlePricingOptionChange('organizations')}
+                  >
+                    <IconUsers className="text-gray-500 mr-2 icon" size={16} strokeWidth={1.5}/> Organizations
+                  </div>
                 </div>
                 <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className='flex items-center space-x-3'>
@@ -103,7 +143,9 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <a className="text-white bg-yellow-600 hover-bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Coming Soon</a>
+                <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+                  Coming Soon
+                </a>
               </div>
             </div>
 
