@@ -70,13 +70,22 @@ export default function Pricing() {
 
         <section className="bg-white">
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:pb-16 lg:px-20">
-            <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+            <div className="mx-auto max-w-screen-md text-center mb-6 lg:mb-6">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Pricing</h2>
-              <p className="mb-5 font-light text-gray-500 sm:text-xl">
+              <p className="font-light text-gray-500 sm:text-xl">
                 Majority of our features are free and open source. <br/>
                 We strive to strike a harmonious balance between <a href="https://github.com/usebruno/bruno/discussions/269" target="_blank" rel="noreferrer" className='link'>open-source principles and sustainability.</a>
               </p>
             </div>
+            <div class="text-center mb-8">
+              <p class="font-medium text-lg">
+                Golden Edition Pre-Orders launching soon at <span class="font-medium"><span class="line-through">$19</span> <span class="text-yellow-600 text-2xl ">$9</span></span> !
+                </p>
+              <p>
+                <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
+              </p>
+            </div>
+
             <div className="mx-auto text-center lg:flex lg:space-x-12">
               <div className="flex flex-col items-center p-6 mx-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
                 <h3 className="text-2xl font-semibold">Opensource Edition</h3>
