@@ -77,9 +77,9 @@ export default function Pricing() {
                 We strive to strike a harmonious balance between <a href="https://github.com/usebruno/bruno/discussions/269" target="_blank" rel="noreferrer" className='link'>open-source principles and sustainability.</a>
               </p>
             </div>
-            <div class="text-center mb-8">
-              <p class="font-medium text-lg">
-                Golden Edition Pre-Orders launching soon at <span class="font-medium"><span class="line-through">$19</span> <span class="text-yellow-600 text-2xl ">$9</span></span> !
+            <div className="text-center mb-8">
+              <p className="font-medium text-lg">
+                Golden Edition Pre-Orders launching soon at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
                 </p>
               <p>
                 <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
