@@ -1,3 +1,4 @@
+import Bruno from 'components/Bruno';
 import Head from 'next/head';
 import Link from 'next/link';
 import { IconBrandApple, IconBrandWindows, IconBrandUbuntu, IconDeviceDesktop } from "@tabler/icons";
@@ -13,7 +14,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      latestVersion: '1.6.0',
+      latestVersion: '1.6.1',
       // disabling this for now
       // latestVersion: data.tag_name.replace('v', ''),
       releaseDate: new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(data.created_at)),
@@ -45,16 +46,21 @@ export default function Downloads({ latestVersion, releaseDate }) {
           <p className="text-gray-500 text-sm">Release Date: {releaseDate}</p>
         </div>
 
-        <div className='mt-4 text-sm'>
-          If you like Bruno and want to support our opensource work, consider sponsoring us via 
-          <a
-            href="https://github.com/sponsors/helloanoop"
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium mr-3 link hover:text-yellow-600 transition"
-          >
-            &nbsp;Github Sponsors.
-          </a>
+        <div
+          className="mt-4 border inline-flex flex py-2 px-4 rounded-lg text-sm"
+          style={{ maxWidth: "max-content" }}
+        >
+          <div className='flex'>
+            <Bruno width={45}/>
+          </div>
+          <div className="ml-3 flex flex-col">
+            <p>
+              Golden Edition Pre-Orders launching soon at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
+            </p>
+            <p>
+              <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
+            </p>
+          </div>
         </div>
 
         <Tabs className="mt-2">

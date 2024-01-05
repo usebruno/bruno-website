@@ -31,13 +31,18 @@ export default function Home() {
                 Bruno is offline-only. There are no plans to add cloud-sync to Bruno, ever. We value your data privacy and believe it should stay on your device. Read our long-term vision <a href="https://github.com/usebruno/bruno/discussions/269" target="_blank" rel="noreferrer" className='link'>here</a>.
               </p>
 
-              <div className="mb-8 border inline-flex flex-col py-2 px-4 rounded-lg text-sm">
-                <p>
-                  Golden Edition Pre-Orders launching soon at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
+              <div className="mb-8 border inline-flex py-2 px-4 rounded-lg text-sm">
+                <div className='flex'>
+                  <Bruno width={45}/>
+                </div>
+                <div className="ml-3 flex flex-col">
+                  <p>
+                    Golden Edition Pre-Orders launching soon at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
                   </p>
-                <p>
-                  <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
-                </p>
+                  <p>
+                    <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
+                  </p>
+                </div>
               </div>
 
               <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
