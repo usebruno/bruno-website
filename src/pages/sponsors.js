@@ -5,14 +5,14 @@ import GlobalStyle from '../globalStyles';
 
 export default function Sponsors() {
   return (
-    <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
+    <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
       <Head>
         <title>Sponsors</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyle />
 
-      <main className="flex flex-grow flex-col notebase-app px-4">
+      <main className="flex flex-grow flex-col px-4">
         <Navbar />
 
         <section className="bg-white">

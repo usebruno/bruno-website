@@ -1,3 +1,4 @@
+import Bruno from 'components/Bruno';
 import Head from 'next/head';
 import Link from 'next/link';
 import { IconBrandApple, IconBrandWindows, IconBrandUbuntu, IconDeviceDesktop } from "@tabler/icons";
@@ -13,7 +14,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      latestVersion: '1.5.1',
+      latestVersion: '1.6.1',
       // disabling this for now
       // latestVersion: data.tag_name.replace('v', ''),
       releaseDate: new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(data.created_at)),
@@ -24,14 +25,14 @@ export async function getStaticProps() {
 
 export default function Downloads({ latestVersion, releaseDate }) {
   return (
-    <div className="container flex flex-col root downloads-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
+    <div className="container flex flex-col root downloads-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
       <Head>
         <title>Downloads</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyle />
 
-      <main className="flex flex-grow flex-col notebase-app px-4">
+      <main className="flex flex-grow flex-col px-4">
         <Navbar />
 
         <h1 className="mt-4 text-2xl font-bold leading-tight w-full">
@@ -45,16 +46,21 @@ export default function Downloads({ latestVersion, releaseDate }) {
           <p className="text-gray-500 text-sm">Release Date: {releaseDate}</p>
         </div>
 
-        <div className='mt-4 text-sm'>
-          If you like Bruno and want to support our opensource work, consider sponsoring us via 
-          <a
-            href="https://github.com/sponsors/helloanoop"
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium mr-3 link hover:text-yellow-600 transition"
-          >
-            &nbsp;Github Sponsors.
-          </a>
+        <div
+          className="mt-4 border inline-flex flex py-2 px-4 rounded-lg text-sm"
+          style={{ maxWidth: "max-content" }}
+        >
+          <div className='flex'>
+            <Bruno width={45}/>
+          </div>
+          <div className="ml-3 flex flex-col">
+            <p>
+              Golden Edition Pre-Orders launching soon at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
+            </p>
+            <p>
+              <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
+            </p>
+          </div>
         </div>
 
         <Tabs className="mt-2">
@@ -195,15 +201,23 @@ export default function Downloads({ latestVersion, releaseDate }) {
               <p className="text-gray-500 mt-2">
                 To install via Apt, follow these steps:
               </p>
-              <pre className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4" style={{fontSize: 14}}>
-                sudo mkdir -p /etc/apt/keyrings <br />
-                sudo gpg --no-default-keyring --keyring /etc/apt/keyrings/bruno.gpg --keyserver keyserver.ubuntu.com --recv-keys 9FA6017ECABE0266 <br /><br />
-
-                echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg] http://debian.usebruno.com/ bruno stable" | sudo tee /etc/apt/sources.list.d/bruno.list <br /> <br />
-
-                sudo apt update <br />
-                sudo apt install bruno
-              </pre>
+              <div style={{width: "fit-content"}}>
+                <pre
+                  className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4"
+                  style={{ fontSize: 14, width: "fit-content",whiteSpace:"pre-wrap",wordWrap:"break-word",textAlign:"justify" }}
+                >
+                  sudo mkdir -p /etc/apt/keyrings <br />
+                  sudo gpg --no-default-keyring --keyring
+                  /etc/apt/keyrings/bruno.gpg --keyserver keyserver.ubuntu.com
+                  --recv-keys 9FA6017ECABE0266 <br />
+                  <br />
+                  echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg]
+                  http://debian.usebruno.com/ bruno stable" | sudo tee
+                  /etc/apt/sources.list.d/bruno.list <br /> <br />
+                  sudo apt update <br />
+                  sudo apt install bruno
+                </pre>
+              </div>
             </div>
           </TabPanel>
 

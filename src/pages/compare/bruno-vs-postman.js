@@ -7,21 +7,22 @@ import GlobalStyle from '../../globalStyles';
 
 export default function CompareBrunoVsPostman() {
   return (
-    <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1024px'}}>
+    <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
       <Head>
         <title>Bruno Vs Postman</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyle />
 
-      <main className="flex flex-grow flex-col notebase-app px-4">
+      <main className="flex flex-grow flex-col px-4">
         <Navbar />
 
         <h1 className="mt-4 text-2xl font-bold leading-tight w-full">
           Bruno Vs Postman
         </h1>
+        <small className="mt-4">This comparision applies to Insomnia, Httpie Desktop, Hoppscotch and other similar tools too.</small>
 
-        <h2 className="mt-8 text-xl font-semibold leading-tight w-full">
+        <h2 className="mt-6 text-xl font-semibold leading-tight w-full">
           How collections are saved
         </h2>
         <div className='mt-6'>

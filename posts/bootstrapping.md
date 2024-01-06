@@ -49,7 +49,7 @@ Most founders eventually lose control over the product direction and may be forc
 ### Money and Altruism
 Lets get into this uncomfortable topic.
 
-Just like 99.99% of you, I am motivated by money and would like have nice things. And secure the financial freedom for my family. I just don't have outsized ambitions to raise money and build a unicorn. Would be happy with a small business that makes enough money to live a comfortable life.
+Just like 99.99% of you, I am motivated by money and would like to have nice things. And secure the financial freedom for my family. I just don't have outsized ambitions to raise money and build a unicorn. Would be happy with a small business that makes enough money to live a comfortable life.
 
 Most people who deny and say that they start a company to change the world are lying. There is always an element of self-interest. If they still say that they are not motivated by money, ask them to hand over half of their shares to a non-profit. They won't. Very few people get to a place where they are no longer motivated by money.
 

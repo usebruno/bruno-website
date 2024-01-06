@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <GlobalStyle />
 
-      <main className="flex flex-grow flex-col notebase-app px-4">
+      <main className="flex flex-grow flex-col px-4">
         <Navbar />
 
         <section className="bg-white">
@@ -32,6 +32,20 @@ export default function Home() {
 
                 📢 Watch our recent talk at India FOSS 3.0 Conference <a href="https://www.youtube.com/watch?v=7bSMFpbcPiY" target="_blank" rel="noreferrer" className='link'>here</a>.
               </p>
+
+              <div className="mb-8 border inline-flex py-2 px-4 rounded-lg text-sm">
+                <div className='flex'>
+                  <Bruno width={45}/>
+                </div>
+                <div className="ml-3 flex flex-col">
+                  <p>
+                    Golden Edition Pre-Orders launching soon at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
+                  </p>
+                  <p>
+                    <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
+                  </p>
+                </div>
+              </div>
 
               <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                 <a href="https://github.com/usebruno/bruno" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 transition">
