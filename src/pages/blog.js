@@ -33,7 +33,7 @@ export default function Blog() {
         </h1>
 
         <ul className='blog-list'>
-          <BlogLink title="welcoming samagata as our founding sponsor" path="/welcoming-samagata-as-our-founding-sponsor" date="12 January 2023"/>
+          <BlogLink title="welcoming samagata as our founding sponsor" path="/welcoming-samagata-as-our-founding-sponsor" date="12 January 2024"/>
           <BlogLink title="bootstrapping" path="/bootstrapping" date="13 December 2023"/>
           <BlogLink title="announcing v1" path="/announcing-version-1" date="02 November 2023"/>
           <BlogLink title="launching bruno cli" path="/launching-bruno-cli" date="03 April 2023"/>
