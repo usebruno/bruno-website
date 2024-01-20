@@ -23,7 +23,7 @@ export default function Home() {
               <h1 className="max-w-3xl mb-10 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
                 Re-Inventing the API Client
               </h1>
-              <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+              <p className="mb-6 lg:mb-8 text-lg" style={{maxWidth: '1024px'}}>
                 Bruno is a Fast and Git-Friendly Opensource API client, aimed at revolutionizing the status quo represented by Postman, Insomnia and similar tools out there. <br /><br />
                 Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, Bru, to save information about API requests. <br /><br />
                 You can use git or any version control of your choice to collaborate over your API collections. <br /><br />
@@ -97,7 +97,7 @@ export default function Home() {
               <h1 className="max-w-3xl text-4xl font-bold leading-none tracking-tight md:text-5xl">
                 Collaborate via Git
               </h1>
-              <h3 className="mt-4 max-w-3xl text-xl leading-none tracking-tight md:text-2xl">
+              <h3 className="mt-4 max-w-3xl text-xl leading-none tracking-tight">
                 &nbsp;Or any version control system of your choice
               </h3>
             </div>

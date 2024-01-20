@@ -10,7 +10,7 @@ export default function Blog() {
     return (
       <li className='mb-8'>
         <div className='text-sm'>{date} </div>
-        <div className='font-medium text-2xl text-yellow-600'>
+        <div className='font-medium text-xl text-yellow-600'>
           <Link href={link}>{title}</Link>
         </div>
       </li>
