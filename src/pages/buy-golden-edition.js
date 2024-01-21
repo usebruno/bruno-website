@@ -100,6 +100,12 @@ export default function BuyGoldenEdition() {
             </div>
           )}
 
+          {!purchaseSuccess && !emailReady && (
+            <span className='mt-4 inline-block text-sm'>
+              **Note: Currently, the payment option is not available for users from India. We are working on it.
+            </span>
+          )}
+
           {!purchaseSuccess && emailReady && (
             <div className='mt-6'>
               <PaypalCheckout
