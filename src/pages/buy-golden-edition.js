@@ -102,7 +102,7 @@ export default function BuyGoldenEdition() {
 
           {!purchaseSuccess && !emailReady && (
             <span className='mt-4 inline-block text-sm'>
-              **Note: Currently, the payment option is not available for users from India. We are working on it.
+              **Note: The payment option is currently not accessible for users located in India. We are working on it.
             </span>
           )}
 
