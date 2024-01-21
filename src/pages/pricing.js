@@ -45,8 +45,6 @@ export default function Pricing() {
     'Custom Themes'
   ];
 
-
-
   const goldenEditonOrganizations = [
     'Centralized License Management',
     'Intergration with Secret Managers',

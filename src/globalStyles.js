@@ -8,6 +8,24 @@ import { createGlobalStyle } from 'styled-components';
  */
  
 const GlobalStyle = createGlobalStyle`
+  @keyframes rotateClockwise {
+    0% {
+      transform: scaleY(-1) rotate(0deg);
+    }
+    100% {
+      transform: scaleY(-1) rotate(360deg);
+    }
+  }
+
+  @keyframes rotateCounterClockwise {
+    0% {
+      transform: scaleY(-1) rotate(360deg);
+    }
+    100% {
+      transform: scaleY(-1) rotate(0deg);
+    }
+  }
+
   html, body {
     margin: 0;
     padding: 0;
@@ -120,6 +138,13 @@ const GlobalStyle = createGlobalStyle`
         display: list-item;
         list-style-type: disc;
       }
+    }
+  }
+
+  div.buy-golden-edition-page {
+    .loading-icon {
+      transform: scaleY(-1);
+      animation: rotateCounterClockwise 1s linear infinite;
     }
   }
 `;
