@@ -6,6 +6,6 @@ module.exports = {
     }
   },
   publicRuntimeConfig: {
-    PAYPAL_ORDERS_API: process.env.NODE_ENV === 'development' ? 'http://localhost:4000/api/paypal/orders' : 'https://payments.usebruno.com/api/paypal/orders'
+    PAYPAL_ORDERS_API: process.env.NODE_ENV === 'development' ? 'http://localhost:4000/api/paypal/orders' : 'https://bruno-payments-ad6f4acc582a.herokuapp.com/api/paypal/orders'
   }
 }
