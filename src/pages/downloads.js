@@ -55,10 +55,10 @@ export default function Downloads({ latestVersion, releaseDate }) {
           </div>
           <div className="ml-3 flex flex-col">
             <p>
-              Golden Edition Pre-Orders launching soon at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
+              Golden Edition Pre-Orders available at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
             </p>
             <p>
-              <a href="/buy-golden-edition" className="link">Pre Order Now!</a>
+              <a href="/buy-golden-edition" className="link">Pre-Order Now!</a>
             </p>
           </div>
         </div>

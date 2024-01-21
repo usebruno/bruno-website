@@ -75,8 +75,8 @@ export default function Pricing() {
             </div>
             <div className="text-center mb-8">
               <p className="font-medium text-lg">
-                Golden Edition Pre-Orders launching soon at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
-                </p>
+                Golden Edition Pre-Orders available at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
+              </p>
               <p>
                 <a href="/buy-golden-edition" className="link">Pre Order Now!</a>
               </p>
