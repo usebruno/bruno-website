@@ -1,10 +1,13 @@
 import { ThemeProvider } from 'styled-components';
+import getConfig from 'next/config';
 import '../styles/globals.css';
 import '../styles/markdown.css';
 
+const { publicRuntimeConfig } = getConfig();
+
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
-const PAYPAL_CLIENT_ID = 'ATDXVIF6j9IH_LFiDp1aPI-5sxmUtO3DL_GbmhBgHC9i2jFe8Af95z3huPvyAUZwuhLADABGBiqPgq2r';
+const PAYPAL_CLIENT_ID = publicRuntimeConfig.PAYPAL_CLIENT_ID;
 
 import theme from '../themes/default';
 
