@@ -40,7 +40,7 @@ export default function Home() {
                     Golden Edition Pre-Orders launching soon at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
                   </p>
                   <p>
-                    <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
+                    <a href="/buy-golden-edition" className="link">Pre Order Now!</a>
                   </p>
                 </div>
               </div>

@@ -78,7 +78,7 @@ export default function Pricing() {
                 Golden Edition Pre-Orders launching soon at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
                 </p>
               <p>
-                <a data-formkit-toggle="9330cfc044" className="link">Sign up here</a> to get notified when we launch.
+                <a href="/buy-golden-edition" className="link">Pre Order Now!</a>
               </p>
             </div>
 
@@ -138,8 +138,11 @@ export default function Pricing() {
 
                 <p className="text-sm">* Individual licenses are perpetual licenses that can be used on 2 devices, with 2 years of updates</p>
 
-                <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4">
-                  Coming Soon
+                <a
+                  href="/buy-golden-edition"
+                  className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4"
+                >
+                  Pre Order Now!
                 </a>
 
               </div>
