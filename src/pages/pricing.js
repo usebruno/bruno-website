@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import Switch from "react-switch";
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import { IconUser, IconUsers, IconPlus } from "@tabler/icons";
@@ -53,6 +55,12 @@ export default function Pricing() {
     'Priority Support'
   ];
 
+  const [selectedCurrency, setSelectedCurrency] = useState('USD');
+
+  const toggleCurrency = () => {
+    setSelectedCurrency((prevCurrency) => (prevCurrency === 'USD' ? 'INR' : 'USD'));
+  };
+
   return (
     <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
       <Head>
@@ -104,11 +112,34 @@ export default function Pricing() {
 
               {/* Golden Edition Individuals */}
               <div className="flex flex-col mt-10 lg:mt-0 p-6 mx-auto text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
-                <h3 className="text-2xl font-semibold">Golden Edition</h3>
+                <div className='flex items-center justify-between'>
+                  <h3 className="text-2xl font-semibold">Golden Edition</h3>
+                  <div className='flex items-center'>
+                    <Switch
+                      className="react-switch"
+                      onChange={toggleCurrency}
+                      checked={selectedCurrency === 'INR'}
+                      onColor="#edc494"
+                      onHandleColor="#d97706"
+                      handleDiameter={20}
+                      uncheckedIcon={false}
+                      checkedIcon={false}
+                      boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
+                      activeBoxShadow="0px 0px 1px 2px rgba(0, 0, 0, 0.1)"
+                      height={14}
+                      width={34}
+                    />
+                    <span className="ml-2">
+                      INR
+                    </span>
+                  </div>
+                </div>
 
                 <div>
                   <div className="my-4 flex items-center">
-                    <span className="text-4xl font-extrabold">$19</span>
+                    <span className="text-4xl font-extrabold">
+                      {selectedCurrency === 'USD' ? '$19' : '₹1,699'}
+                    </span>
                     <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment *</p>
                   </div>
                 </div>
@@ -144,18 +175,46 @@ export default function Pricing() {
                 >
                   Pre Order Now!
                 </a>
-
               </div>
-
 
               {/* Golden Edition Organizations */}
               <div className="flex flex-col mt-10 lg:mt-0 p-6 mx-auto text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
-                <h3 className="text-2xl font-semibold">Golden Edition</h3>
+              <div className='flex items-center justify-between'>
+                  <h3 className="text-2xl font-semibold">Golden Edition</h3>
+                  <div className='flex items-center'>
+                    <Switch
+                      className="react-switch"
+                      onChange={toggleCurrency}
+                      checked={selectedCurrency === 'INR'}
+                      onColor="#edc494"
+                      onHandleColor="#d97706"
+                      handleDiameter={20}
+                      uncheckedIcon={false}
+                      checkedIcon={false}
+                      boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
+                      activeBoxShadow="0px 0px 1px 2px rgba(0, 0, 0, 0.1)"
+                      height={14}
+                      width={34}
+                    />
+                    <span className="ml-2">
+                      INR
+                    </span>
+                  </div>
+                </div>
 
                 <div>
                   <div className="my-4 flex items-center">
-                    <span className="text-4xl font-extrabold">$5</span>
-                    <p className='ml-2 mt-2'>/user/month</p>
+                    {selectedCurrency === 'USD' ? (
+                      <div className="my-4 flex items-center">
+                        <span className="text-4xl font-extrabold">$5</span>
+                        <p className='ml-2 mt-2'>/user/month</p>
+                      </div>
+                    ) :  (
+                      <div className="my-4 flex items-center">
+                        <span className="text-4xl font-extrabold">₹449</span>
+                        <p className='ml-2 mt-2'>/user/month</p>
+                      </div>
+                    )}
                   </div>
                 </div>
 
