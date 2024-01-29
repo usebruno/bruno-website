@@ -7,6 +7,7 @@ import Footer from 'components/Footer';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import GlobalStyle from '../globalStyles';
+import useGetOS from 'functions/useGetOS';
 
 export async function getStaticProps() {
   const res = await fetch('https://api.github.com/repos/usebruno/bruno/releases/latest')
@@ -24,6 +25,8 @@ export async function getStaticProps() {
 }
 
 export default function Downloads({ latestVersion, releaseDate }) {
+  const userOS = useGetOS()
+  
   return (
     <div className="container flex flex-col root downloads-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
       <Head>
@@ -63,7 +66,10 @@ export default function Downloads({ latestVersion, releaseDate }) {
           </div>
         </div>
 
-        <Tabs className="mt-2">
+        <Tabs
+          key={userOS}
+          defaultIndex={userOS == 'Windows' ? 2 : userOS == 'Linux' ? 1 : 0} 
+          className="mt-2" >
           <TabList className="flex mt-4 space-x-4">
             <Tab className="px-4 py-2 bg-gray-200 flex items-center rounded-md cursor-pointer hover:bg-gray-300">
               <IconBrandApple className="text-gray-500 mr-2 icon" size={24} strokeWidth={2}/>Mac
