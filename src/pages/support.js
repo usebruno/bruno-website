@@ -22,7 +22,7 @@ export default function Support () {
             </div>
 
             <div className="bg-white py-4 rounded-md">
-              <h2 className="text-lg font-semibold mb-2">Notebase Techologies LLP</h2>
+              <h2 className="text-lg font-semibold mb-2">Notebase Technologies LLP</h2>
               <p>LLP ID: AAZ-0774</p>
             </div>
 
