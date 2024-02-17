@@ -19,7 +19,7 @@ const HeartIcon = () => {
 
 export default function Pricing() {
   const opensourceEdition = [
-    'REST and GQL Apis',
+    'REST and GQL APIs',
     'Scripting',
     'Authentication',
     'Environments',
@@ -37,7 +37,7 @@ export default function Pricing() {
 
   const goldenEditonIndividuals = [
     'Inbuilt Bru File Explorer',
-    'Visual Git (Like Gitlens for Vscode)',
+    'Visual Git (Like Gitlens for VSCode)',
     'GRPC, Websocket, SocketIO, MQTT',
     'Load Data from File for Collection Run',
     'Performance/Load Testing',
@@ -49,7 +49,7 @@ export default function Pricing() {
 
   const goldenEditonOrganizations = [
     'Centralized License Management',
-    'Intergration with Secret Managers',
+    'Integration with Secret Managers',
     'Private Collection Registry',
     'Request Forms',
     'Priority Support'
@@ -93,7 +93,7 @@ export default function Pricing() {
             {/* Opensource Edition */}
             <div className="mx-auto lg:flex lg:space-x-12">
               <div className="flex flex-col p-6 mx-auto text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
-                <h3 className="text-2xl font-semibold">Opensource Edition</h3>
+                <h3 className="text-2xl font-semibold">Open Source Edition</h3>
                 <div className="flex items-baseline my-8">
                   <span className="mr-2 text-4xl font-extrabold">Free</span>
                 </div>
