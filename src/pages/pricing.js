@@ -109,9 +109,12 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                  <Link href="/downloads" legacyBehavior>
-                    <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get Started</a>
-                  </Link>
+                <p className='text-sm text-gray-600 mb-4'>
+                  All open-source contributors of Bruno will receive a free license for the Golden Edition.
+                </p>
+                <Link href="/downloads" legacyBehavior>
+                  <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get Started</a>
+                </Link>
               </div>
 
               {/* Golden Edition Individuals */}
@@ -271,10 +274,6 @@ export default function Pricing() {
                 </a>
               </div>
             </div>
-
-            <p className="text-sm text-gray-600 mt-8">
-              * All open-source contributors of Bruno will receive a free license for the Golden Edition.
-            </p>
           </div>
         </section>
       </main>
