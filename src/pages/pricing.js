@@ -140,9 +140,15 @@ export default function Pricing() {
                     <span className="text-4xl font-extrabold">
                       {selectedCurrency === 'USD' ? '$19' : '₹1,699'}
                     </span>
-                    <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment *</p>
+                    <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment</p>
                   </div>
                 </div>
+
+                <p className="text-sm"><a href="/perpetual-fallback-license" className='link'>Perpetual Fallback License</a> that can be used on 2 devices, with 2 years of updates</p>
+
+                <p className="text-xs text-gray-600 mt-2">
+                  The source code for Golden Edition features is proprietary.
+                </p>
 
                 <div className="inline-flex items-center mt-4 bg-gray-200 rounded-full p-1" style={{width: 170}}>
                   <div
@@ -166,9 +172,6 @@ export default function Pricing() {
                     ))
                   }
                 </ul>
-
-                <p className="text-sm">* Individual licenses are perpetual licenses that can be used on 2 devices, with 2 years of updates</p>
-
                 <a
                   href="/buy-golden-edition"
                   className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4"
@@ -205,20 +208,32 @@ export default function Pricing() {
                 <div>
                   <div className="my-4 flex items-center">
                     {selectedCurrency === 'USD' ? (
-                      <div className="my-4 flex items-center">
-                        <span className="text-4xl font-extrabold">$5</span>
-                        <p className='ml-2 mt-2'>/user/month</p>
-                      </div>
+                      <>
+                        <div className="flex items-center">
+                          <span className="text-4xl font-extrabold">$49</span>
+                          <p className='ml-2 mt-2'>/user</p>
+                        </div>
+                        <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment</p>
+                      </>
                     ) :  (
-                      <div className="my-4 flex items-center">
-                        <span className="text-4xl font-extrabold">₹449</span>
-                        <p className='ml-2 mt-2'>/user/month</p>
-                      </div>
+                      <>
+                        <div className="my-4 flex items-center">
+                          <span className="text-4xl font-extrabold">₹449</span>
+                          <p className='ml-2 mt-2'>/user</p>
+                        </div>
+                        <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment</p>
+                      </>
                     )}
                   </div>
                 </div>
 
-                <div className="inline-flex items-center mt-4 bg-gray-200 rounded-full p-1" style={{width: 200}}>
+                <p className="text-sm"><a href="/perpetual-fallback-license" className='link'>Perpetual Fallback License</a> that can be used on 1 device per user with 2 years of updates.</p>
+
+                <p className="text-xs text-gray-600 mt-2">
+                  The source code for Golden Edition features is proprietary.
+                </p>
+
+                <div className="inline-flex mt-4 items-center bg-gray-200 rounded-full p-1" style={{width: 200}}>
                   <div
                     className={`cursor-pointer px-3 flex items-center justify-center rounded-full`}
                   >

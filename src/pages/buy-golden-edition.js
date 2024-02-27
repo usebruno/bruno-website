@@ -59,11 +59,11 @@ export default function BuyGoldenEdition() {
           <h2 className="pb-10 text-4xl tracking-tight font-extrabold text-gray-900">Bruno Golden Edition</h2>
 
           <div>
-            You can <strong>Pre-Order</strong> Golden Edition today at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
+            You can <strong>Pre-Order</strong> Golden Edition (Individual License) today at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
           </div>
 
           <div className='mt-4'>
-            We expect Golden Edition to be available by 1st March 2024.<br />
+            We expect Golden Edition to be available by <span className='font-medium'>15th March 2024.</span><br />
             For the feature set, please refer to <a href="/pricing" className='link'>pricing page</a>.
           </div>
 
