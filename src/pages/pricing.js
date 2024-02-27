@@ -94,7 +94,11 @@ export default function Pricing() {
             <div className="mx-auto lg:flex lg:space-x-12">
               <div className="flex flex-col p-6 mx-auto text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
                 <h3 className="text-2xl font-semibold">Opensource Edition</h3>
-                <div className="flex items-baseline my-8">
+
+                <p className="text-xs text-gray-600 mt-2">
+                  The source code for the opensource edition is released under the MIT License.
+                </p>
+                <div className="flex items-baseline mt-4 mb-6">
                   <span className="mr-2 text-4xl font-extrabold">Free</span>
                 </div>
                 <ul role="list" className="mb-8 space-y-2 text-left" style={{fontSize: '16px'}}>
@@ -135,6 +139,10 @@ export default function Pricing() {
                   </div>
                 </div>
 
+                <p className="text-xs text-gray-600 mt-2">
+                  The source code for Golden Edition features is proprietary.
+                </p>
+
                 <div>
                   <div className="my-4 flex items-center">
                     <span className="text-4xl font-extrabold">
@@ -145,10 +153,6 @@ export default function Pricing() {
                 </div>
 
                 <p className="text-sm"><a href="/perpetual-fallback-license" className='link'>Perpetual Fallback License</a> that can be used on 2 devices, with 2 years of updates</p>
-
-                <p className="text-xs text-gray-600 mt-2">
-                  The source code for Golden Edition features is proprietary.
-                </p>
 
                 <div className="inline-flex items-center mt-4 bg-gray-200 rounded-full p-1" style={{width: 170}}>
                   <div
@@ -205,6 +209,10 @@ export default function Pricing() {
                   </div>
                 </div>
 
+                <p className="text-xs text-gray-600 mt-2">
+                  The source code for Golden Edition features is proprietary.
+                </p>
+
                 <div>
                   <div className="my-4 flex items-center">
                     {selectedCurrency === 'USD' ? (
@@ -228,11 +236,6 @@ export default function Pricing() {
                 </div>
 
                 <p className="text-sm"><a href="/perpetual-fallback-license" className='link'>Perpetual Fallback License</a> that can be used on 1 device per user with 2 years of updates.</p>
-
-                <p className="text-xs text-gray-600 mt-2">
-                  The source code for Golden Edition features is proprietary.
-                </p>
-
                 <div className="inline-flex mt-4 items-center bg-gray-200 rounded-full p-1" style={{width: 200}}>
                   <div
                     className={`cursor-pointer px-3 flex items-center justify-center rounded-full`}
