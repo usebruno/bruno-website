@@ -17,29 +17,28 @@ export default function Support () {
 
         <section className="bg-white">
           <div className="py-8 max-w-screen-xl lg:pb-16">
-            <div className="max-w-screen-md mb-8 lg:mb-12">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">We're here to help</h2>
+            <div className="max-w-screen-md mb-8">
+              <h2 className="text-4xl tracking-tight font-extrabold text-gray-900">We're here to help</h2>
             </div>
 
             <div className="bg-white py-4 rounded-md">
-              <h2 className="text-lg font-semibold mb-2">Notebase Technologies LLP</h2>
-              <p>LLP ID: AAZ-0774</p>
+              <h2 className="text-lg font-semibold mb-2">Contact Information</h2>
+              <p>You can reach us at - support@usebruno.com</p>
+              <p>Or call us at - +91 9035005521</p>
             </div>
 
-            <div className="mt-4 bg-white py-4 rounded-md">
+            <div className="bg-white py-4 rounded-md">
               <h2 className="text-lg font-semibold mb-2">Address</h2>
-              <p>47, SNIJA Nivas</p>
+              <h2 className="font-medium mb-2">Notebase Technologies LLP</h2>
+              <p className='mt-2'>47, SNIJA Nivas</p>
               <p>13th Cross, Anepalya, Adugodi</p>
               <p>Bangalore - 560030</p>
               <p>Karnataka, India</p>
-            </div>
 
-
-            <div className="mt-4 bg-white py-4 rounded-md">
-              <h2 className="text-lg font-semibold mb-2">Contact Information</h2>
-              <p>You can write out to us at - support@usebruno.com</p>
-              <p>Or call us at - +91 9035005521</p>
-
+              <p className='text-sm text-gray-600 mt-4'>LLP ID: AAZ-0774</p>
+              <p className='text-sm text-gray-600'>GSTIN: 29AATFN4074E1ZU</p>
+              <p className='text-sm text-gray-600'>IEC Code: AATFN4074E</p>
+              <p className='text-sm text-gray-600'>LUT Number: AD290124038597T</p>
             </div>
           </div>
         </section>

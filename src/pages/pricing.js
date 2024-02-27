@@ -265,8 +265,8 @@ export default function Pricing() {
                     ))
                   }
                 </ul>
-                <div className='text-sm mt-4'>
-                  For help with migration and custom requirements, talk to us! <br /> <br />
+                <div className='text-sm mt-4 text-gray-600'>
+                  For help with migration and custom requirements, <a href="/support" className="link">talk to us!</a> <br /> <br />
                   We also help accelerate adoption of Bruno in your organization and offer best practice recommendations.
                 </div>
                 <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4">
