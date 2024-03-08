@@ -102,7 +102,7 @@ export default function BuyGoldenEdition() {
 
           {!purchaseSuccess && !emailReady && (
             <span className='mt-4 inline-block text-sm'>
-              **Note: The payment option is currently not accessible for users located in India. We are working on it.
+              If you are based in India, you can pre-order Golden Edition at <span className='font-medium'>₹899</span> via <a href="https://pages.razorpay.com/pl_NjqiLm62qp7pze/view" className='link'>Razorpay</a>.
             </span>
           )}
 
