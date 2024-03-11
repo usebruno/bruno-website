@@ -91,7 +91,7 @@ const PaypalCheckout = ({ email, onSuccess, onError }) => {
           <span className='mr-1' style={{width: '65px'}}>Product</span>: Golden Edition Individual License
         </div>
         <div className='flex mb-1'>
-          <span className='mr-1' style={{width: '65px'}}>Email</span>: anoop@usebruno.com
+          <span className='mr-1' style={{width: '65px'}}>Email</span>: {{email}}
         </div>
         <div className='flex'>
           <span className='mr-1' style={{width: '65px'}}>Amount</span>: $9
