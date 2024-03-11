@@ -229,7 +229,7 @@ export default function Pricing() {
                     ) :  (
                       <>
                         <div className="my-4 flex items-center">
-                          <span className="text-4xl font-extrabold">₹449</span>
+                          <span className="text-4xl font-extrabold">₹4999</span>
                           <p className='ml-2 mt-2'>/user</p>
                         </div>
                         <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment</p>
