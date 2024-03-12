@@ -1,6 +1,6 @@
 ---
 title: 'welcoming samagata as our founding sponsor'
-date: '12 Jan 2023'
+date: '12 Jan 2024'
 description: 'welcoming samagata as our founding sponsor'
 ---
 Hey everyone !
