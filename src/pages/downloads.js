@@ -266,7 +266,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
               <p className="text-gray-500 mt-2">
                 To install via Chocolatey, run the following command:
               </p>
-              <code  style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">choco install bruno</code>
+              <code style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">choco install bruno</code>
             </div>
 
             <div className="mt-6">
@@ -274,7 +274,15 @@ export default function Downloads({ latestVersion, releaseDate }) {
               <p className="text-gray-500 mt-2">
                 To install via Scoop, run the following commands:
               </p>
-              <code  style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">scoop bucket add extras<br />scoop install bruno</code>
+              <code style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">scoop bucket add extras<br />scoop install bruno</code>
+            </div>
+
+            <div className="mt-6">
+              <h1 className="text-xl font-bold leading-tight w-full">WinGet</h1>
+              <p className="text-gray-500 mt-2">
+                To install via WinGet, run the following command:
+              </p>
+              <code style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">winget install Bruno.Bruno</code>
             </div>
           </TabPanel>
         </Tabs>
