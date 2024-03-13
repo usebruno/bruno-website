@@ -16,12 +16,23 @@ export default function Sponsors() {
         <Navbar />
 
         <section className="bg-white">
-          <div className="py-8 px-4 mx-auto max-w-screen-xl lg:pb-16 lg:px-20">
-            <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Sponsors</h2>
+          <div className="py-8 px-4 mx-auto">
+            <div className="mx-auto mb-8 lg:mb-12">
+              <h2 className="text-4xl tracking-tight font-extrabold text-gray-900">Sponsors</h2>
             </div>
 
-            <div>
+            <h2 className="mt-10 mb-4 text-3xl tracking-tight font-extrabold text-gray-900">Gold Sponsors</h2>
+            <div className='flex mt-10'>
+              <img src="images/sponsors/samagata.png" width="250"/>
+            </div>
+
+            <h2 className="mt-10 pt-4 mb-4 text-3xl tracking-tight font-extrabold text-gray-900">Silver Sponsors</h2>
+            <div className='flex mt-10'>
+              <img src="images/sponsors/commit-company.png" width="100"/>
+            </div>
+
+
+            <div className='mt-20'>
               If you like Bruno and want to support our opensource work, consider sponsoring us via 
               <a
                 href="https://github.com/sponsors/helloanoop"

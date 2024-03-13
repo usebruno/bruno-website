@@ -57,7 +57,7 @@ export default function About() {
               <img
                 src="https://contrib.rocks/image?repo=usebruno/bruno"
                 alt="Contributors"
-                className="cursor-pointer"
+                className="mx-auto my-0 cursor-pointer"
                 onClick={() => window.open("https://github.com/usebruno/bruno/graphs/contributors")}
               />
             </div>

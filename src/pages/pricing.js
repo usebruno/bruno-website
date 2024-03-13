@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import Switch from "react-switch";
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import { IconUser, IconUsers, IconPlus } from "@tabler/icons";
@@ -47,11 +49,17 @@ export default function Pricing() {
 
   const goldenEditonOrganizations = [
     'Centralized License Management',
-    'Intergration with Secret Managers',
+    'Integration with Secret Managers',
     'Private Collection Registry',
     'Request Forms',
     'Priority Support'
   ];
+
+  const [selectedCurrency, setSelectedCurrency] = useState('USD');
+
+  const toggleCurrency = () => {
+    setSelectedCurrency((prevCurrency) => (prevCurrency === 'USD' ? 'INR' : 'USD'));
+  };
 
   return (
     <div className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
@@ -86,7 +94,11 @@ export default function Pricing() {
             <div className="mx-auto lg:flex lg:space-x-12">
               <div className="flex flex-col p-6 mx-auto text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
                 <h3 className="text-2xl font-semibold">Opensource Edition</h3>
-                <div className="flex items-baseline my-8">
+
+                <p className="text-xs text-gray-600 mt-2">
+                  The source code for the opensource edition is released under the MIT License.
+                </p>
+                <div className="flex items-baseline mt-4 mb-6">
                   <span className="mr-2 text-4xl font-extrabold">Free</span>
                 </div>
                 <ul role="list" className="mb-8 space-y-2 text-left" style={{fontSize: '16px'}}>
@@ -97,21 +109,53 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                  <Link href="/downloads" legacyBehavior>
-                    <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get Started</a>
-                  </Link>
+                <p className='text-sm text-gray-600 mb-4'>
+                  All open-source contributors of Bruno will receive a free license for the Golden Edition.
+                </p>
+                <Link href="/downloads" legacyBehavior>
+                  <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get Started</a>
+                </Link>
               </div>
 
               {/* Golden Edition Individuals */}
               <div className="flex flex-col mt-10 lg:mt-0 p-6 mx-auto text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
-                <h3 className="text-2xl font-semibold">Golden Edition</h3>
+                <div className='flex items-center justify-between'>
+                  <h3 className="text-2xl font-semibold">Golden Edition</h3>
+                  <div className='flex items-center'>
+                    <Switch
+                      className="react-switch"
+                      onChange={toggleCurrency}
+                      checked={selectedCurrency === 'INR'}
+                      onColor="#edc494"
+                      onHandleColor="#d97706"
+                      handleDiameter={20}
+                      uncheckedIcon={false}
+                      checkedIcon={false}
+                      boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
+                      activeBoxShadow="0px 0px 1px 2px rgba(0, 0, 0, 0.1)"
+                      height={14}
+                      width={34}
+                    />
+                    <span className="ml-2">
+                      INR
+                    </span>
+                  </div>
+                </div>
+
+                <p className="text-xs text-gray-600 mt-2">
+                  The source code for Golden Edition features is proprietary.
+                </p>
 
                 <div>
                   <div className="my-4 flex items-center">
-                    <span className="text-4xl font-extrabold">$19</span>
-                    <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment *</p>
+                    <span className="text-4xl font-extrabold">
+                      {selectedCurrency === 'USD' ? '$19' : '₹1,699'}
+                    </span>
+                    <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment</p>
                   </div>
                 </div>
+
+                <p className="text-sm"><a href="/perpetual-fallback-license" className='link'>Perpetual Fallback License</a> that can be used on 2 devices, with 2 years of updates</p>
 
                 <div className="inline-flex items-center mt-4 bg-gray-200 rounded-full p-1" style={{width: 170}}>
                   <div
@@ -135,31 +179,67 @@ export default function Pricing() {
                     ))
                   }
                 </ul>
-
-                <p className="text-sm">* Individual licenses are perpetual licenses that can be used on 2 devices, with 2 years of updates</p>
-
                 <a
                   href="/buy-golden-edition"
                   className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4"
                 >
                   Pre Order Now!
                 </a>
-
               </div>
-
 
               {/* Golden Edition Organizations */}
               <div className="flex flex-col mt-10 lg:mt-0 p-6 mx-auto text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full">
-                <h3 className="text-2xl font-semibold">Golden Edition</h3>
-
-                <div>
-                  <div className="my-4 flex items-center">
-                    <span className="text-4xl font-extrabold">$5</span>
-                    <p className='ml-2 mt-2'>/user/month</p>
+              <div className='flex items-center justify-between'>
+                  <h3 className="text-2xl font-semibold">Golden Edition</h3>
+                  <div className='flex items-center'>
+                    <Switch
+                      className="react-switch"
+                      onChange={toggleCurrency}
+                      checked={selectedCurrency === 'INR'}
+                      onColor="#edc494"
+                      onHandleColor="#d97706"
+                      handleDiameter={20}
+                      uncheckedIcon={false}
+                      checkedIcon={false}
+                      boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
+                      activeBoxShadow="0px 0px 1px 2px rgba(0, 0, 0, 0.1)"
+                      height={14}
+                      width={34}
+                    />
+                    <span className="ml-2">
+                      INR
+                    </span>
                   </div>
                 </div>
 
-                <div className="inline-flex items-center mt-4 bg-gray-200 rounded-full p-1" style={{width: 200}}>
+                <p className="text-xs text-gray-600 mt-2">
+                  The source code for Golden Edition features is proprietary.
+                </p>
+
+                <div>
+                  <div className="my-4 flex items-center">
+                    {selectedCurrency === 'USD' ? (
+                      <>
+                        <div className="flex items-center">
+                          <span className="text-4xl font-extrabold">$49</span>
+                          <p className='ml-2 mt-2'>/user</p>
+                        </div>
+                        <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment</p>
+                      </>
+                    ) :  (
+                      <>
+                        <div className="my-4 flex items-center">
+                          <span className="text-4xl font-extrabold">₹4999</span>
+                          <p className='ml-2 mt-2'>/user</p>
+                        </div>
+                        <p className="bg-yellow-200 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">One Time Payment</p>
+                      </>
+                    )}
+                  </div>
+                </div>
+
+                <p className="text-sm"><a href="/perpetual-fallback-license" className='link'>Perpetual Fallback License</a> that can be used on 1 device per user with 2 years of updates.</p>
+                <div className="inline-flex mt-4 items-center bg-gray-200 rounded-full p-1" style={{width: 200}}>
                   <div
                     className={`cursor-pointer px-3 flex items-center justify-center rounded-full`}
                   >
@@ -185,8 +265,8 @@ export default function Pricing() {
                     ))
                   }
                 </ul>
-                <div className='text-sm mt-4'>
-                  For help with migration and custom requirements, talk to us! <br /> <br />
+                <div className='text-sm mt-4 text-gray-600'>
+                  For help with migration and custom requirements, <a href="/support" className="link">talk to us!</a> <br /> <br />
                   We also help accelerate adoption of Bruno in your organization and offer best practice recommendations.
                 </div>
                 <a className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4">
@@ -194,10 +274,6 @@ export default function Pricing() {
                 </a>
               </div>
             </div>
-
-            <p className="text-sm text-gray-600 mt-8">
-              * All open-source contributors of Bruno will receive a free license for the Golden Edition.
-            </p>
           </div>
         </section>
       </main>

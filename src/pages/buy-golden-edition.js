@@ -59,11 +59,11 @@ export default function BuyGoldenEdition() {
           <h2 className="pb-10 text-4xl tracking-tight font-extrabold text-gray-900">Bruno Golden Edition</h2>
 
           <div>
-            You can <strong>Pre-Order</strong> Golden Edition today at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
+            You can <strong>Pre-Order</strong> Golden Edition (Individual License) today at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
           </div>
 
           <div className='mt-4'>
-            We expect Golden Edition to be available by 1st March 2024.<br />
+            We expect Golden Edition to be available by <span className='font-medium'>15th March 2024.</span><br />
             For the feature set, please refer to <a href="/pricing" className='link'>pricing page</a>.
           </div>
 
@@ -102,7 +102,7 @@ export default function BuyGoldenEdition() {
 
           {!purchaseSuccess && !emailReady && (
             <span className='mt-4 inline-block text-sm'>
-              **Note: The payment option is currently not accessible for users located in India. We are working on it.
+              If you are based in India, you can pre-order Golden Edition at <span className='font-medium'>₹899</span> via <a href="https://pages.razorpay.com/pl_NjqiLm62qp7pze/view" className='link'>Razorpay</a>.
             </span>
           )}
 

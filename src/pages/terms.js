@@ -55,7 +55,10 @@ export default function Terms() {
               <p>Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.</p>
               <h1>Subscriptions</h1>
               <h2>Subscription period</h2>
-              <p>The Service or some parts of the Service are available only with a paid Subscription. You will be billed in advance on a recurring and periodic basis (such as daily, weekly, monthly or annually), depending on the type of Subscription plan you select when purchasing the Subscription.</p>
+              <p>
+                The Service or some parts of the Service are available only with a paid Subscription.
+                We have both one-time and recurring subscriptions.
+                For recurring subscription, you will be billed in advance on a recurring and periodic basis (such as daily, weekly, monthly or annually), depending on the type of Subscription plan you select when purchasing the Subscription.</p>
               <p>At the end of each period, Your Subscription will automatically renew under the exact same conditions unless You cancel it or the Company cancels it.</p>
               <h2>Subscription cancellations</h2>
               <p>You may cancel Your Subscription renewal either through Your Account settings page or by contacting the Company.</p>
@@ -67,9 +70,13 @@ export default function Terms() {
               <p>The Company, in its sole discretion and at any time, may modify the Subscription fees. Any Subscription fee change will become effective at the end of the then-current Subscription period.</p>
               <p>The Company will provide You with reasonable prior notice of any change in Subscription fees to give You an opportunity to terminate Your Subscription before such change becomes effective.</p>
               <p>Your continued use of the Service after the Subscription fee change comes into effect constitutes Your agreement to pay the modified Subscription fee amount.</p>
-              <h2>Refunds</h2>
+              <h2>Refund Policy</h2>
               <p>Except when required by law, paid Subscription fees are non-refundable.</p>
               <p>Certain refund requests for Subscriptions may be considered by the Company on a case-by-case basis and granted at the sole discretion of the Company.</p>
+
+              <h2>Shipping and Delivery</h2>
+              <p>Shipping is not applicable for business.</p>
+
               <h2>Free Trial</h2>
               <p>The Company may, at its sole discretion, offer a Subscription with a Free trial for a limited period of time.</p>
               <p>You may be required to enter Your billing information in order to sign up for the Free trial.</p>
