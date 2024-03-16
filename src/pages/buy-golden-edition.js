@@ -63,7 +63,7 @@ export default function BuyGoldenEdition() {
           </div>
 
           <div className='mt-4'>
-            We expect Golden Edition to be available by <span className='font-medium'>15th March 2024.</span><br />
+            We expect Golden Edition to be available by <span className='font-medium'>18th March 2024.</span><br />
             For the feature set, please refer to <a href="/pricing" className='link'>pricing page</a>.
           </div>
 
