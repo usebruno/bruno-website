@@ -12,7 +12,7 @@ body {
 
 :root {
   --color-body-bg: #000;
-  --color-text-link: #1663bb;
+  --color-text-link: red;
   --color-text-blue: #0046b1;
   --color-text-primary: #37352f;
   --color-text-navbar: rgb(117 117 117); 
