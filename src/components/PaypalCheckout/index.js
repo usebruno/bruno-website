@@ -94,7 +94,7 @@ const PaypalCheckout = ({ email, onSuccess, onError }) => {
           <span className='mr-1' style={{width: '65px'}}>Email</span>: {email}
         </div>
         <div className='flex'>
-          <span className='mr-1' style={{width: '65px'}}>Amount</span>: $9
+          <span className='mr-1' style={{width: '65px'}}>Amount</span>: $19
         </div>
       </div>
       <div style={{maxWidth: '300px'}}>

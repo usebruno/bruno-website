@@ -59,7 +59,7 @@ export default function BuyGoldenEdition() {
           <h2 className="pb-10 text-4xl tracking-tight font-extrabold text-gray-900">Bruno Golden Edition</h2>
 
           <div>
-            Golden Edition (Individual License) can now be purchased at <span className="text-yellow-600 text-2xl">$9</span> !
+            Golden Edition (Individual License) can now be purchased at <span className="text-yellow-600 text-2xl">$19</span> !
           </div>
 
           <div className='mt-4'>
