@@ -11,6 +11,10 @@ const CheckIcon = () => {
   return <svg className="flex-shrink-0 w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>;
 };
 
+const CheckIconGray = () => {
+  return <svg className="flex-shrink-0 w-5 h-5 text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>;
+};
+
 const HeartIcon = () => {
   return <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="flex-shrink-0 w-5 h-4 text-yellow-600" viewBox="0 0 16 16">
     <path fillRule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
@@ -38,12 +42,15 @@ export default function Pricing() {
   const goldenEditonIndividuals = [
     'Inbuilt Bru File Explorer',
     'Visual Git (Like Gitlens for Vscode)',
-    'GRPC, Websocket, SocketIO, MQTT',
-    'Load Data from File for Collection Run',
-    'Performance/Load Testing',
     'Developer Tools',
     'OpenAPI Designer',
     'Inbuilt Terminal',
+  ];
+
+  const goldenEditonIndividualsInDevelopment = [
+    'GRPC, Websocket, SocketIO, MQTT',
+    'Load Data from File for Collection Run',
+    'Performance/Load Testing',
     'Custom Themes'
   ];
 
@@ -79,14 +86,6 @@ export default function Pricing() {
               <p className="font-light text-gray-500 text-lg">
                 Majority of our features are free and open source. <br/>
                 We strive to strike a harmonious balance between <a href="https://github.com/usebruno/bruno/discussions/269" target="_blank" rel="noreferrer" className='link'>open-source principles and sustainability.</a>
-              </p>
-            </div>
-            <div className="text-center mb-8">
-              <p className="font-medium text-lg">
-                Golden Edition Pre-Orders available at <span className="font-medium"><span className="line-through">$19</span> <span className="text-yellow-600 text-2xl ">$9</span></span> !
-              </p>
-              <p>
-                <a href="/buy-golden-edition" className="link">Pre Order Now!</a>
               </p>
             </div>
 
@@ -178,12 +177,23 @@ export default function Pricing() {
                       </li>
                     ))
                   }
+
+                  <li className='text-gray-500 text-sm pt-4 pl-8 italic'>Coming Soon</li>
+                  {
+                    goldenEditonIndividualsInDevelopment.map((item, index) => (
+                      <li className="flex items-center space-x-3" key={index}>
+                        <CheckIconGray />
+                        <span>{item}</span>
+                      </li>
+                    ))
+                  }
+
                 </ul>
                 <a
                   href="/buy-golden-edition"
                   className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4"
                 >
-                  Pre Order Now!
+                  Buy Now!
                 </a>
               </div>
 

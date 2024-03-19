@@ -37,10 +37,10 @@ export default function Home() {
                 </div>
                 <div className="ml-3 flex flex-col">
                   <p>
-                    Golden Edition Pre-Orders available at <span className="line-through">$19</span> <span className="text-yellow-600 text-lg ">$9</span> !
+                    Golden Edition now available at <span className="text-yellow-600 text-lg ">$19</span> !
                   </p>
                   <p>
-                    <a href="/buy-golden-edition" className="link">Pre Order Now!</a>
+                    <a href="/pricing" className="link">Buy Now!</a>
                   </p>
                 </div>
               </div>
