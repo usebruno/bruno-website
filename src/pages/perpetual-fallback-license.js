@@ -47,7 +47,7 @@ export default function PerpetualLicense() {
             </div>
             <div className="ml-3 flex flex-col">
               <p>
-                Golden Edition can now be purchased at <span className="text-yellow-600 text-lg ">$9</span> !
+                Golden Edition can now be purchased at <span className="text-yellow-600 text-lg ">$19</span> !
               </p>
               <p>
                 <a href="/buy-golden-edition" className="link">Buy Now!</a>
