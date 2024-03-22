@@ -31,6 +31,13 @@ export default function Sponsors() {
               <img src="images/sponsors/commit-company.png" width="100"/>
             </div>
 
+            <h2 className="mt-10 pt-4 mb-4 text-3xl tracking-tight font-extrabold text-gray-900">Bronze Sponsors</h2>
+            <div className='flex mt-10'>
+              <a href="https://zuplo.link/bruno" rel="noreferrer" target="_blank">
+                <img src="images/sponsors/zuplo.png" width="150"/>
+              </a>
+            </div>
+
 
             <div className='mt-20'>
               If you like Bruno and want to support our opensource work, consider sponsoring us via 
