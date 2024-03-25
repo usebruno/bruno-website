@@ -50,6 +50,8 @@ export default function PerpetualLicense() {
                 Golden Edition can now be purchased at <span className="text-yellow-600 text-lg ">$19</span> !
               </p>
               <p>
+                <a href="https://www.youtube.com/watch?v=R3F6Gu7tG8M" target="_blank" rel="noreferrer" className='link'>Watch demo</a>
+                <span className='ml-2 mr-2'>|</span>
                 <a href="/buy-golden-edition" className="link">Buy Now!</a>
               </p>
             </div>

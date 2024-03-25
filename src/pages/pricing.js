@@ -44,14 +44,14 @@ export default function Pricing() {
     'Visual Git (Like Gitlens for Vscode)',
     'Developer Tools',
     'OpenAPI Designer',
-    'Inbuilt Terminal',
   ];
 
   const goldenEditonIndividualsInDevelopment = [
     'GRPC, Websocket, SocketIO, MQTT',
     'Load Data from File for Collection Run',
     'Performance/Load Testing',
-    'Custom Themes'
+    'Custom Themes',
+    'Inbuilt Terminal'
   ];
 
   const goldenEditonOrganizations = [
@@ -86,6 +86,10 @@ export default function Pricing() {
               <p className="font-light text-gray-500 text-lg">
                 Majority of our features are free and open source. <br/>
                 We strive to strike a harmonious balance between <a href="https://github.com/usebruno/bruno/discussions/269" target="_blank" rel="noreferrer" className='link'>open-source principles and sustainability.</a>
+              </p>
+
+              <p className="font-light text-gray-500 text mt-6">
+                Golden edition is live 🎉🎉 <a href="https://www.youtube.com/watch?v=R3F6Gu7tG8M" target="_blank" rel="noreferrer" className='link'>Watch demo.</a>
               </p>
             </div>
 
