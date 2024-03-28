@@ -66,16 +66,6 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="https://docs.usebruno.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-gray-500"
-                >
-                  Docs
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
                   href="https://github.com/usebruno/bruno/releases"
                   target="_blank"
                   rel="noreferrer"
