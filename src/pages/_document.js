@@ -33,7 +33,6 @@ export default class MyDocument extends Document {
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-          <script async data-uid="9330cfc044" src="https://usebruno.ck.page/9330cfc044/index.js"></script>
           {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS && <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
