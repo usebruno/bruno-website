@@ -30,7 +30,7 @@ export default function CompareBrunoVsPostman() {
           That is postman for you. It saves your collection as a single JSON file. People who don't want to pay postman for version control end up sharing the giant json files with their team via slack/drive/email.
 
           <div className='mt-4'>
-            Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, <a className='link' href="https://docs.usebruno.com/bru-lang-overview.html" target="_blank" rel="noreferrer">Bru</a> to save information about API requests. You can use git or any version control of your choice to collaborate over your API collections.
+            Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, <a className='link' href="https://docs.usebruno.com/bru-lang-overview" target="_blank" rel="noreferrer">Bru</a> to save information about API requests. You can use git or any version control of your choice to collaborate over your API collections.
           </div>
         </div>
 
@@ -99,7 +99,7 @@ export default function CompareBrunoVsPostman() {
           Postman requires you to use some <a className='link' href="https://blog.postman.com/adding-external-libraries-in-postman/" target="_blank" rel="noreferrer">crazy work arounds</a> involving loading from CDN, storing entire library in collection variables to load npm modules.
 
           <div className='mt-4'>
-            With Bruno, you use package.json to install npm modules of your choice. And require them inside your scripts like <a className='link' href="https://docs.usebruno.com/scripting/external-libraries.html" target="_blank" rel="noreferrer">how developers normally would.</a>.
+            With Bruno, you use package.json to install npm modules of your choice. And require them inside your scripts like <a className='link' href="https://docs.usebruno.com/scripting/external-libraries" target="_blank" rel="noreferrer">how developers normally would.</a>.
           </div>
         </div>
 
@@ -110,7 +110,7 @@ export default function CompareBrunoVsPostman() {
           Postman requires you to use scripting to update post response variables.
 
           <div className='mt-4'>
-            Bruno supports declarative scripting to update your post response variables, by using a simple expression. To learn more, please see <a className='link' href="https://docs.usebruno.com/scripting/vars.html" target="_blank" rel="noreferrer">here</a>.
+            Bruno supports declarative scripting to update your post response variables, by using a simple expression. To learn more, please see <a className='link' href="https://docs.usebruno.com/scripting/vars" target="_blank" rel="noreferrer">here</a>.
           </div>
         </div>
 
@@ -121,7 +121,7 @@ export default function CompareBrunoVsPostman() {
           Postman requires you to use scripting to write tests.
 
           <div className='mt-4'>
-            Bruno supports declarative assertions to write tests, by using simple expressions. To learn more, please see <a className='link' href="https://docs.usebruno.com/testing/assertions.html" target="_blank" rel="noreferrer">here</a>.
+            Bruno supports declarative assertions to write tests, by using simple expressions. To learn more, please see <a className='link' href="https://docs.usebruno.com/testing/assertions" target="_blank" rel="noreferrer">here</a>.
           </div>
         </div>
 
