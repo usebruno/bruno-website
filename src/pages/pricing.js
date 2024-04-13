@@ -51,12 +51,12 @@ export default function Pricing() {
     'Load Data from File for Collection Run',
     'Performance/Load Testing',
     'Custom Themes',
-    '3rd Party Extensions',
     'Inbuilt Terminal'
   ];
 
   const goldenEditonOrganizations = [
     'Centralized License Management',
+    '3rd Party Extensions',
     'Request Forms',
     'Priority Support'
   ];
