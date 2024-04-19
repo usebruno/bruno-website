@@ -22,9 +22,15 @@ export default function Support () {
             </div>
 
             <div className="bg-white py-4 rounded-md">
-              <h2 className="text-lg font-semibold mb-2">Contact Information</h2>
-              <p>You can reach us at - support@usebruno.com</p>
-              <p>Or call us at - +91 9035005521</p>
+              <h2 className="text-lg font-semibold mb-4">Contact Information</h2>
+
+              <h2 className="text-lg font-semibold mb-2">Support</h2>
+              <p>For product support and issues, please reach us at - support@usebruno.com</p>
+
+              <h2 className="text-lg font-semibold mt-2 mb-2">Sales</h2>
+              <p>For sales enquiries, please reach us at - sales@usebruno.com</p>
+
+              <p className='mt-2'>You can also contact us on phone at - +91 9035005521</p>
             </div>
 
             <div className="bg-white py-4 rounded-md">
