@@ -42,13 +42,13 @@ export default function Pricing() {
   const goldenEditonIndividuals = [
     'Inbuilt Bru File Explorer',
     'Visual Git (Like Gitlens for Vscode)',
+    'Load Data from File for Collection Run',
     'Developer Tools',
     'OpenAPI Designer',
   ];
 
   const goldenEditonIndividualsInDevelopment = [
     'GRPC, Websocket, SocketIO, MQTT',
-    'Load Data from File for Collection Run',
     'Performance/Load Testing',
     'Custom Themes',
     'Inbuilt Terminal'
