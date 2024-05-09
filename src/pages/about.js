@@ -138,5 +138,4 @@ function Team({people = []}) {
                 </ul>
             </div>
         </div>
-    )
 }
