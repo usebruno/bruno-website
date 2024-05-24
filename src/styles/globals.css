@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 html,
 body {
@@ -9,23 +9,57 @@ body {
   font-family: Inter, sans-serif;
 }
 
-
 :root {
   --color-body-bg: #fff;
   --color-text-link: #1663bb;
   --color-text-blue: #0046b1;
   --color-text-primary: #37352f;
-  --color-text-navbar: rgb(117 117 117); 
+  --color-text-navbar: rgb(117 117 117);
   --color-modal-header: rgb(74, 74, 74);
   --color-bg-primary: #ffffff;
   --color-state-hover-secondary-bg: #f6f8fa;
   --color-menu-heading-text: #24292e;
-  --color-menu-border-active: #3D8B00;
+  --color-menu-border-active: #3d8b00;
   --color-border-primary: #e1e4e8;
   --color-border-secondary: #eaecef;
 }
 
-
 * {
   box-sizing: border-box;
+}
+
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0, #ff9a9e, #fecfef);
+  background-size: 200% 200%;
+  animation: gradient 10s infinite;
+  position: relative;
+  border-radius: 9999px;
+}
+
+.gradient-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("https://grainy-gradients.vercel.app/gradient.svg");
+  opacity: 0.5;
+  pointer-events: none;
+  border-radius: 9999px;
+}
+
+.bg-grainy-gradient {
+  background: linear-gradient(to right, #ff5500, transparent),
+    url(https://grainy-gradients.vercel.app/gradient.svg);
 }
