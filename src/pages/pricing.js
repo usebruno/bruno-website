@@ -460,12 +460,11 @@ const GoldenEditionOrganizationsCard = ({
           ))}
         </ul>
       </div>
-      <a
-        href="/buy-golden-edition"
-        className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium !rounded-sm text-sm px-5 py-2.5 text-center mt-4"
-      >
-        Buy Now!
-      </a>
+      <Link href="/support" legacyBehavior>
+        <a className="text-white bg-yellow-600 hover:bg-yellow-700 !rounded-sm text-sm px-5 py-2.5 text-center mt-4 font-medium">
+          Contact Us
+        </a>
+      </Link>
     </div>
   );
 };
