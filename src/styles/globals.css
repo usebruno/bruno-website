@@ -39,7 +39,13 @@ body {
 }
 
 .gradient-bg {
-  background: linear-gradient(135deg, #ffafbd, #ffc3a0, #ff9a9e, #fecfef);
+  background: linear-gradient(
+    135deg,
+    #ffafbd,
+    rgb(202, 138, 4),
+    #ff9a9e,
+    rgba(202, 138, 4, 0.9)
+  );
   background-size: 200% 200%;
   animation: gradient 10s infinite;
   position: relative;

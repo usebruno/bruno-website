@@ -283,7 +283,7 @@ const GoldenEditionIndividualsCard = ({ selectedCurrency, toggleCurrency }) => {
           <a href="/perpetual-fallback-license" className="link">
             Perpetual License for 2 machines.
           </a>{" "}
-          1 year of updates.
+          2 years of updates.
         </p>
 
         <div className="inline-flex items-center mt-4 bg-gray-100 rounded-full p-1 w-fit border border-slate-500">
@@ -332,7 +332,7 @@ const GoldenEditionIndividualsCard = ({ selectedCurrency, toggleCurrency }) => {
       </div>
       <a
         href="/buy-golden-edition"
-        className="gradient-bg hover:bg-yellow-700 font-medium !rounded-sm text-sm px-5 py-2.5 text-center mt-4"
+        className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium !rounded-sm text-sm px-5 py-2.5 text-center mt-4"
       >
         Buy Now!
       </a>
@@ -407,7 +407,7 @@ const GoldenEditionOrganizationsCard = ({
           <a href="/perpetual-fallback-license" className="link">
             Perpetual License for 2 machines.
           </a>{" "}
-          1 year of updates.
+          2 years of updates.
         </p>
 
         <div className="inline-flex items-center mt-4 bg-gray-100 rounded-full p-1 w-fit border border-slate-500">
@@ -462,7 +462,7 @@ const GoldenEditionOrganizationsCard = ({
       </div>
       <a
         href="/buy-golden-edition"
-        className="gradient-bg hover:bg-yellow-700 font-medium !rounded-sm text-sm px-5 py-2.5 text-center mt-4"
+        className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium !rounded-sm text-sm px-5 py-2.5 text-center mt-4"
       >
         Buy Now!
       </a>
@@ -474,14 +474,19 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
   const ultimateEdition = [
     "Self-hosted Licensing server",
     "3rd party Extensions",
-    "Request Forms",
-    "Test Reports",
     "Priority Support w/ SLA",
     "Transact via Purchase Order",
     "Integrate with Secret Managers",
   ];
 
-  const ultimateEditionInDevelopment = ["SSO", "RBAC", "Analytics Suite"];
+  const ultimateEditionInDevelopment = [
+    "Collection Registry",
+    "Request Forms",
+    "Test Reports",
+    "SSO",
+    "RBAC",
+    "Analytics Suite",
+  ];
   return (
     <div className="flex flex-col mt-10 lg:mt-0 p-6 text-gray-900 rounded-sm space-between w-full border border-slate-200">
       <div className="flex flex-col h-[100%]">
@@ -516,9 +521,6 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
               {selectedCurrency === "USD" ? "$99" : "₹8,299"}
             </span>
             <p className="px-2 mt-2">/user</p>
-            <p className="bg-yellow-100 border border-yellow-500 text-yellow-900 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">
-              One Time Payment
-            </p>
           </div>
         </div>
 
@@ -576,7 +578,7 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
         </div>
       </div>
       <Link href="/support" legacyBehavior>
-        <a className="gradient-bg hover:bg-yellow-700 !rounded-sm text-sm px-5 py-2.5 text-center mt-4 font-medium">
+        <a className="text-white bg-yellow-600 hover:bg-yellow-700 !rounded-sm text-sm px-5 py-2.5 text-center mt-4 font-medium">
           Contact Us
         </a>
       </Link>
