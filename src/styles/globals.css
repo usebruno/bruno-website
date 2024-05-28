@@ -41,31 +41,11 @@ body {
 .gradient-bg {
   background: linear-gradient(
     135deg,
-    #ffafbd,
-    rgb(202, 138, 4),
-    #ff9a9e,
-    rgba(202, 138, 4, 0.9)
+    rgb(202, 138, 4, 0.8),
+    rgb(202, 138, 4, 0.5)
   );
   background-size: 200% 200%;
   animation: gradient 10s infinite;
   position: relative;
   border-radius: 9999px;
-}
-
-.gradient-bg::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url("https://grainy-gradients.vercel.app/gradient.svg");
-  opacity: 0.5;
-  pointer-events: none;
-  border-radius: 9999px;
-}
-
-.bg-grainy-gradient {
-  background: linear-gradient(to right, #ff5500, transparent),
-    url(https://grainy-gradients.vercel.app/gradient.svg);
 }
