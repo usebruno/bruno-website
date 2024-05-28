@@ -512,7 +512,7 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
         </div>
 
         <p className="text-xs text-gray-600 mt-2">
-          The source code for Golden Edition features is proprietary.
+          The source code for Ultimate Edition features is proprietary.
         </p>
 
         <div>
