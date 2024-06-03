@@ -361,7 +361,7 @@ const GoldenEditionOrganizationsCard = ({
 
   const goldenEditonOrganizations = [
     "Centralized License Management",
-    "Advanced SUpport",
+    "Advanced Support",
   ];
   return (
     <div className="flex flex-col mt-10 lg:mt-0 p-6 text-gray-900 rounded-sm space-between w-full border border-slate-200">
