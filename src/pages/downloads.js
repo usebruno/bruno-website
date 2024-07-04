@@ -14,7 +14,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      latestVersion: '1.20.0',
+      latestVersion: '1.20.1',
       // disabling this for now
       // latestVersion: data.tag_name.replace('v', ''),
       releaseDate: new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(data.created_at)),
