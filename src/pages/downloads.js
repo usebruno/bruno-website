@@ -407,9 +407,9 @@ export default function Downloads({ latestVersion, releaseDate }) {
   };
 
   return (
-    <select className="mx-4 text-sm" onChange={handleSelect} value={selectedVersion}>
+    <select className="mx-4 text-sm " onChange={handleSelect} value={selectedVersion}>
       {versions?.map((v) => (
-        <option value={v}>{v}</option>
+        <option key={v} value={v}>{v}</option>
       ))}
     </select>
   );
