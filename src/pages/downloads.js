@@ -99,6 +99,9 @@ export default function Downloads({ latestVersion, releaseDate }) {
                       Platform
                     </th>
                     <th scope="col" className="py-3 pl-6 pr-10">
+                      Version
+                    </th>
+                    <th scope="col" className="py-3 pl-6 pr-10">
                       Download
                     </th>
                   </tr>
@@ -108,6 +111,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                     <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                       <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac x64</span>
                     </td>
+                    <td className="py-3 pl-6 pr-10">v{selectedVersion}</td>
                     <td className="py-3 pl-6 pr-10">
                     <a href={`https://github.com/usebruno/bruno/releases/download/v${selectedVersion}/bruno_${selectedVersion}_x64_mac.dmg`} target="_blank" rel="noreferrer" className='link'>
                       Download
@@ -119,6 +123,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                     <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                       <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac x64 (Portable)</span>
                     </td>
+                    <td className="py-3 pl-6 pr-10">v{selectedVersion}</td>
                     <td className="py-3 pl-6 pr-10">
                     <a href={`https://github.com/usebruno/bruno/releases/download/v${selectedVersion}/bruno_${selectedVersion}_x64_mac.zip`} target="_blank" rel="noreferrer" className='link'>
                       Download
@@ -130,6 +135,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                     <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                       <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac Apple Silicon</span>
                     </td>
+                    <td className="py-3 pl-6 pr-10">v{selectedVersion}</td>
                     <td className="py-3 pl-6 pr-10">
                     <a href={`https://github.com/usebruno/bruno/releases/download/v${selectedVersion}/bruno_${selectedVersion}_arm64_mac.dmg`} target="_blank" rel="noreferrer" className='link'>
                       Download
@@ -141,6 +147,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                     <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                       <IconBrandApple className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Mac Apple Silicon (Portable)</span>
                     </td>
+                    <td className="py-3 pl-6 pr-10">v{selectedVersion}</td>
                     <td className="py-3 pl-6 pr-10">
                     <a href={`https://github.com/usebruno/bruno/releases/download/v${selectedVersion}/bruno_${selectedVersion}_arm64_mac.zip`} target="_blank" rel="noreferrer" className='link'>
                       Download
@@ -173,6 +180,9 @@ export default function Downloads({ latestVersion, releaseDate }) {
                       Platform
                     </th>
                     <th scope="col" className="py-3 pl-6 pr-10">
+                      Version
+                    </th>
+                    <th scope="col" className="py-3 pl-6 pr-10">
                       Download
                     </th>
                   </tr>
@@ -182,6 +192,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                     <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                       <IconBrandUbuntu className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Ubuntu / Debian</span>
                     </td>
+                    <td className="py-3 pl-6 pr-10">v{selectedVersion}</td>
                     <td className="py-3 pl-6 pr-10">
                     <a href={`https://github.com/usebruno/bruno/releases/download/v${selectedVersion}/bruno_${selectedVersion}_amd64_linux.deb`} target="_blank" rel="noreferrer" className='link'>
                       Download
@@ -193,6 +204,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                     <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                       <IconDeviceDesktop className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Linux AppImage</span>
                     </td>
+                    <td className="py-3 pl-6 pr-10">v{selectedVersion}</td>
                     <td className="py-3 pl-6 pr-10">
                     <a href={`https://github.com/usebruno/bruno/releases/download/v${selectedVersion}/bruno_${selectedVersion}_x86_64_linux.AppImage`} target="_blank" rel="noreferrer" className='link'>
                       Download
@@ -249,6 +261,9 @@ export default function Downloads({ latestVersion, releaseDate }) {
                       Platform
                     </th>
                     <th scope="col" className="py-3 pl-6 pr-10">
+                      Version
+                    </th>
+                    <th scope="col" className="py-3 pl-6 pr-10">
                       Download
                     </th>
                   </tr>
@@ -258,6 +273,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                     <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                       <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64</span>
                     </td>
+                    <td className="py-3 pl-6 pr-10">v{selectedVersion}</td>
                     <td className="py-3 pl-6 pr-10">
                     <a href={`https://github.com/usebruno/bruno/releases/download/v${selectedVersion}/bruno_${selectedVersion}_x64_win.exe`} target="_blank" rel="noreferrer" className='link'>
                       Download
@@ -269,6 +285,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                     <td scope="row" className="py-2 pl-6 pr-10 flex items-center font-medium text-gray-900 whitespace-nowrap">
                       <IconBrandWindows className="text-gray-500" size={24} strokeWidth={2}/><span className="label ml-2">Windows x64 (Portable)</span>
                     </td>
+                    <td className="py-3 pl-6 pr-10">v{selectedVersion}</td>
                     <td className="py-3 pl-6 pr-10">
                     <a href={`https://github.com/usebruno/bruno/releases/download/v${selectedVersion}/bruno_${selectedVersion}_x64_win.zip`} target="_blank" rel="noreferrer" className='link'>
                       Download
