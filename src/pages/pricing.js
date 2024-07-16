@@ -361,7 +361,7 @@ const GoldenEditionOrganizationsCard = ({
 
   const goldenEditonOrganizations = [
     "Centralized License Management",
-    "Advanced SUpport",
+    "Advanced Support",
   ];
   return (
     <div className="flex flex-col mt-10 lg:mt-0 p-6 text-gray-900 rounded-sm space-between w-full border border-slate-200">
@@ -460,12 +460,11 @@ const GoldenEditionOrganizationsCard = ({
           ))}
         </ul>
       </div>
-      <a
-        href="/buy-golden-edition"
-        className="text-white bg-yellow-600 hover:bg-yellow-700 font-medium !rounded-sm text-sm px-5 py-2.5 text-center mt-4"
-      >
-        Buy Now!
-      </a>
+      <Link href="/support" legacyBehavior>
+        <a className="text-white bg-yellow-600 hover:bg-yellow-700 !rounded-sm text-sm px-5 py-2.5 text-center mt-4 font-medium">
+          Contact Us
+        </a>
+      </Link>
     </div>
   );
 };

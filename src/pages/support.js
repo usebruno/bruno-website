@@ -35,10 +35,10 @@ export default function Support () {
 
             <div className="bg-white py-4 rounded-md">
               <h2 className="text-lg font-semibold mb-2">Address</h2>
-              <h2 className="font-medium mb-2">Notebase Technologies LLP</h2>
-              <p className='mt-2'>47, SNIJA Nivas</p>
-              <p>13th Cross, Anepalya, Adugodi</p>
-              <p>Bangalore - 560030</p>
+              <h2 className="font-medium mb-2">Bruno (Notebase Technologies LLP)</h2>
+              <p className='mt-2'>1241, 4th cross, 2nd Block, BDA Layout</p>
+              <p>BTM 4th Stage</p>
+              <p>Bangalore - 560076</p>
               <p>Karnataka, India</p>
 
               <p className='text-sm text-gray-600 mt-4'>LLP ID: AAZ-0774</p>
