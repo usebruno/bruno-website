@@ -304,7 +304,9 @@ export default function Downloads({ latestVersion, releaseDate }) {
       <Footer/>
     </div>
   );
-};const VersionSelector = ({ handleVersionSelect, selectedVersion }) => {
+};
+
+const VersionSelector = ({ handleVersionSelect, selectedVersion }) => {
   const versions = [
     "1.20.4",
     "1.20.3",
