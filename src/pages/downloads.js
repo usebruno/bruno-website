@@ -325,6 +325,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
 
 const VersionSelector = ({ handleVersionSelect, selectedVersion }) => {
   const versions = [
+    "1.21.0",
     "1.20.4",
     "1.20.3",
     "1.20.2",
