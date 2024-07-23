@@ -52,6 +52,16 @@ const Footer = () => {
                   </a>
                 </Link>
               </li>
+              <li className="mb-2">
+                <a
+                  href="https://newsletter.usebruno.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gray-500"
+                >
+                  Newsletter
+                </a>
+              </li>
             </ul>
           </div>
           <div className="w-full md:w-auto md:flex-grow-0 md:flex-shrink-0 text-center md:text-left mt-6 md:mt-0">
