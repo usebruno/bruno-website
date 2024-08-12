@@ -44,6 +44,10 @@ const GlobalStyle = createGlobalStyle`
       overflow-y: hidden;
     }
   }
+  
+  header {
+    background-color: var(--color-body-bg);
+  } 
 
   .font-inter {
     font-family: Inter;
