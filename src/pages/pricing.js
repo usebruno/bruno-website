@@ -471,7 +471,6 @@ const GoldenEditionOrganizationsCard = ({
 
 const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
   const ultimateEdition = [
-    "Self-hosted Licensing server",
     "3rd party Extensions",
     "Priority Support w/ SLA",
     "Transact via Purchase Order",
