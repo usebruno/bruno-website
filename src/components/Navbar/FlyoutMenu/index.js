@@ -71,7 +71,7 @@ const FlyoutMenu = ({ menuTitle, subItems, className, current }) => {
             >
               <div className="shrink rounded-xl bg-white p-2 text-sm font-medium leading-6 shadow-lg ring-1 ring-gray-900/5">
                 {subItems.map((item) => (
-                  <div className="p-1">
+                  <div className="p-1" key={item.name}>
                     <a
                       key={item.name}
                       href={item.href}
