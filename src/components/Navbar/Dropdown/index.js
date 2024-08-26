@@ -29,9 +29,9 @@ const Dropdown = ({ menuTitle, dropdownItems, isSmallSCreen, current }) => {
             />
           </div>
           {dropdownOpen && (
-            <div className="p-2" key={item.name}>
+            <div className="p-2">
               {dropdownItems.map((item) => (
-                <div className="py-2">
+                <div className="py-2" key={item.name}>
                   <Link href={item.href} legacyBehavior className="menu-item">
                     <a
                       target={item.target}
