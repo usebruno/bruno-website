@@ -7,7 +7,8 @@ import Footer from 'components/Footer';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import GlobalStyle from '../globalStyles';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import UAParser from 'ua-parser-js';
 
 export async function getStaticProps() {
   const res = await fetch('https://api.github.com/repos/usebruno/bruno/releases/latest')
@@ -26,6 +27,21 @@ export async function getStaticProps() {
 
 export default function Downloads({ latestVersion, releaseDate }) {
   const [selectedVersion, setSelectedVersion] = useState(latestVersion);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
+  useEffect(() => {
+    const parser = new UAParser();
+    const result = parser.getResult();
+    const osName = result.os.name.toLowerCase();
+
+    if (osName.includes('mac')) {
+      setSelectedIndex(0);
+    } else if (osName.includes('linux')) {
+      setSelectedIndex(1);
+    } else if (osName.includes('windows')) {
+      setSelectedIndex(2);
+    }
+  }, []);
 
   const handleVersionSelect = (v) => {
     setSelectedVersion(v);
@@ -72,7 +88,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
           </div>
         </div>
 
-        <Tabs className="mt-2">
+        <Tabs selectedIndex={selectedIndex} onSelect={index => setSelectedIndex(index)} className="mt-2">
           <TabList className="flex mt-4 space-x-4">
             <Tab className="px-4 py-2 bg-gray-200 flex items-center rounded-md cursor-pointer hover:bg-gray-300">
               <IconBrandApple className="text-gray-500 mr-2 icon" size={24} strokeWidth={2}/>Mac
@@ -166,7 +182,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
               <code  style={{fontSize: 14}} className="bg-gray-100 text-gray-700 rounded px-4 py-2 mt-4 inline-block">brew install bruno</code>
             </div>
           </TabPanel>
-
+          
           <TabPanel>
             <div className="overflow-x-auto relative">
               <h1 className="text-xl font-bold leading-tight w-full flex flex-row items-center">
