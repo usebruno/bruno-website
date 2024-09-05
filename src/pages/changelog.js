@@ -14,7 +14,7 @@ const Changelog = () => {
   const releases = [
     {
       version: "v1.28.0",
-      date: "20 Jul 2024",
+      date: "4 Sep 2024",
       newFeature: [
         "Collection Variables Support",
         "Switch tabs with keyboard shortcut",
@@ -29,7 +29,7 @@ const Changelog = () => {
     },
     {
       version: "v1.27.0",
-      date: "13 Jul 2024",
+      date: "28 Aug 2024",
       newFeature: [
         "Handle decimals and bigints in JSON body without losing fidelity",
         "Store client certificate paths in collection settings as relative to collection",
@@ -42,7 +42,7 @@ const Changelog = () => {
     },
     {
       version: "v1.26.2",
-      date: "06 Jul 2024",
+      date: "26 Aug 2024",
       newFeature: [
         "Added hint for Request Path Variables to improve UX",
         "Support for extracting basic OpenAPI links",
@@ -59,7 +59,7 @@ const Changelog = () => {
     },
     {
       version: "v1.26.1",
-      date: "05 Jul 2024",
+      date: "22 Aug 2024",
       bugfixes: [
         "Fixed issue where getRequestVar() was not working",
       ],
@@ -67,7 +67,7 @@ const Changelog = () => {
     },
     {
       version: "v1.26.0",
-      date: "03 Jul 2024",
+      date: "21 Aug 2024",
       newFeature: [
         "Implemented Safe Mode to run scripts in a secure sandbox",
         "Added ability for cURL to import basic auth",
@@ -83,7 +83,7 @@ const Changelog = () => {
     },
     {
       version: "v1.25.0",
-      date: "27 Jun 2024",
+      date: "14 Aug 2024",
       newFeature: [
         "Added runner delay feature",
         "Added shade to modal header in dark mode",
@@ -99,7 +99,7 @@ const Changelog = () => {
     },
     {
       version: "v1.24.0",
-      date: "20 Jun 2024",
+      date: "8 Aug 2024",
       newFeature: [
         "Added masking support for SingleLineEditor",
         "Implemented show/hide privacy toggle for passwords and secrets in Auth options",
@@ -116,7 +116,7 @@ const Changelog = () => {
     },
     {
       version: "v1.23.1",
-      date: "06 Jul 2024",
+      date: "2 Aug 2024",
       newFeature: [
         "Support for importing open API specs via URL."
       ],
@@ -128,7 +128,7 @@ const Changelog = () => {
     },
     {
       version: "v1.23.0",
-      date: "01 Jul 2024",
+      date: "31 Jul 2024",
       newFeature: [
         "In-app support for git push and pull.",
         "Option to download collection run report.",
