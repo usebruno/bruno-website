@@ -92,6 +92,9 @@ const Navbar = () => {
             <Link href="/changelog" legacyBehavior>
               <a className={getLinkClassName('/changelog', asPath)}>Changelog</a>
             </Link>
+            <Link href="/support" legacyBehavior>
+              <a className={getLinkClassName('/support', asPath)}>Support</a>
+            </Link>
             {/* Temporarily hidden */}
             {/* <div className="menu-item">
               <Dropdown menuTitle="Resources" dropdownItems={resourcesItems} isSmallSCreen={isSmallSCreen} current={asPath} />
