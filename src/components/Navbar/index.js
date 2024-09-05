@@ -5,9 +5,7 @@ import Dropdown from './Dropdown';
 import { useRouter } from 'next/router';
 
 const resourcesItems = [
-  { name: "Documentation", href: "https://docs.usebruno.com", target: "_blank", current: false },
-  { name: "Changelog", href: "/changelog", current: false },
-  // { name: "Roadmap", href: "/manifesto", current: false },
+  { name: "About", href: "/about", current: false },
   { name: "Bru Lang", href: "/bru", current: false },
   { name: "Blog", href: "/blog", current: false },
 ];
@@ -88,15 +86,16 @@ const Navbar = () => {
             <Link href="/pricing" legacyBehavior>
               <a className={getLinkClassName('/pricing', asPath)}>Pricing</a>
             </Link>
-            <Link href="/about" legacyBehavior>
-              <a className={getLinkClassName('/about', asPath)}>About</a>
+            <Link href="https://docs.usebruno.com" legacyBehavior>
+              <a className={getLinkClassName('/docs', asPath)}>Docs</a>
             </Link>
-            <Link href="/support" legacyBehavior>
-              <a className={getLinkClassName('/support', asPath)}>Support</a>
+            <Link href="/changelog" legacyBehavior>
+              <a className={getLinkClassName('/changelog', asPath)}>Changelog</a>
             </Link>
-            <div className="menu-item">
+            {/* Temporarily hidden */}
+            {/* <div className="menu-item">
               <Dropdown menuTitle="Resources" dropdownItems={resourcesItems} isSmallSCreen={isSmallSCreen} current={asPath} />
-            </div>
+            </div> */}
             <a href="" className="menu-item sm:inline-block">
               <iframe
                 src="https://ghbtns.com/github-btn.html?user=usebruno&repo=bruno&type=star&count=true"

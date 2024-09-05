@@ -7,17 +7,119 @@ import { IconGift, IconWand, IconBug, IconBrandGithub } from "@tabler/icons";
 
 const sectionConfig = {
   newFeature: { title: "What's New?", icon: IconGift, iconColor: "text-yellow-600" },
-  imporvements: { title: "Enhancements", icon: IconWand, iconColor: "text-yellow-600" },
   bugfixes: { title: "Bug fixes", icon: IconBug, iconColor: "text-yellow-600" },
-  // Add more sections...
 }
 
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.28.0",
+      date: "2024-07-20",
+      newFeature: [
+        "Collection Variables Support",
+        "Switch tabs with keyboard shortcut",
+        "System proxy mode",
+        "Use cookies during in Runner execution",
+      ],
+      bugfixes: [
+        "Fixed app crash when timeline is open for multipart requests",
+        "Fixed openapi collection import to not add protocol by default",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.28.0",
+    },
+    {
+      version: "v1.27.0",
+      date: "2024-07-13",
+      newFeature: [
+        "Handle decimals and bigints in JSON body without losing fidelity",
+        "Store client certificate paths in collection settings as relative to collection",
+        "Support for adjusting code editor font size",
+      ],
+      bugfixes: [
+        "Fixed issue where Inter font was not loading",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.27.0",
+    },
+    {
+      version: "v1.26.2",
+      date: "2024-07-06",
+      newFeature: [
+        "Added hint for Request Path Variables to improve UX",
+        "Support for extracting basic OpenAPI links",
+        "Add GraphQL in export to Postman collection",
+        "Allow relative paths in markdown in docs",
+        "Add search results count to CodeMirror",
+        "Updated response headers count logic",
+      ],
+      bugfixes: [
+        "Resolved interpolation of multiple interdependent variables",
+        "Improved quickjs vm error handling"
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.26.2",
+    },
+    {
+      version: "v1.26.1",
+      date: "2024-07-05",
+      bugfixes: [
+        "Fixed issue where getRequestVar() was not working",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.26.1",
+    },
+    {
+      version: "v1.26.0",
+      date: "2024-07-03",
+      newFeature: [
+        "Implemented Safe Mode to run scripts in a secure sandbox",
+        "Added ability for cURL to import basic auth",
+        "Added request tab context menu",
+        "Added hotkey to close all tabs",
+        "Content Indicators if request body, script or tests have content",
+      ],
+      bugfixes: [
+        "Fixed collection search validations",
+        "Fixed ENOSPC error handling"
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.26.0",
+    },
+    {
+      version: "v1.25.0",
+      date: "2024-06-27",
+      newFeature: [
+        "Added runner delay feature",
+        "Added shade to modal header in dark mode",
+      ],
+      bugfixes: [
+        "Fixed generate code modal height issue",
+        "Handled ENOSPC error from chokidar",
+        "Added TRACE to OpenAPI allowed methods during import",
+        "Fixed query URL overflowing issue",
+        "Added ability to save response in UTF-8 format"
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.25.0",
+    },
+    {
+      version: "v1.24.0",
+      date: "2024-06-20",
+      newFeature: [
+        "Added masking support for SingleLineEditor",
+        "Implemented show/hide privacy toggle for passwords and secrets in Auth options",
+        "Added comment with keybinding (cmd + /) in JSON payload interface",
+        "Improved UX in Git UI",
+      ],
+      bugfixes: [
+        "Fixed cookie exclusion from request headers when importing from curl",
+        "Resolved distorted window on startup",
+        "Fixed issue where Enter key was not submitting new request form",
+        "Set content-type header during code generation",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.24.0",
+    },
+    {
       version: "v1.23.1",
       date: "6 July 2024",
-      imporvements: ["Support for importing open API specs via URL."],
+      newFeature: [
+        "Support for importing open API specs via URL."
+      ],
       bugfixes: [
         "Resolved issues with import functionality for previously exported collections from Bruno",
         "Git UX improvements and bug fixes.",
@@ -27,38 +129,17 @@ const Changelog = () => {
     {
       version: "v1.23.0",
       date: "2024-07-01",
-      newFeature: ["In-app support for git push and pull.", "Option to download collection run report."],
-      imporvements: [
-        "Download visualized repose as CSV table data.",
-        "Copy visualized table data",
+      newFeature: [
+        "In-app support for git push and pull.",
+        "Option to download collection run report.",
         "Allows bru.setNextRequest() on Test Scripts",
         "Added flow option for sequential flow in scripts",
       ],
       bugfixes: [
-        "Fixed issue in openApi export",
-        "Fixed openapi spec viewer issues when opening API spec",
-        "OAuth 2.0 Grant Type Authorization: invalid_client error",
+        "Fixed openapi spec viewer issues when opening API spec"
       ],
       githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.23.0",
-    },
-    {
-      version: "v1.23.0",
-      date: "2024-07-01",
-      newFeature: ["In-app support for git push and pull.", "Option to download collection run report."],
-      imporvements: [
-        "Download visualized repose as CSV table data.",
-        "Copy visualized table data",
-        "Allows bru.setNextRequest() on Test Scripts",
-        "Added flow option for sequential flow in scripts",
-      ],
-      bugfixes: [
-        "Fixed issue in openApi export",
-        "Fixed openapi spec viewer issues when opening API spec",
-        "OAuth 2.0 Grant Type Authorization: invalid_client error",
-      ],
-      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.23.0",
-    },
-    // Add other releases here...
+    }
   ];
 
   return (
@@ -106,8 +187,9 @@ const Changelog = () => {
                         </p>
                         <div className="mt-2">
                           {sectionData.map((item, idx) => (
-                            <div key={idx} className="text-left text-sm mt-1">
-                              <p>{item}</p>
+                            <div key={idx} className="flex items-start text-left text-sm mt-2">
+                              <span className="text-gray-400 ml-9 mr-2">•</span>
+                              <p className="flex-1">{item}</p>
                             </div>
                           ))}
                         </div>
