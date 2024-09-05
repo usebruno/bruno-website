@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  a {
+  .menu-item {
     margin-left: 1rem;
   }
 
@@ -47,7 +47,7 @@ const Wrapper = styled.div`
       margin-bottom: 0.8rem;
     }
 
-    @media (min-width: 640px) {
+    @media (min-width: 768px) {
       position: relative;
       top: 0;
       align-items: center;
@@ -58,7 +58,7 @@ const Wrapper = styled.div`
       padding-bottom: 0.5rem;
       flex-direction: row;
 
-      a {
+      menu-item {
         margin-bottom: initial;
       }
     }
