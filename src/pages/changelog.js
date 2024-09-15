@@ -3,9 +3,11 @@ import Head from "next/head";
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
 import GlobalStyle from "../globalStyles";
-import { IconGift, IconWand, IconBug, IconBrandGithub } from "@tabler/icons";
+import { IconGift, IconAlertTriangle, IconBug, IconBrandGithub } from "@tabler/icons";
+import ReactMarkdown from 'react-markdown';
 
 const sectionConfig = {
+  breakingChanges: { title: "Breaking Changes", icon: IconAlertTriangle, iconColor: "text-red-600" },
   newFeature: { title: "What's New?", icon: IconGift, iconColor: "text-yellow-600" },
   bugfixes: { title: "Bug fixes", icon: IconBug, iconColor: "text-yellow-600" },
 }
@@ -15,6 +17,9 @@ const Changelog = () => {
     {
       version: "v1.28.0",
       date: "4 Sep 2024",
+      breakingChanges: [
+        "All Request Variables are now treated as strings instead of inferring the data type from the value. See [documentation](https://docs.usebruno.com/get-started/variables/overview) for more information.",
+      ],
       newFeature: [
         "Collection Variables Support",
         "Switch tabs with keyboard shortcut",
@@ -142,6 +147,13 @@ const Changelog = () => {
     }
   ];
 
+  // Custom component for rendering links
+  const CustomLink = ({ href, children }) => (
+    <a href={href} className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  );
+
   return (
     <div className="container flex flex-col root home-page" style={{ fontFamily: 'Inter', maxWidth: '1280px' }}>
       <Head>
@@ -189,7 +201,15 @@ const Changelog = () => {
                           {sectionData.map((item, idx) => (
                             <div key={idx} className="flex items-start text-left text-sm mt-2">
                               <span className="text-gray-400 ml-9 mr-2">•</span>
-                              <p className="flex-1">{item}</p>
+                              <div className="flex-1">
+                                <ReactMarkdown
+                                  components={{
+                                    a: CustomLink
+                                  }}
+                                >
+                                  {item}
+                                </ReactMarkdown>
+                              </div>
                             </div>
                           ))}
                         </div>

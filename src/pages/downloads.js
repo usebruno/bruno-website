@@ -46,6 +46,21 @@ export default function Downloads({ latestVersion, releaseDate }) {
           Downloads
         </h1>
 
+        <div className="mt-4 py-2 px-3 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 max-w-[600px] text-sm">
+          <p>
+            <strong>Note:</strong> With the release of v1.28.0, we've shifted to treating all Request Variables as strings instead of inferring the data type from the value. See{' '}
+            <a 
+              href="https://docs.usebruno.com/get-started/variables/overview" 
+              className="text-blue-600 hover:text-blue-800 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              documentation
+            </a>{' '}
+            for more information.
+          </p>
+        </div>
+
         <div className="mt-4">
           <p className="text-gray-500 text-sm">
             Latest Version: <Link href={`https://github.com/usebruno/bruno/releases/tag/v${latestVersion}`} className='link' target="_blank">{latestVersion}</Link>
