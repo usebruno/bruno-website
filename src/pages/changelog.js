@@ -15,6 +15,23 @@ const sectionConfig = {
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.29.0",
+      date: "17 Sep 2024",
+      newFeature: [
+        "Added CLI support for multiple reporters",
+        "Implemented table resize and reorder functionality",
+        "Added support for GraphQL variables formatting",
+        "Introduced tab key cycling within form inputs",
+      ],
+      bugfixes: [
+        "Fixed issue where invalid JSON body was mistakenly quoted",
+        "Resolved OpenAPI import array body problem",
+        "Fixed cursor jump to start issue in text inputs",
+        "Improved handling of multiple variables in URL without breaking path params",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.29.0",
+    },
+    {
       version: "v1.28.0",
       date: "4 Sep 2024",
       breakingChanges: [
