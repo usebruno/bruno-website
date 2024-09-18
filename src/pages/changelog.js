@@ -15,6 +15,17 @@ const sectionConfig = {
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.29.1",
+      date: "19 Sep 2024",
+      bugfixes: [
+        "Fixed OAuth2 authentication that was broken",
+        "Fixed app crash when primitive values were returned with application/json content-type",
+        "Fixed security vulnerabilities in markdown docs viewer",
+        "Improved how the URL values are transformed in Postman export",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.29.1",
+    },
+    {
       version: "v1.29.0",
       date: "17 Sep 2024",
       newFeature: [
