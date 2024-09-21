@@ -15,6 +15,19 @@ const sectionConfig = {
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.30.0",
+      date: "21 Sep 2024",
+      newFeature: [
+        "Added API key authentication support",
+        "Generate code button in query URL bar"
+      ],
+      bugfixes: [
+        "Fixed accessibility issue in side bar's footer",
+        "Improved response data handling for query result view",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.30.0",
+    },
+    {
       version: "v1.29.1",
       date: "19 Sep 2024",
       bugfixes: [
