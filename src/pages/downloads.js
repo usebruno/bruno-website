@@ -15,7 +15,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      latestVersion: '1.30.0',
+      latestVersion: '1.30.1',
       // disabling this for now
       // latestVersion: data.tag_name.replace('v', ''),
       releaseDate: new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(data.created_at)),
@@ -340,6 +340,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
 
 const VersionSelector = ({ handleVersionSelect, selectedVersion }) => {
   const versions = [
+    "1.30.1",
     "1.30.0",
     "1.29.1",
     "1.29.0",
