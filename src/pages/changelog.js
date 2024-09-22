@@ -15,6 +15,14 @@ const sectionConfig = {
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.30.1",
+      date: "22 Sep 2024",
+      bugfixes: [
+        "Fixed broken postman import",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.30.1",
+    },
+    {
       version: "v1.30.0",
       date: "21 Sep 2024",
       newFeature: [
