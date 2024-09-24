@@ -29,8 +29,6 @@ export default function Support () {
 
               <h2 className="text-lg font-semibold mt-2 mb-2">Sales</h2>
               <p>For sales enquiries, please reach us at - sales@usebruno.com</p>
-
-              <p className='mt-2'>You can also contact us on phone at - +91 9035005521</p>
             </div>
 
             <div className="bg-white py-4 rounded-md">
