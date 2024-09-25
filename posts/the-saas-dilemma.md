@@ -20,7 +20,7 @@ I was excited to challenge the status quo and revolutionize the decade long norm
 
 Since our launch six months ago, Bruno has attracted over 1000 users, and over 300 stars on our github repo. The feedback and support has been exhilarating. 
 
-I am reminded of a quote from the movie The Big Short by Micheal Burry. The subtlety here is that he uses the word **when** and not **if**
+I am reminded of a quote from the movie The Big Short by Michael Burry. The subtlety here is that he uses the word **when** and not **if**
 
 > "when" the bonds fail, I want to be certain of payment incase of insolvency issues with your bank.
 
