@@ -15,6 +15,24 @@ const sectionConfig = {
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.31.0",
+      date: "30 Sep 2024",
+      breakingChanges: [
+        "API req.getBody() returns a plain object instead of FormData instance for multipart/form-data requests"
+      ],
+      newFeature: [
+        "Interpolate variables in multipart form data",
+        "Added support for WSSE authentication",
+        "Implemented code generation support for GraphQL",
+      ],
+      bugfixes: [
+        "Resolved application/xml import issue for Insomnia",
+        "Resolved issue related to URL construction in Postman collection export",
+        "Resolved the issue where renaming a request with only a case-sensitive name change was not properly reflected.",
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.31.0",
+    },
+    {
       version: "v1.30.1",
       date: "22 Sep 2024",
       bugfixes: [
