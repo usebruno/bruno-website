@@ -15,6 +15,20 @@ const sectionConfig = {
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.32.0",
+      date: "1 Oct 2024",
+      newFeature: [
+        "Remember last selected environment",
+        "Added Keybindings tab in Preferences"
+      ],
+      bugfixes: [
+        "Fixed interpolation of form-urlencoded and multipart formdata values",
+        "Resolved cursor jump issue in Query Params",
+        "Removed glow outline around folded JSON in response view"
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.32.0",
+    },
+    {
       version: "v1.31.0",
       date: "30 Sep 2024",
       breakingChanges: [
