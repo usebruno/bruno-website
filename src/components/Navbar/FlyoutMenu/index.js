@@ -1,5 +1,5 @@
-import { useRef, useState, useEffect } from "react";
-import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
+import { useRef, useState, useEffect } from 'react';
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react';
 
 const FlyoutMenu = ({ menuTitle, subItems, className, current }) => {
   let timeout;
@@ -20,8 +20,8 @@ const FlyoutMenu = ({ menuTitle, subItems, className, current }) => {
 
   const onHover = (open, action) => {
     if (
-      (!open && !openState && action === "onMouseEnter") ||
-      (open && openState && action === "onMouseLeave")
+      (!open && !openState && action === 'onMouseEnter') ||
+      (open && openState && action === 'onMouseLeave')
     ) {
       clearTimeout(timeout);
       timeout = setTimeout(() => toggleMenu(open), timeoutDuration);
@@ -40,9 +40,9 @@ const FlyoutMenu = ({ menuTitle, subItems, className, current }) => {
   };
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
 
@@ -51,21 +51,21 @@ const FlyoutMenu = ({ menuTitle, subItems, className, current }) => {
       <Popover className="relative">
         {({ open }) => (
           <div
-            onMouseEnter={() => onHover(open, "onMouseEnter")}
-            onMouseLeave={() => onHover(open, "onMouseLeave")}
+            onMouseEnter={() => onHover(open, 'onMouseEnter')}
+            onMouseLeave={() => onHover(open, 'onMouseLeave')}
             className="flex flex-col"
           >
             <PopoverButton
               ref={buttonRef}
-              className={getClassNames("hover:outline-none focus:outline-none")}
-              style={{ marginBottom: "0.8rem" }}
+              className={getClassNames('hover:outline-none focus:outline-none')}
+              style={{ marginBottom: '0.8rem' }}
             >
               <span>{menuTitle}</span>
             </PopoverButton>
             <PopoverPanel
               ref={panelRef}
               onMouseEnter={() => clearTimeout(timeout)}
-              onMouseLeave={() => onHover(open, "onMouseLeave")}
+              onMouseLeave={() => onHover(open, 'onMouseLeave')}
               transition
               className="absolute left-1/2 z-10 mt-8 flex w-screen max-w-min -translate-x-1/2 px-4 transition data-[closed]:translate-y-1 data-[closed]:opacity-0"
             >
@@ -75,7 +75,7 @@ const FlyoutMenu = ({ menuTitle, subItems, className, current }) => {
                     <a
                       key={item.name}
                       href={item.href}
-                      target={item?.target || "_self"}
+                      target={item?.target || '_self'}
                       className={`${current === item.href ? 'border-yellow-600 text-yellow-600' : ''} inline-block hover:text-yellow-600`}
                     >
                       {item.name}

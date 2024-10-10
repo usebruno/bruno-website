@@ -10,13 +10,11 @@ We're happy to announce that the **Version 1.0.0** is finally here! 🎉
 
 In the post, we'd like to share what V1 means for Bruno, some of the highlights of the journey so far, and what's next.
 
-
 ## Version 1.0.0
 
 We actually wanted to get a [lot of things](https://github.com/usebruno/bruno/discussions/384) done before we release V1. But the community [felt that](https://github.com/usebruno/bruno/issues/643#issuecomment-1766707137) we are already there, and that a lot of people and teams are already using Bruno in production.
 
 This made sense to us. V1 does not mean that we have all the bells and whistles. It's more of a message that we are ready for production use. We have a stable API, we have a stable CLI, and we have a stable UI. We have a lot of features, and we have a lot of things to improve. But we are ready for production use.
-
 
 ## Beginnings
 
@@ -29,7 +27,6 @@ The project got visibility and it has been a wild ride since then.
 I wrote about the [early days and struggles here](https://github.com/usebruno/bruno/discussions/269)
 
 You can also read about the origins of the git nature of Bruno [here](/blog/the-saas-dilemma).
-
 
 ## Github Stars
 
@@ -51,13 +48,13 @@ Bruno's community has experienced remarkable growth, seemingly out of nowhere. I
 
 And there are still over **50 pull requests** waiting to be [merged](https://github.com/usebruno/bruno/pulls).
 
-This rapid pace of growth is also a testament to the quality and robustness of our codebase, which allowed us to readily accept these contributions and scale up with confidence. 
+This rapid pace of growth is also a testament to the quality and robustness of our codebase, which allowed us to readily accept these contributions and scale up with confidence.
 
 We can't thank enough 💛 to all the people who contributed to Bruno and helped us get here.
 
 ## Reaction
 
-It has been exhilarating to see the reaction of the community. We are not an alternative, but a new way of working with API Collections. We are re-inventing the Api Client. 
+It has been exhilarating to see the reaction of the community. We are not an alternative, but a new way of working with API Collections. We are re-inventing the Api Client.
 
 You can check out the testimonials on our landing page. If you'd like to share your experience with Bruno, please [write here](https://github.com/usebruno/bruno/discussions/343)
 
@@ -86,21 +83,19 @@ Here is Bruno. The prince who will be fetching your Api's.
 
 I have been documenting the journey of Bruno [publicly here](https://github.com/usebruno/bruno/discussions/269). You can checkout our [roadmap](https://github.com/usebruno/bruno/discussions/384)
 
-Our mission is to 
+Our mission is to
 
-* Build the most simple, beautiful, and powerful API client that developers love.
-* And uphold these principles
-  * 👩‍💻 Opensource - build collaboratively, code released under MIT license
-  * 🔒 Privacy - Collections are stored locally
-  * 🕊️ Freedom - Free to use and modify.
-  * 🤝 Community - Foster a thriving community of contributors and users
-  * 📜 Transparency - Document the journey openly and engage in public discussions
-  * 🤑 Sustainability and Incentives - Generate income along the way
+- Build the most simple, beautiful, and powerful API client that developers love.
+- And uphold these principles
+  - 👩‍💻 Opensource - build collaboratively, code released under MIT license
+  - 🔒 Privacy - Collections are stored locally
+  - 🕊️ Freedom - Free to use and modify.
+  - 🤝 Community - Foster a thriving community of contributors and users
+  - 📜 Transparency - Document the journey openly and engage in public discussions
+  - 🤑 Sustainability and Incentives - Generate income along the way
 
 As far as how we build a sustainable business, we are still in the process of figuring out a right balance that works for the community, the contributors and the creator. We are exploring a few options. We are also open to ideas and suggestions. If you have any ideas, please [share here](https://github.com/usebruno/bruno/discussions/384).
 
 We are here for the long run. We want to give developers what they have always wanted. A beautiful curl UI.
 
 Godspeed 🖖 🐶 💛
-
-

@@ -6,12 +6,15 @@ import StyledWrapper from './StyledWrapper';
 
 export default function Layout({ title, keywords, description, children }) {
   return (
-    <StyledWrapper className="container flex flex-col root home-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
+    <StyledWrapper
+      className="container flex flex-col root home-page"
+      style={{ fontFamily: 'Inter', maxWidth: '1280px' }}
+    >
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name='keywords' content={keywords} />
-        <meta name='description' content={description} />
+        <meta name="keywords" content={keywords} />
+        <meta name="description" content={description} />
       </Head>
       <GlobalStyle />
 
@@ -19,7 +22,7 @@ export default function Layout({ title, keywords, description, children }) {
         <Navbar />
         <div className="page page-blog">{children}</div>
       </main>
-      <Footer/>
+      <Footer />
     </StyledWrapper>
   );
-};
+}

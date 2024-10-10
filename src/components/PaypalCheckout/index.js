@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { PayPalButtons } from "@paypal/react-paypal-js";
+import { useState } from 'react';
+import { PayPalButtons } from '@paypal/react-paypal-js';
 import getConfig from 'next/config';
 import { IconRefresh } from '@tabler/icons';
 
@@ -12,12 +12,12 @@ const PaypalCheckout = ({ email, onSuccess, onError }) => {
     try {
       setLoading(true);
       const response = await fetch(publicRuntimeConfig.PAYPAL_ORDERS_API, {
-        method: "POST",
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          email
+          email,
         }),
       });
 
@@ -44,12 +44,15 @@ const PaypalCheckout = ({ email, onSuccess, onError }) => {
   const handleApproveOrder = async (data, actions) => {
     try {
       setLoading(true);
-      const response = await fetch(`${publicRuntimeConfig.PAYPAL_ORDERS_API}/${data.orderID}/capture`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        `${publicRuntimeConfig.PAYPAL_ORDERS_API}/${data.orderID}/capture`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
         },
-      });
+      );
 
       const orderData = await response.json();
       setLoading(false);
@@ -60,15 +63,13 @@ const PaypalCheckout = ({ email, onSuccess, onError }) => {
 
       const errorDetail = orderData?.details?.[0];
 
-      if (errorDetail?.issue === "INSTRUMENT_DECLINED") {
+      if (errorDetail?.issue === 'INSTRUMENT_DECLINED') {
         // (1) Recoverable INSTRUMENT_DECLINED -> call actions.restart()
         // recoverable state, per https://developer.paypal.com/docs/checkout/standard/customize/handle-funding-failures/
         return actions.restart();
       } else if (errorDetail) {
         // (2) Other non-recoverable errors -> Show a failure message
-        throw new Error(
-          `${errorDetail.description} (${orderData.debug_id})`,
-        );
+        throw new Error(`${errorDetail.description} (${orderData.debug_id})`);
       } else {
         // (3) Successful transaction -> Show confirmation or thank you message
         // Or go to another URL:  actions.redirect('thank_you.html');
@@ -87,21 +88,30 @@ const PaypalCheckout = ({ email, onSuccess, onError }) => {
         {loading && <IconRefresh size={18} className="loading-icon" />}
       </div>
       <div className="mt-2 mb-4">
-        <div className='flex mb-1'>
-          <span className='mr-1' style={{width: '65px'}}>Product</span>: Golden Edition Individual License
+        <div className="flex mb-1">
+          <span className="mr-1" style={{ width: '65px' }}>
+            Product
+          </span>
+          : Golden Edition Individual License
         </div>
-        <div className='flex mb-1'>
-          <span className='mr-1' style={{width: '65px'}}>Email</span>: {email}
+        <div className="flex mb-1">
+          <span className="mr-1" style={{ width: '65px' }}>
+            Email
+          </span>
+          : {email}
         </div>
-        <div className='flex'>
-          <span className='mr-1' style={{width: '65px'}}>Amount</span>: $19
+        <div className="flex">
+          <span className="mr-1" style={{ width: '65px' }}>
+            Amount
+          </span>
+          : $19
         </div>
       </div>
-      <div style={{maxWidth: '300px'}}>
+      <div style={{ maxWidth: '300px' }}>
         <PayPalButtons
           style={{
-            shape: "rect",
-            layout: "vertical",
+            shape: 'rect',
+            layout: 'vertical',
           }}
           createOrder={handleCreateOrder}
           onApprove={handleApproveOrder}

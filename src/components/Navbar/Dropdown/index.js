@@ -9,10 +9,15 @@ const Dropdown = ({ menuTitle, dropdownItems, isSmallSCreen, current }) => {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
-  if(!isSmallSCreen) {
+  if (!isSmallSCreen) {
     return (
       <div>
-        <FlyoutMenu className="font-medium mr-3 hover:text-yellow-600" menuTitle={menuTitle} subItems={dropdownItems} current={current} />
+        <FlyoutMenu
+          className="font-medium mr-3 hover:text-yellow-600"
+          menuTitle={menuTitle}
+          subItems={dropdownItems}
+          current={current}
+        />
       </div>
     );
   }
@@ -20,7 +25,10 @@ const Dropdown = ({ menuTitle, dropdownItems, isSmallSCreen, current }) => {
   return (
     <div>
       {isSmallSCreen && (
-        <div className="cursor-pointer mb-4 hover:none" onClick={toggleDropdown}>
+        <div
+          className="cursor-pointer mb-4 hover:none"
+          onClick={toggleDropdown}
+        >
           <div className="flex items-center">
             <span>{menuTitle}</span>
             <IconChevronRight
@@ -48,7 +56,7 @@ const Dropdown = ({ menuTitle, dropdownItems, isSmallSCreen, current }) => {
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
 export default Dropdown;

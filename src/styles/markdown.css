@@ -63,7 +63,7 @@
 .markdown blockquote {
   @apply p-2;
   margin-bottom: 0.75rem;
-  border-left: 4px solid #DDD;
+  border-left: 4px solid #ddd;
   color: #777;
 }
 .markdown blockquote > p {
@@ -80,7 +80,7 @@
   background-color: #f7f7f7;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 14px;
   line-height: 1.4;
   overflow-x: auto;

@@ -6,7 +6,7 @@ import { createGlobalStyle } from 'styled-components';
  * - Small devices (landscape phones, 640px and up)
  * - Medium devices (tablets, 768px and up)
  */
- 
+
 const GlobalStyle = createGlobalStyle`
   @keyframes rotateClockwise {
     0% {
@@ -152,5 +152,5 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 `;
- 
+
 export default GlobalStyle;

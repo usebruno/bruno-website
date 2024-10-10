@@ -21,11 +21,11 @@ const Wrapper = styled.div`
   }
 
   .openemoji-attribution {
-    font-size: .75rem !important;
+    font-size: 0.75rem !important;
     color: #7e7e7e;
 
     a {
-      font-size: .75rem !important;
+      font-size: 0.75rem !important;
       color: #7e7e7e;
     }
   }
