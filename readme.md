@@ -17,6 +17,12 @@ npm run dev
 npm run build
 ```
 
+### Formating
+```bash
+# Format all documents
+
+npx prettier --write .
+
 ### License
 
 [MIT](LICENSE)
