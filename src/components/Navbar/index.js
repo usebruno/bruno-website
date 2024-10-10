@@ -41,7 +41,7 @@ const Navbar = () => {
   };
 
   return (
-    <StyledWrapper className="w-full site-navbar sticky top-0 z-10">
+    <StyledWrapper className="w-full site-navbar sticky top-0 z-20">
       <div>
         <header className="flex items-center justify-between py-4">
           <div>
