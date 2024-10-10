@@ -3,6 +3,7 @@ title: 'welcoming samagata as our founding sponsor'
 date: '12 Jan 2024'
 description: 'welcoming samagata as our founding sponsor'
 ---
+
 Hey everyone !
 
 I am so happy to share that we have received a grant of Rs 5 lakhs (USD 6000) from Samagata Foundation 💛

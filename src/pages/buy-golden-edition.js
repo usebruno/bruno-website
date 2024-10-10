@@ -6,15 +6,25 @@ import PaypalCheckout from 'components/PaypalCheckout';
 import GlobalStyle from '../globalStyles';
 
 const HeartIcon = () => {
-  return <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="flex-shrink-0 w-5 h-4 text-yellow-600" viewBox="0 0 16 16">
-    <path fillRule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-  </svg>;
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      className="flex-shrink-0 w-5 h-4 text-yellow-600"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fillRule="evenodd"
+        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+      />
+    </svg>
+  );
 };
 
 const validateEmail = (input) => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(input);
-}
+};
 
 export default function BuyGoldenEdition() {
   const [email, setEmail] = useState('');
@@ -42,7 +52,10 @@ export default function BuyGoldenEdition() {
   };
 
   return (
-    <div className="container flex flex-col root buy-golden-edition-page" style={{fontFamily: 'Inter', maxWidth: '1280px'}}>
+    <div
+      className="container flex flex-col root buy-golden-edition-page"
+      style={{ fontFamily: 'Inter', maxWidth: '1280px' }}
+    >
       <Head>
         <title>Buy Golden Edition</title>
         <link rel="icon" href="/favicon.ico" />
@@ -53,26 +66,37 @@ export default function BuyGoldenEdition() {
         <Navbar />
 
         <section className="bg-white pb-10">
-          <div className='flex'>
-            <Bruno width={100}/>
+          <div className="flex">
+            <Bruno width={100} />
           </div>
-          <h2 className="pb-10 text-4xl tracking-tight font-extrabold text-gray-900">Bruno Golden Edition</h2>
+          <h2 className="pb-10 text-4xl tracking-tight font-extrabold text-gray-900">
+            Bruno Golden Edition
+          </h2>
 
           <div>
-            Golden Edition (Individual License) can now be purchased at <span className="text-yellow-600 text-2xl">$19</span> !
+            Golden Edition (Individual License) can now be purchased at{' '}
+            <span className="text-yellow-600 text-2xl">$19</span> !
           </div>
 
-          <div className='mt-4'>
-            For the feature set, please refer to <a href="/pricing" className='link'>pricing page</a>.
+          <div className="mt-4">
+            For the feature set, please refer to{' '}
+            <a href="/pricing" className="link">
+              pricing page
+            </a>
+            .
           </div>
 
-          <div className='mt-4 flex items-center'>
-            <span className='mr-2'>Thank you for your support! </span><HeartIcon />
+          <div className="mt-4 flex items-center">
+            <span className="mr-2">Thank you for your support! </span>
+            <HeartIcon />
           </div>
 
           {!purchaseSuccess && !emailReady && (
-            <div className='flex flex-col' style={{width: '250px'}}>
-              <label htmlFor="email" className="block mt-8 font-medium text-gray-700">
+            <div className="flex flex-col" style={{ width: '250px' }}>
+              <label
+                htmlFor="email"
+                className="block mt-8 font-medium text-gray-700"
+              >
                 Your Email Address
               </label>
               <input
@@ -82,9 +106,11 @@ export default function BuyGoldenEdition() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
-              {emailError && <span className="text-red-500 text-sm">
-                Please enter a valid email address.
-              </span>}
+              {emailError && (
+                <span className="text-red-500 text-sm">
+                  Please enter a valid email address.
+                </span>
+              )}
               <button
                 className="
                   text-white bg-yellow-600 hover:bg-yellow-700 focus:ring-4 focus:ring-yellow-200
@@ -92,7 +118,7 @@ export default function BuyGoldenEdition() {
                   focus:outline-none transition
                 "
                 onClick={() => handleContinue()}
-                style={{width: 'fit-content'}}
+                style={{ width: 'fit-content' }}
               >
                 Continue
               </button>
@@ -100,25 +126,38 @@ export default function BuyGoldenEdition() {
           )}
 
           {!purchaseSuccess && !emailReady && (
-            <span className='mt-4 inline-block text-sm'>
-              If you are based in India, you can purchase Golden Edition at <span className='font-medium'>₹1699</span> via <a href="https://pages.razorpay.com/pl_NjqiLm62qp7pze/view" className='link'>Razorpay</a>.
+            <span className="mt-4 inline-block text-sm">
+              If you are based in India, you can purchase Golden Edition at{' '}
+              <span className="font-medium">₹1699</span> via{' '}
+              <a
+                href="https://pages.razorpay.com/pl_NjqiLm62qp7pze/view"
+                className="link"
+              >
+                Razorpay
+              </a>
+              .
             </span>
           )}
 
           {!purchaseSuccess && emailReady && (
-            <div className='mt-6'>
+            <div className="mt-6">
               <PaypalCheckout
                 email={email}
                 onSuccess={handleSuccess}
                 onError={handleError}
-                />
+              />
             </div>
           )}
 
           {purchaseSuccess && (
-            <div className='mt-6'>
-              <div className='text-2xl font-medium'>Thank you for your purchase!</div>
-              <div className='mt-4'>We will send you the license details via email when Golden Edition is ready.</div>
+            <div className="mt-6">
+              <div className="text-2xl font-medium">
+                Thank you for your purchase!
+              </div>
+              <div className="mt-4">
+                We will send you the license details via email when Golden
+                Edition is ready.
+              </div>
             </div>
           )}
 
@@ -126,5 +165,5 @@ export default function BuyGoldenEdition() {
         </section>
       </main>
     </div>
-  )
-};
+  );
+}

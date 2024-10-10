@@ -1,27 +1,27 @@
-import { useState } from "react";
-import Head from "next/head";
-import Link from "next/link";
-import Switch from "react-switch";
-import Navbar from "components/Navbar";
-import Footer from "components/Footer";
-import { IconUser, IconUsers, IconPlus } from "@tabler/icons";
-import GlobalStyle from "../globalStyles";
+import { useState } from 'react';
+import Head from 'next/head';
+import Link from 'next/link';
+import Switch from 'react-switch';
+import Navbar from 'components/Navbar';
+import Footer from 'components/Footer';
+import { IconUser, IconUsers, IconPlus } from '@tabler/icons';
+import GlobalStyle from '../globalStyles';
 
 export default function Pricing() {
-  const [selectedCurrency, setSelectedCurrency] = useState("USD");
+  const [selectedCurrency, setSelectedCurrency] = useState('USD');
 
   const toggleCurrency = () => {
     setSelectedCurrency((prevCurrency) =>
-      prevCurrency === "USD" ? "INR" : "USD"
+      prevCurrency === 'USD' ? 'INR' : 'USD',
     );
   };
 
-  const [pricingFor, setPricingFor] = useState("individuals");
+  const [pricingFor, setPricingFor] = useState('individuals');
 
   return (
     <div
       className="container flex flex-col root home-page"
-      style={{ fontFamily: "Inter", maxWidth: "1280px" }}
+      style={{ fontFamily: 'Inter', maxWidth: '1280px' }}
     >
       <Head>
         <title>Pricing</title>
@@ -47,35 +47,35 @@ export default function Pricing() {
                 <div className="flex flex-row border rounded-full w-fit gap-8 relative transition duration-300 ease-in-out font-medium border border-slate-800">
                   <div
                     className={`absolute rounded-full h-[calc(100%_-_0.5rem)] m-1 ${
-                      pricingFor == "individuals"
-                        ? "left-0 w-[150px] lg:w-[170px] border-right border-slate-800"
-                        : "right-0 w-[150px] lg:w-[170px]"
+                      pricingFor == 'individuals'
+                        ? 'left-0 w-[150px] lg:w-[170px] border-right border-slate-800'
+                        : 'right-0 w-[150px] lg:w-[170px]'
                     }`}
                   >
                     <div className="gradient-bg w-full h-full p-4"></div>
                   </div>
                   <div
                     className={`p-4 cursor-pointer z-10 text-sm lg:text-base ${
-                      pricingFor !== "individuals"
-                        ? "hover:underline hover:decoration-slate-300"
-                        : ""
+                      pricingFor !== 'individuals'
+                        ? 'hover:underline hover:decoration-slate-300'
+                        : ''
                     }`}
-                    onClick={() => setPricingFor("individuals")}
+                    onClick={() => setPricingFor('individuals')}
                   >
                     For Individual Use
                   </div>
                   <div
                     className={`p-4 cursor-pointer z-10 text-sm lg:text-base ${
-                      pricingFor === "individuals"
-                        ? "hover:underline hover:decoration-slate-300"
-                        : ""
+                      pricingFor === 'individuals'
+                        ? 'hover:underline hover:decoration-slate-300'
+                        : ''
                     }`}
-                    onClick={() => setPricingFor("organizations")}
+                    onClick={() => setPricingFor('organizations')}
                   >
                     For Organizations
                   </div>
                 </div>
-                {pricingFor === "individuals" ? (
+                {pricingFor === 'individuals' ? (
                   <div className="flex flex-col lg:flex-row gap-4 w-full justify-center">
                     {/* Open source Edition */}
                     <OpenSourceCard />
@@ -164,20 +164,20 @@ const HeartIcon = () => {
 
 const OpenSourceCard = () => {
   const opensourceEdition = [
-    "REST and GQL Apis",
-    "Scripting",
-    "Authentication",
-    "Environments",
-    "Secret Management",
-    "Asserts and Tests",
-    "Client Certificates",
-    "Collection Runner",
-    "Cookie Management",
-    "Proxies",
-    "Code Generation",
-    "Documentation",
-    "Bru CLI",
-    "OpenAPI Import",
+    'REST and GQL Apis',
+    'Scripting',
+    'Authentication',
+    'Environments',
+    'Secret Management',
+    'Asserts and Tests',
+    'Client Certificates',
+    'Collection Runner',
+    'Cookie Management',
+    'Proxies',
+    'Code Generation',
+    'Documentation',
+    'Bru CLI',
+    'OpenAPI Import',
   ];
 
   return (
@@ -225,18 +225,18 @@ const OpenSourceCard = () => {
 
 const GoldenEditionIndividualsCard = ({ selectedCurrency, toggleCurrency }) => {
   const goldenEditonIndividuals = [
-    "Inbuilt Bru File Explorer",
-    "Visual Git (Like Gitlens for Vscode)",
-    "Load Data from File for Collection Run",
-    "Developer Tools",
-    "OpenAPI Designer",
+    'Inbuilt Bru File Explorer',
+    'Visual Git (Like Gitlens for Vscode)',
+    'Load Data from File for Collection Run',
+    'Developer Tools',
+    'OpenAPI Designer',
   ];
 
   const goldenEditonIndividualsInDevelopment = [
-    "GRPC, Websocket, SocketIO, MQTT",
-    "Performance/Load Testing",
-    "Custom Themes",
-    "Inbuilt Terminal",
+    'GRPC, Websocket, SocketIO, MQTT',
+    'Performance/Load Testing',
+    'Custom Themes',
+    'Inbuilt Terminal',
   ];
 
   return (
@@ -248,7 +248,7 @@ const GoldenEditionIndividualsCard = ({ selectedCurrency, toggleCurrency }) => {
             <Switch
               className="react-switch"
               onChange={toggleCurrency}
-              checked={selectedCurrency === "INR"}
+              checked={selectedCurrency === 'INR'}
               onColor="#edc494"
               onHandleColor="#d97706"
               handleDiameter={20}
@@ -270,7 +270,7 @@ const GoldenEditionIndividualsCard = ({ selectedCurrency, toggleCurrency }) => {
         <div>
           <div className="my-4 flex items-center">
             <span className="text-4xl font-extrabold">
-              {selectedCurrency === "USD" ? "$19" : "₹1,699"}
+              {selectedCurrency === 'USD' ? '$19' : '₹1,699'}
             </span>
             <p className="px-2 mt-2">/user</p>
             <p className="bg-yellow-100 border border-yellow-500 text-yellow-900 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">
@@ -282,7 +282,7 @@ const GoldenEditionIndividualsCard = ({ selectedCurrency, toggleCurrency }) => {
         <p className="text-sm">
           <a href="/perpetual-fallback-license" className="link">
             Perpetual License for 2 machines.
-          </a>{" "}
+          </a>{' '}
           2 years of updates.
         </p>
 
@@ -294,7 +294,7 @@ const GoldenEditionIndividualsCard = ({ selectedCurrency, toggleCurrency }) => {
               className="text-gray-500 mr-2 icon"
               size={16}
               strokeWidth={1.5}
-            />{" "}
+            />{' '}
             For Individuals
           </div>
         </div>
@@ -308,7 +308,7 @@ const GoldenEditionIndividualsCard = ({ selectedCurrency, toggleCurrency }) => {
             <IconPlus
               size={16}
               strokeWidth={1.5}
-              style={{ marginLeft: "2px" }}
+              style={{ marginLeft: '2px' }}
             />
             <span>Everything in Opensource</span>
           </li>
@@ -345,23 +345,23 @@ const GoldenEditionOrganizationsCard = ({
   toggleCurrency,
 }) => {
   const goldenEditonIndividuals = [
-    "Inbuilt Bru File Explorer",
-    "Visual Git (Like Gitlens for Vscode)",
-    "Load Data from File for Collection Run",
-    "Developer Tools",
-    "OpenAPI Designer",
+    'Inbuilt Bru File Explorer',
+    'Visual Git (Like Gitlens for Vscode)',
+    'Load Data from File for Collection Run',
+    'Developer Tools',
+    'OpenAPI Designer',
   ];
 
   const goldenEditonIndividualsInDevelopment = [
-    "GRPC, Websocket, SocketIO, MQTT",
-    "Performance/Load Testing",
-    "Custom Themes",
-    "Inbuilt Terminal",
+    'GRPC, Websocket, SocketIO, MQTT',
+    'Performance/Load Testing',
+    'Custom Themes',
+    'Inbuilt Terminal',
   ];
 
   const goldenEditonOrganizations = [
-    "Centralized License Management",
-    "Advanced Support",
+    'Centralized License Management',
+    'Advanced Support',
   ];
   return (
     <div className="flex flex-col mt-10 lg:mt-0 p-6 text-gray-900 rounded-sm space-between w-full border border-slate-200">
@@ -372,7 +372,7 @@ const GoldenEditionOrganizationsCard = ({
             <Switch
               className="react-switch"
               onChange={toggleCurrency}
-              checked={selectedCurrency === "INR"}
+              checked={selectedCurrency === 'INR'}
               onColor="#edc494"
               onHandleColor="#d97706"
               handleDiameter={20}
@@ -394,7 +394,7 @@ const GoldenEditionOrganizationsCard = ({
         <div>
           <div className="my-4 flex items-center">
             <span className="text-4xl font-extrabold">
-              {selectedCurrency === "USD" ? "$49" : "₹4,999"}
+              {selectedCurrency === 'USD' ? '$49' : '₹4,999'}
             </span>
             <p className="px-2 mt-2">/user</p>
             <p className="bg-yellow-100 border border-yellow-500 text-yellow-900 rounded-md px-2 py-1 ml-2 inline-flex text-xs mt-2">
@@ -406,7 +406,7 @@ const GoldenEditionOrganizationsCard = ({
         <p className="text-sm min-h-[40px]">
           <a href="/perpetual-fallback-license" className="link">
             Perpetual License for 2 machines.
-          </a>{" "}
+          </a>{' '}
           2 years of updates.
         </p>
 
@@ -432,7 +432,7 @@ const GoldenEditionOrganizationsCard = ({
             <IconPlus
               size={16}
               strokeWidth={1.5}
-              style={{ marginLeft: "2px" }}
+              style={{ marginLeft: '2px' }}
             />
             <span>Everything in Opensource</span>
           </li>
@@ -471,19 +471,19 @@ const GoldenEditionOrganizationsCard = ({
 
 const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
   const ultimateEdition = [
-    "3rd party Extensions",
-    "Priority Support w/ SLA",
-    "Transact via Purchase Order",
-    "Integrate with Secret Managers",
+    '3rd party Extensions',
+    'Priority Support w/ SLA',
+    'Transact via Purchase Order',
+    'Integrate with Secret Managers',
   ];
 
   const ultimateEditionInDevelopment = [
-    "Collection Registry",
-    "Request Forms",
-    "Test Reports",
-    "SSO",
-    "RBAC",
-    "Analytics Suite",
+    'Collection Registry',
+    'Request Forms',
+    'Test Reports',
+    'SSO',
+    'RBAC',
+    'Analytics Suite',
   ];
   return (
     <div className="flex flex-col mt-10 lg:mt-0 p-6 text-gray-900 rounded-sm space-between w-full border border-slate-200">
@@ -494,7 +494,7 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
             <Switch
               className="react-switch"
               onChange={toggleCurrency}
-              checked={selectedCurrency === "INR"}
+              checked={selectedCurrency === 'INR'}
               onColor="#edc494"
               onHandleColor="#d97706"
               handleDiameter={20}
@@ -516,7 +516,7 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
         <div>
           <div className="my-4 flex items-center">
             <span className="text-4xl font-extrabold">
-              {selectedCurrency === "USD" ? "$99" : "₹8,299"}
+              {selectedCurrency === 'USD' ? '$99' : '₹8,299'}
             </span>
             <p className="px-2 mt-2">/user</p>
           </div>
@@ -531,7 +531,7 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
               className="text-gray-500 mr-2 icon"
               size={16}
               strokeWidth={1.5}
-            />{" "}
+            />{' '}
             For Organizations
           </div>
         </div>
@@ -545,7 +545,7 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
             <IconPlus
               size={16}
               strokeWidth={1.5}
-              style={{ marginLeft: "2px" }}
+              style={{ marginLeft: '2px' }}
             />
             <span>Everything in Golden Edition</span>
           </li>
@@ -566,7 +566,7 @@ const UltimateEditionCard = ({ selectedCurrency, toggleCurrency }) => {
           ))}
         </ul>
         <div className="text-sm mt-4 text-gray-600">
-          For help with migration and custom requirements, please reach us at{" "}
+          For help with migration and custom requirements, please reach us at{' '}
           <a href="mailto:sales@usebruno.com" className="link">
             sales@usebruno.com
           </a>

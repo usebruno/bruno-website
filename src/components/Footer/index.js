@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react';
 import StyledWrapper from './StyledWrapper';
 import Link from 'next/link';
-import Bruno from "components/Bruno";
+import Bruno from 'components/Bruno';
 
 const Footer = () => {
   return (
@@ -10,12 +10,35 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between">
           <div className="w-full md:w-auto md:flex-grow-0 md:flex-shrink-0 mb-8 md:mb-0">
             <div className="flex items-center">
-              <Bruno width={30}/>
-              <div className=" flex items-center font-medium" style={{fontSize: 20, paddingLeft: 6, position: 'relative', top: -1}}>bruno</div>
+              <Bruno width={30} />
+              <div
+                className=" flex items-center font-medium"
+                style={{
+                  fontSize: 20,
+                  paddingLeft: 6,
+                  position: 'relative',
+                  top: -1,
+                }}
+              >
+                bruno
+              </div>
             </div>
             <div className="openemoji-attribution mt-10">
-              Logo sourced from <Link href="https://openmoji.org/library/emoji-1F436/" target="_blank">OpenMoji</Link>. <br />
-              License: <Link href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</Link>
+              Logo sourced from{' '}
+              <Link
+                href="https://openmoji.org/library/emoji-1F436/"
+                target="_blank"
+              >
+                OpenMoji
+              </Link>
+              . <br />
+              License:{' '}
+              <Link
+                href="https://creativecommons.org/licenses/by-sa/4.0/"
+                target="_blank"
+              >
+                CC BY-SA 4.0
+              </Link>
             </div>
           </div>
           <div className="w-full md:w-auto md:flex-grow-0 md:flex-shrink-0  text-center md:text-left">
@@ -33,23 +56,17 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <Link href="/privacy-policy" legacyBehavior>
-                  <a className="text-gray-500">
-                    Privacy Policy
-                  </a>
+                  <a className="text-gray-500">Privacy Policy</a>
                 </Link>
               </li>
               <li className="mb-2">
                 <Link href="/terms" legacyBehavior>
-                  <a className="text-gray-500">
-                    Terms
-                  </a>
+                  <a className="text-gray-500">Terms</a>
                 </Link>
               </li>
               <li className="mb-2">
                 <Link href="/support" legacyBehavior>
-                  <a className="text-gray-500">
-                    Support
-                  </a>
+                  <a className="text-gray-500">Support</a>
                 </Link>
               </li>
               <li className="mb-2">
@@ -69,9 +86,7 @@ const Footer = () => {
             <ul className="mt-4">
               <li className="mb-2">
                 <Link href="/compare/bruno-vs-postman" legacyBehavior>
-                  <a className="text-gray-500">
-                    Vs Postman
-                  </a>
+                  <a className="text-gray-500">Vs Postman</a>
                 </Link>
               </li>
               <li className="mb-2">
@@ -145,7 +160,6 @@ const Footer = () => {
       </footer>
     </StyledWrapper>
   );
-
-}
+};
 
 export default Footer;

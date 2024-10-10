@@ -20,13 +20,13 @@ const defaultTheme = {
     gray2: GRAY2,
     gray3: GRAY3,
     background: '#fff',
-    color: 'rgb(47 48 55)'
+    color: 'rgb(47 48 55)',
   },
   editor: {
-    text: 'rgb(55 55 55)'
+    text: 'rgb(55 55 55)',
   },
   icon: {
-    color: BLACK2
+    color: BLACK2,
   },
   navbar: {
     text: BLACK1,
@@ -36,22 +36,22 @@ const defaultTheme = {
     text: 'var(--color-text-navbar)',
     icons: {
       defaultColor: 'var(--color-text-navbar)',
-      onHoverColor: 'black'
-    }
+      onHoverColor: 'black',
+    },
   },
   block: {
     text: {
       normal: 'rgb(31 35 30)',
-      bold: 'rgb(49 55 47)'
+      bold: 'rgb(49 55 47)',
     },
-    bullet: 'rgb(179 179 179)'
+    bullet: 'rgb(179 179 179)',
   },
   allNotes: {
     title: 'rgb(42, 42, 42)',
     noteTitle: 'var(--color-text-blue)',
     ul: {
-      pagination: 'rgb(107, 114, 128)'
-    }
+      pagination: 'rgb(107, 114, 128)',
+    },
   },
   sidebar: {
     background: '#EDEDED',
@@ -60,9 +60,9 @@ const defaultTheme = {
     activeMenuItemColor: '#2b2b2b',
     logoColor: {
       note: '#464646',
-      base: 'rgb(114 114 114)'
-    }
-  }
+      base: 'rgb(114 114 114)',
+    },
+  },
 };
 
 export default defaultTheme;

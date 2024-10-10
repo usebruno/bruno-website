@@ -6,7 +6,7 @@ const Wrapper = styled.div`
   }
 
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0px;
     right: 0px;
@@ -17,12 +17,13 @@ const Wrapper = styled.div`
     outline: none !important;
     box-shadow: none !important;
 
-    &:focus, &:active {
+    &:focus,
+    &:active {
       outline: none !important;
       box-shadow: none !important;
     }
 
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
   nav {
@@ -37,7 +38,11 @@ const Wrapper = styled.div`
     padding-top: 0.8rem;
     border-bottom: solid 1px white;
     z-index: 100;
-    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    box-shadow:
+      rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+      rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+      rgb(0 0 0 / 10%) 0px 4px 6px -1px,
+      rgb(0 0 0 / 6%) 0px 2px 4px -1px;
 
     &.hidden {
       display: none !important;
