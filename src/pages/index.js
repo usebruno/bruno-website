@@ -51,30 +51,6 @@ export default function Home() {
           content="Bruno is a Git-friendly, open-source API client designed for developers prioritizing data privacy. With full offline functionality, manage API collections locally and collaborate easily using Git. Streamline your API development today with Bruno."
         />
 
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.usebruno.com/api/og" />
-        <meta property="og:url" content="https://www.usebruno.com/" />
-        <meta
-          property="og:title"
-          content="Bruno | Re-Inventing the API Client"
-        />
-        <meta
-          property="og:description"
-          content="Bruno is a Fast and Git-Friendly Opensource API client, aimed at revolutionizing the status quo represented by Postman, Insomnia and similar tools out there."
-        />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="https://www.usebruno.com/" />
-        <meta
-          name="twitter:title"
-          content="Bruno | Re-Inventing the API Client"
-        />
-        <meta
-          name="twitter:description"
-          content="Bruno is a Fast and Git-Friendly Opensource API client, aimed at revolutionizing the status quo represented by Postman, Insomnia and similar tools out there."
-        />
-        <meta name="twitter:image" content="https://www.usebruno.com/api/og" />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
