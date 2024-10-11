@@ -86,14 +86,14 @@ export default function Home() {
                 <br />
                 Bruno is offline-only. There are no plans to add cloud-sync to
                 Bruno, ever. We value your data privacy and believe it should
-                stay on your device. Read our long-term vision{" "}
+                stay on your device.{" "}
                 <a
                   href="https://github.com/usebruno/bruno/discussions/269"
                   target="_blank"
                   rel="noreferrer"
                   className="link"
                 >
-                  here
+                  Read our long-term vision here
                 </a>
                 .
               </p>
