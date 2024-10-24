@@ -15,6 +15,39 @@ const sectionConfig = {
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.34.0",
+      date: "24 Oct 2024",
+      newFeature: [
+        "Support for importing multiple collections at once",
+        "Upgrade libraries based on recomendations by dependabot",
+        "Import folder and collection level scripts from Postman"
+      ],
+      bugfixes: [
+        "Fixed global environment UI issues",
+        "Added global environment variables to the active collection",
+        "Resolved HTTPS agent request fields issue when proxy settings are disabled"
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.34.0",
+    },
+    {
+      version: "v1.33.1",
+      date: "15 Oct 2024",
+      bugfixes: [
+        "Fixed failing import of Insomnia collection when username/password in auth is null",
+        "Created default environments on OpenAPI import using server URL",
+        "Fixed Date Handling in Insomnia Collection Import"
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.33.1",
+    },
+    {
+      version: "v1.33.0",
+      date: "15 Oct 2024",
+      newFeature: [
+        "Global Environments Support"
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.33.0",
+    },
+    {
       version: "v1.32.0",
       date: "1 Oct 2024",
       newFeature: [
