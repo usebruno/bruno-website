@@ -15,6 +15,30 @@ const sectionConfig = {
 const Changelog = () => {
   const releases = [
     {
+      version: "v1.34.2",
+      date: "5 Nov 2024",
+      bugfixes: [
+        "Fixed app crash when adding variables or headers at the collection and folder level.",
+        "Resolved issue during Postman collection export."
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.34.2"
+    },
+    {
+      version: "v1.34.1",
+      date: "30 Oct 2024",
+      newFeature: [
+        "Content indicators for folders and collection level scripts.",
+        "Global environment variable access for collection-level OAuth2."
+      ],
+      bugfixes: [
+        "Restored download test report feature for Golden Edition users.",
+        "Updated electron-builder to v25.1.8.",
+        "Fixed issues with special characters in request/response for HTML report downloads.",
+        "Restored search in response view."
+      ],
+      githubLink: "https://github.com/usebruno/bruno/releases/tag/v1.34.1"
+    },
+    {
       version: "v1.34.0",
       date: "24 Oct 2024",
       newFeature: [
