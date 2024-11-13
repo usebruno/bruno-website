@@ -253,7 +253,7 @@ export default function Downloads({ latestVersion, releaseDate }) {
                   /etc/apt/keyrings/bruno.gpg --keyserver keyserver.ubuntu.com
                   --recv-keys 9FA6017ECABE0266 <br />
                   <br />
-                  echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg]
+                  echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg arch=amd64]
                   http://debian.usebruno.com/ bruno stable" | sudo tee
                   /etc/apt/sources.list.d/bruno.list <br /> <br />
                   sudo apt update <br />
